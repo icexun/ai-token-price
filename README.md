@@ -49,6 +49,8 @@ Total active deals: 8
 Total plans: 66
 Categories: 26 personal, 31 coding, 9 enterprise
 
+### USD Plans
+
 | Plan | Vendor | Category | Monthly | Yearly | Target |
 |------|--------|----------|---------|--------|--------|
 | ChatGPT Free | OpenAI | personal | - | - | Individual users / Daily AI assistance |
@@ -60,15 +62,10 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | Claude Pro | Anthropic | personal | $17.00 | $200.00 | Heavy AI users / Professional creators |
 | Claude Max | Anthropic | personal | $100.00 | $1000.00 | Heavy AI users / Professional creators |
 | Cursor Hobby | Cursor | personal | - | - | Developers / Programming enthusiasts |
-| GLM Coding Lite | Zhipu AI | coding | $49.00 | $132.30 | Small project developers |
-| GLM Coding Pro | Zhipu AI | coding | $149.00 | $402.30 | Medium project developers |
 | Cursor Pro | Cursor | personal | $20.00 | $200.00 | Developers / Programmers |
-| GLM Coding Max | Zhipu AI | coding | $469.00 | $1266.30 | Advanced users / Large project developer |
 | Cursor Pro+ | Cursor | personal | $60.00 | $600.00 | Heavy AI users / Professional developers |
-| Ark Coding Plan Lite | ByteDance | coding | $40.00 | - | Moderate-intensity developers |
 | Cursor Ultra | Cursor | personal | $200.00 | $2000.00 | Heavy AI users / Professional developers |
 | Cursor Business | Cursor | enterprise | $40.00 | $400.00 | Enterprise users / Team collaboration |
-| Ark Coding Plan Pro | ByteDance | coding | $200.00 | - | Advanced programming users |
 | GitHub Copilot Free | GitHub | personal | - | - | Developers / Programming enthusiasts |
 | GitHub Copilot Pro | GitHub | personal | $10.00 | $100.00 | Developers / Programmers |
 | GitHub Copilot Pro+ | GitHub | personal | $39.00 | $390.00 | Heavy AI users / Professional developers |
@@ -83,40 +80,51 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | Kiro Pro | Kiro (AWS) | personal | $20.00 | $200.00 | Developers / Programmers |
 | Kiro Pro+ | Kiro (AWS) | personal | $40.00 | $400.00 | Heavy AI users / Professional developers |
 | Kiro Power | Kiro (AWS) | personal | $200.00 | $2000.00 | Heavy AI users / Professional developers |
-| Kimi Adagio | Kimi | personal | - | - | Individual users / Daily AI assistance |
-| Kimi Andante | Kimi | personal | $39.00 | $468.00 | Individual users / Daily AI assistance |
-| Kimi Moderato | Kimi | personal | $79.00 | $948.00 | Heavy AI users / Professional creators |
-| Token Plan Starter | MiniMax | coding | $29.00 | $290.00 | Developers / Entry-level users |
-| Kimi Allegretto | Kimi | personal | $159.00 | $1908.00 | Heavy AI users / Professional creators |
-| Token Plan Plus | MiniMax | coding | $49.00 | $490.00 | Professional developers |
-| Kimi Allegro | Kimi | personal | $559.00 | $6708.00 | Heavy AI users / Professional creators |
 | Google AI Plus | Google | personal | $7.99 | - | Individual users / Daily AI assistance |
-| Token Plan Max | MiniMax | coding | $119.00 | $1190.00 | Advanced developers / Heavy users |
 | Google AI Ultra | Google | personal | $249.99 | - | Developers / Programmers |
 | Google AI Pro | Google | personal | $19.99 | - | Developers / Programmers |
-| Token Plan Plus | MiniMax | coding | $98.00 | $980.00 | Fast coding developers |
 | Kimi K2 Starter | Kimi K2 (Moonshot AI) | coding | $9.00 | $80.00 | Developers / Programmers |
-| Token Plan Max | MiniMax | coding | $199.00 | $1990.00 | High-performance coding developers |
 | Kimi K2 Ultra | Kimi K2 (Moonshot AI) | coding | $49.00 | $399.00 | Heavy AI users / Professional developers |
-| Trae.cn 企业基础版 | Trae (ByteDance) | enterprise | $49.00 | - | Enterprise users / Team collaboration |
-| Trae.cn 企业团队版 | Trae (ByteDance) | enterprise | $99.00 | - | Enterprise users / Team collaboration |
-| Trae.cn 企业旗舰版 | Trae (ByteDance) | enterprise | $199.00 | - | Enterprise users / Large organizations |
-| MiMo Token Plan Lite | Xiaomi Mimo | coding | $39.00 | - | Entry-level developers |
-| MiMo Token Plan Standard | Xiaomi Mimo | coding | $99.00 | - | Advanced developers |
-| MiMo Token Plan Pro | Xiaomi Mimo | coding | $329.00 | - | Professional developers |
-| MiMo Token Plan Max | Xiaomi Mimo | coding | $659.00 | - | Programming enthusiasts |
-| Token Plan Lite | Tencent | coding | $39.00 | - | Individual developers / Experience users |
-| Token Plan Standard | Tencent | coding | $99.00 | - | Individual developers / Basic usage |
-| Token Plan Pro | Tencent | coding | $299.00 | - | High-frequency developers / Efficiency e |
-| Token Plan Max | Tencent | coding | $599.00 | - | Heavy AI users / Productivity users |
-| Qianfan Coding Plan Lite | Baidu | coding | $49.00 | - | Individual developers / Entry-level user |
-| Qianfan Coding Plan Pro | Baidu | coding | $149.00 | - | Professional developers |
-| Token Plan Standard Seat | Alibaba | enterprise | $198.00 | - | Team members with light AI assistance us |
-| Token Plan Premium Seat | Alibaba | enterprise | $698.00 | - | Team members who frequently use AI codin |
-| Token Plan Deluxe Seat | Alibaba | enterprise | $1398.00 | - | Core developers heavily relying on AI co |
-| Coding Plan Worry-Free Edition | Xunfei | coding | $19.00 | - | Entry-level developers / Light usage |
-| Coding Plan Professional Edition | Xunfei | coding | $39.00 | - | Professional developers / Daily programm |
-| Coding Plan Premium Edition | Xunfei | coding | $199.00 | - | Advanced developers / Heavy usage |
+
+### CNY Plans (人民币)
+
+| Plan | Vendor | Category | Monthly (¥) | Yearly (¥) | Target |
+|------|--------|----------|-------------|------------|--------|
+| GLM Coding Lite | Zhipu AI | coding | ¥49.00 | ¥132.30 | Small project developers |
+| GLM Coding Pro | Zhipu AI | coding | ¥149.00 | ¥402.30 | Medium project developers |
+| GLM Coding Max | Zhipu AI | coding | ¥469.00 | ¥1266.30 | Advanced users / Large project developer |
+| Ark Coding Plan Lite | ByteDance | coding | ¥40.00 | - | Moderate-intensity developers |
+| Ark Coding Plan Pro | ByteDance | coding | ¥200.00 | - | Advanced programming users |
+| Kimi Adagio | Kimi | personal | - | - | Individual users / Daily AI assistance |
+| Kimi Andante | Kimi | personal | ¥39.00 | ¥468.00 | Individual users / Daily AI assistance |
+| Kimi Moderato | Kimi | personal | ¥79.00 | ¥948.00 | Heavy AI users / Professional creators |
+| Token Plan Starter | MiniMax | coding | ¥29.00 | ¥290.00 | Developers / Entry-level users |
+| Kimi Allegretto | Kimi | personal | ¥159.00 | ¥1908.00 | Heavy AI users / Professional creators |
+| Token Plan Plus | MiniMax | coding | ¥49.00 | ¥490.00 | Professional developers |
+| Kimi Allegro | Kimi | personal | ¥559.00 | ¥6708.00 | Heavy AI users / Professional creators |
+| Token Plan Max | MiniMax | coding | ¥119.00 | ¥1190.00 | Advanced developers / Heavy users |
+| Token Plan Plus | MiniMax | coding | ¥98.00 | ¥980.00 | Fast coding developers |
+| Token Plan Max | MiniMax | coding | ¥199.00 | ¥1990.00 | High-performance coding developers |
+| Trae.cn 企业基础版 | Trae (ByteDance) | enterprise | ¥49.00 | - | Enterprise users / Team collaboration |
+| Trae.cn 企业团队版 | Trae (ByteDance) | enterprise | ¥99.00 | - | Enterprise users / Team collaboration |
+| Trae.cn 企业旗舰版 | Trae (ByteDance) | enterprise | ¥199.00 | - | Enterprise users / Large organizations |
+| MiMo Token Plan Lite | Xiaomi Mimo | coding | ¥39.00 | - | Entry-level developers |
+| MiMo Token Plan Standard | Xiaomi Mimo | coding | ¥99.00 | - | Advanced developers |
+| MiMo Token Plan Pro | Xiaomi Mimo | coding | ¥329.00 | - | Professional developers |
+| MiMo Token Plan Max | Xiaomi Mimo | coding | ¥659.00 | - | Programming enthusiasts |
+| Token Plan Lite | Tencent | coding | ¥39.00 | - | Individual developers / Experience users |
+| Token Plan Standard | Tencent | coding | ¥99.00 | - | Individual developers / Basic usage |
+| Token Plan Pro | Tencent | coding | ¥299.00 | - | High-frequency developers / Efficiency e |
+| Token Plan Max | Tencent | coding | ¥599.00 | - | Heavy AI users / Productivity users |
+| Qianfan Coding Plan Lite | Baidu | coding | ¥49.00 | - | Individual developers / Entry-level user |
+| Qianfan Coding Plan Pro | Baidu | coding | ¥149.00 | - | Professional developers |
+| Token Plan Standard Seat | Alibaba | enterprise | ¥198.00 | - | Team members with light AI assistance us |
+| Token Plan Premium Seat | Alibaba | enterprise | ¥698.00 | - | Team members who frequently use AI codin |
+| Token Plan Deluxe Seat | Alibaba | enterprise | ¥1398.00 | - | Core developers heavily relying on AI co |
+| Coding Plan Worry-Free Edition | Xunfei | coding | ¥19.00 | - | Entry-level developers / Light usage |
+| Coding Plan Professional Edition | Xunfei | coding | ¥39.00 | - | Professional developers / Daily programm |
+| Coding Plan Premium Edition | Xunfei | coding | ¥199.00 | - | Advanced developers / Heavy usage |
+
 
 ## New Models
 
