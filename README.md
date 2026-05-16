@@ -10,10 +10,10 @@ This repository contains AI model price data tracked by [TokenDealHub](https://t
 |------|-------|--------|--------------|---------------|----------------|
 | 1 | inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | $0.00 | $0.00 |
 | 2 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | $0.00 | $0.00 |
-| 3 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
-| 4 | NVIDIA: Nemotron 3 Nano Omni (free) | nvidia | $0.00 | $0.00 | $0.00 |
-| 5 | Poolside: Laguna XS.2 (free) | poolside | $0.00 | $0.00 | $0.00 |
-| 6 | Poolside: Laguna M.1 (free) | poolside | $0.00 | $0.00 | $0.00 |
+| 3 | Poolside: Laguna XS.2 (free) | poolside | $0.00 | $0.00 | $0.00 |
+| 4 | Poolside: Laguna M.1 (free) | poolside | $0.00 | $0.00 | $0.00 |
+| 5 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
+| 6 | NVIDIA: Nemotron 3 Nano Omni (free) | nvidia | $0.00 | $0.00 | $0.00 |
 | 7 | inclusionAI: Ling-2.6-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
 | 8 | Google: Gemma 3 27B (free) | google | $0.00 | $0.00 | $0.00 |
 | 9 | Tencent: Hy3 preview (free) | tencent | $0.00 | $0.00 | $0.00 |
@@ -27,7 +27,7 @@ This repository contains AI model price data tracked by [TokenDealHub](https://t
 | 17 | Arcee AI: Trinity Large Preview (free) | arcee-ai | $0.00 | $0.00 | $0.00 |
 | 18 | Venice: Uncensored (free) | cognitivecomputations | $0.00 | $0.00 | $0.00 |
 | 19 | Meta: Llama Guard 4 12B (free) | meta-llama | $0.00 | $0.00 | $0.00 |
-| 20 | Meta: Llama 3.3 70B Instruct (free) | meta-llama | $0.00 | $0.00 | $0.00 |
+| 20 | Google: Gemma 3 12B (free) | google | $0.00 | $0.00 | $0.00 |
 
 ## Active Deals
 
@@ -71,15 +71,62 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | Ark Coding Plan Pro | ByteDance | coding | $200.00 | - | Advanced programming users |
 | GitHub Copilot Free | GitHub | personal | - | - | Developers / Programming enthusiasts |
 | GitHub Copilot Pro | GitHub | personal | $10.00 | $100.00 | Developers / Programmers |
+| GitHub Copilot Pro+ | GitHub | personal | $39.00 | $390.00 | Heavy AI users / Professional developers |
+| Windsurf Free | Windsurf | coding | - | - | Developers / Programming enthusiasts |
+| GLM Coding Plan Lite | Z.AI | coding | $18.00 | $144.00 | Individual developers / Lightweight task |
+| Windsurf Pro | Windsurf | coding | $20.00 | $200.00 | Developers / Programmers |
+| Windsurf Max | Windsurf | coding | $200.00 | $2000.00 | Heavy AI users / Professional developers |
+| GLM Coding Plan Pro | Z.AI | coding | $72.00 | $576.00 | Professional developers / Complex tasks |
+| GLM Coding Plan Max | Z.AI | coding | $160.00 | $1280.00 | Advanced developers / High-volume usage |
+| Windsurf Teams | Windsurf | enterprise | $40.00 | $400.00 | Enterprise users / Team collaboration |
+| Kiro Free | Kiro (AWS) | personal | - | - | Developers / Programming enthusiasts |
+| Kiro Pro | Kiro (AWS) | personal | $20.00 | $200.00 | Developers / Programmers |
+| Kiro Pro+ | Kiro (AWS) | personal | $40.00 | $400.00 | Heavy AI users / Professional developers |
+| Kiro Power | Kiro (AWS) | personal | $200.00 | $2000.00 | Heavy AI users / Professional developers |
+| Kimi Adagio | Kimi | personal | - | - | Individual users / Daily AI assistance |
+| Kimi Andante | Kimi | personal | $39.00 | $468.00 | Individual users / Daily AI assistance |
+| Kimi Moderato | Kimi | personal | $79.00 | $948.00 | Heavy AI users / Professional creators |
+| Token Plan Starter | MiniMax | coding | $29.00 | $290.00 | Developers / Entry-level users |
+| Kimi Allegretto | Kimi | personal | $159.00 | $1908.00 | Heavy AI users / Professional creators |
+| Token Plan Plus | MiniMax | coding | $49.00 | $490.00 | Professional developers |
+| Kimi Allegro | Kimi | personal | $559.00 | $6708.00 | Heavy AI users / Professional creators |
+| Google AI Plus | Google | personal | $7.99 | - | Individual users / Daily AI assistance |
+| Token Plan Max | MiniMax | coding | $119.00 | $1190.00 | Advanced developers / Heavy users |
+| Google AI Ultra | Google | personal | $249.99 | - | Developers / Programmers |
+| Google AI Pro | Google | personal | $19.99 | - | Developers / Programmers |
+| Token Plan Plus | MiniMax | coding | $98.00 | $980.00 | Fast coding developers |
+| Kimi K2 Starter | Kimi K2 (Moonshot AI) | coding | $9.00 | $80.00 | Developers / Programmers |
+| Token Plan Max | MiniMax | coding | $199.00 | $1990.00 | High-performance coding developers |
+| Kimi K2 Ultra | Kimi K2 (Moonshot AI) | coding | $49.00 | $399.00 | Heavy AI users / Professional developers |
+| Trae.cn 企业基础版 | Trae (ByteDance) | enterprise | $49.00 | - | Enterprise users / Team collaboration |
+| Trae.cn 企业团队版 | Trae (ByteDance) | enterprise | $99.00 | - | Enterprise users / Team collaboration |
+| Trae.cn 企业旗舰版 | Trae (ByteDance) | enterprise | $199.00 | - | Enterprise users / Large organizations |
+| MiMo Token Plan Lite | Xiaomi Mimo | coding | $39.00 | - | Entry-level developers |
+| MiMo Token Plan Standard | Xiaomi Mimo | coding | $99.00 | - | Advanced developers |
+| MiMo Token Plan Pro | Xiaomi Mimo | coding | $329.00 | - | Professional developers |
+| MiMo Token Plan Max | Xiaomi Mimo | coding | $659.00 | - | Programming enthusiasts |
+| Token Plan Lite | Tencent | coding | $39.00 | - | Individual developers / Experience users |
+| Token Plan Standard | Tencent | coding | $99.00 | - | Individual developers / Basic usage |
+| Token Plan Pro | Tencent | coding | $299.00 | - | High-frequency developers / Efficiency e |
+| Token Plan Max | Tencent | coding | $599.00 | - | Heavy AI users / Productivity users |
+| Qianfan Coding Plan Lite | Baidu | coding | $49.00 | - | Individual developers / Entry-level user |
+| Qianfan Coding Plan Pro | Baidu | coding | $149.00 | - | Professional developers |
+| Token Plan Standard Seat | Alibaba | enterprise | $198.00 | - | Team members with light AI assistance us |
+| Token Plan Premium Seat | Alibaba | enterprise | $698.00 | - | Team members who frequently use AI codin |
+| Token Plan Deluxe Seat | Alibaba | enterprise | $1398.00 | - | Core developers heavily relying on AI co |
+| Coding Plan Worry-Free Edition | Xunfei | coding | $19.00 | - | Entry-level developers / Light usage |
+| Coding Plan Professional Edition | Xunfei | coding | $39.00 | - | Professional developers / Daily programm |
+| Coding Plan Premium Edition | Xunfei | coding | $199.00 | - | Advanced developers / Heavy usage |
 
 ## New Models
 
 | Model | Vendor | Blended Price ($/1M) | AA Quality Index |
 |-------|--------|---------------------|------------------|
+| inclusionAI: Ring-2.6-1T | inclusionai | $0.21 | N/A |
 | Baidu: Qianfan-OCR-Fast | baidu | $1.21 | N/A |
 | DeepSeek: DeepSeek V4 Flash (free) | deepseek | $0.00 | N/A |
-| Perceptron: Perceptron Mk1 | perceptron | $0.49 | N/A |
 | Anthropic: Claude Opus 4.7 (Fast) | anthropic | $60.00 | N/A |
+| Perceptron: Perceptron Mk1 | perceptron | $0.49 | N/A |
 | inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | N/A |
 | Tencent: Hy3 preview | tencent | $0.11 | N/A |
 | inclusionAI: Ling-2.6-1T | inclusionai | $0.85 | 33.6 |
@@ -87,10 +134,9 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | N/A |
 | OpenAI: GPT Chat Latest | openai | $11.25 | N/A |
 | Mistral: Mistral Medium 3.5 | mistralai | $3.00 | 39.2 |
-| xAI: Grok 4.3 | x-ai | $1.56 | 53.2 |
 | IBM: Granite 4.1 8B | ibm-granite | $0.06 | N/A |
 | Owl Alpha | openrouter | $0.00 | N/A |
-| inclusionAI: Ling-2.6-flash | inclusionai | $0.01 | 26.2 |
+| xAI: Grok 4.3 | x-ai | $1.56 | 53.2 |
 
 ---
 Data generated by TokenDealHub on 2026-05-16
