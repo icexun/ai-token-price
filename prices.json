@@ -1,5 +1,19 @@
 [
   {
+    "model_name": "Meta: Llama 4 Maverick",
+    "model_id": "meta-llama/llama-4-maverick",
+    "vendor": "meta-llama",
+    "price_input": 0.15,
+    "price_output": 0.6,
+    "price_blended": 0.2625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:56.683885+00:00"
+  },
+  {
     "model_name": "OpenAI: o3",
     "model_id": "openai/o3",
     "vendor": "openai",
@@ -13,21 +27,7 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:46.970724+00:00"
-  },
-  {
-    "model_name": "Mistral Large",
-    "model_id": "mistralai/mistral-large",
-    "vendor": "mistralai",
-    "price_input": 2.0,
-    "price_output": 6.0,
-    "price_blended": 3.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:39.771169+00:00"
+    "updated_at": "2026-05-22T07:41:45.180483+00:00"
   },
   {
     "model_name": "inclusionAI: Ring-2.6-1T (free)",
@@ -44,63 +44,6 @@
     "updated_at": "2026-05-15T06:00:24.561016+00:00"
   },
   {
-    "model_name": "Anthropic: Claude Opus 4.7 (Fast)",
-    "model_id": "anthropic/claude-opus-4.7-fast",
-    "vendor": "anthropic",
-    "price_input": 30.0,
-    "price_output": 150.0,
-    "price_blended": 60.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Meta: Llama 4 Maverick",
-    "model_id": "meta-llama/llama-4-maverick",
-    "vendor": "meta-llama",
-    "price_input": 0.15,
-    "price_output": 0.6,
-    "price_blended": 0.2625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:20:01.015411+00:00"
-  },
-  {
-    "model_name": "Perceptron: Perceptron Mk1",
-    "model_id": "perceptron/perceptron-mk1",
-    "vendor": "perceptron",
-    "price_input": 0.15,
-    "price_output": 1.5,
-    "price_blended": 0.4875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "inclusionAI: Ring-2.6-1T",
-    "model_id": "inclusionai/ring-2.6-1t",
-    "vendor": "inclusionai",
-    "price_input": 0.075,
-    "price_output": 0.625,
-    "price_blended": 0.2125,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:25.103593+00:00"
-  },
-  {
     "model_name": "Mistral: Mixtral 8x22B Instruct",
     "model_id": "mistralai/mixtral-8x22b-instruct",
     "vendor": "mistralai",
@@ -112,7 +55,51 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Mistral Large",
+    "model_id": "mistralai/mistral-large",
+    "vendor": "mistralai",
+    "price_input": 2.0,
+    "price_output": 6.0,
+    "price_blended": 3.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:06.739473+00:00"
+  },
+  {
+    "model_name": "xAI: Grok Build 0.1",
+    "model_id": "x-ai/grok-build-0.1",
+    "vendor": "x-ai",
+    "price_input": 1.0,
+    "price_output": 2.0,
+    "price_blended": 1.25,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "DeepSeek: R1 Distill Qwen 32B",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-32b",
+    "vendor": "deepseek",
+    "price_input": 0.29,
+    "price_output": 0.29,
+    "price_blended": 0.29,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:08.716876+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 VL 32B Instruct",
@@ -126,7 +113,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:20:01.566298+00:00"
+    "updated_at": "2026-05-22T06:40:18.0358+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.7 Max",
+    "model_id": "qwen/qwen3.7-max",
+    "vendor": "qwen",
+    "price_input": 2.5,
+    "price_output": 7.5,
+    "price_blended": 3.75,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:33.818558+00:00"
   },
   {
     "model_name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
@@ -140,7 +141,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:59.642621+00:00"
+    "updated_at": "2026-05-22T07:41:55.531405+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4 Turbo (older v1106)",
@@ -154,7 +155,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-3.5 Turbo 16k",
@@ -168,91 +169,50 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "xAI: Grok 4.3",
-    "model_id": "x-ai/grok-4.3",
-    "vendor": "x-ai",
-    "price_input": 1.25,
-    "price_output": 2.5,
-    "price_blended": 1.5625,
+    "model_name": "inclusionAI: Ring-2.6-1T",
+    "model_id": "inclusionai/ring-2.6-1t",
+    "vendor": "inclusionai",
+    "price_input": 0.075,
+    "price_output": 0.625,
+    "price_blended": 0.2125,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:36.201738+00:00"
+    "updated_at": "2026-05-22T07:41:44.69555+00:00"
   },
   {
-    "model_name": "Google: Gemini 3.1 Flash Lite",
-    "model_id": "google/gemini-3.1-flash-lite",
-    "vendor": "google",
-    "price_input": 0.25,
+    "model_name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "model_id": "anthropic/claude-opus-4.7-fast",
+    "vendor": "anthropic",
+    "price_input": 30.0,
+    "price_output": 150.0,
+    "price_blended": 60.0,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Perceptron: Perceptron Mk1",
+    "model_id": "perceptron/perceptron-mk1",
+    "vendor": "perceptron",
+    "price_input": 0.15,
     "price_output": 1.5,
-    "price_blended": 0.5625,
+    "price_blended": 0.4875,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Baidu Qianfan: CoBuddy (free)",
-    "model_id": "baidu/cobuddy:free",
-    "vendor": "baidu",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Cohere: Command A",
-    "model_id": "cohere/command-a",
-    "vendor": "cohere",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:25.665625+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT Chat Latest",
-    "model_id": "openai/gpt-chat-latest",
-    "vendor": "openai",
-    "price_input": 5.0,
-    "price_output": 30.0,
-    "price_blended": 11.25,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Poolside: Laguna XS.2 (free)",
-    "model_id": "poolside/laguna-xs.2:free",
-    "vendor": "poolside",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
@@ -266,21 +226,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:58.81911+00:00"
-  },
-  {
-    "model_name": "Poolside: Laguna M.1 (free)",
-    "model_id": "poolside/laguna-m.1:free",
-    "vendor": "poolside",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T07:41:54.844899+00:00"
   },
   {
     "model_name": "Meta: Llama 4 Scout",
@@ -294,7 +240,63 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:16.825159+00:00"
+    "updated_at": "2026-05-22T06:39:41.047725+00:00"
+  },
+  {
+    "model_name": "Cohere: Command A",
+    "model_id": "cohere/command-a",
+    "vendor": "cohere",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:39:51.41299+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 3.5 Flash",
+    "model_id": "google/gemini-3.5-flash",
+    "vendor": "google",
+    "price_input": 1.5,
+    "price_output": 9.0,
+    "price_blended": 3.375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:34.051953+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-4o-mini",
+    "model_id": "openai/gpt-4o-mini",
+    "vendor": "openai",
+    "price_input": 0.15,
+    "price_output": 0.6,
+    "price_blended": 0.2625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:39:57.196148+00:00"
+  },
+  {
+    "model_name": "xAI: Grok 4.3",
+    "model_id": "x-ai/grok-4.3",
+    "vendor": "x-ai",
+    "price_input": 1.25,
+    "price_output": 2.5,
+    "price_blended": 1.5625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:34.769305+00:00"
   },
   {
     "model_name": "Mistral: Mistral Medium 3.5",
@@ -308,21 +310,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:46.146707+00:00"
-  },
-  {
-    "model_name": "IBM: Granite 4.1 8B",
-    "model_id": "ibm-granite/granite-4.1-8b",
-    "vendor": "ibm-granite",
-    "price_input": 0.05,
-    "price_output": 0.1,
-    "price_blended": 0.0625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T07:41:44.237827+00:00"
   },
   {
     "model_name": "OpenAI: o1",
@@ -338,7 +326,21 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:56.345581+00:00"
+    "updated_at": "2026-05-22T07:41:52.77791+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 3.1 Flash Lite",
+    "model_id": "google/gemini-3.1-flash-lite",
+    "vendor": "google",
+    "price_input": 0.25,
+    "price_output": 1.5,
+    "price_blended": 0.5625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o (2024-08-06)",
@@ -352,12 +354,12 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:20:00.740134+00:00"
+    "updated_at": "2026-05-22T07:41:56.450426+00:00"
   },
   {
-    "model_name": "Owl Alpha",
-    "model_id": "openrouter/owl-alpha",
-    "vendor": "openrouter",
+    "model_name": "Baidu Qianfan: CoBuddy (free)",
+    "model_id": "baidu/cobuddy:free",
+    "vendor": "baidu",
     "price_input": 0.0,
     "price_output": 0.0,
     "price_blended": 0.0,
@@ -366,7 +368,106 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "IBM: Granite 4.1 8B",
+    "model_id": "ibm-granite/granite-4.1-8b",
+    "vendor": "ibm-granite",
+    "price_input": 0.05,
+    "price_output": 0.1,
+    "price_blended": 0.0625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.1 8B Instruct",
+    "model_id": "meta-llama/llama-3.1-8b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.02,
+    "price_output": 0.05,
+    "price_blended": 0.0275,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 2.0 Flash Lite",
+    "model_id": "google/gemini-2.0-flash-lite-001",
+    "vendor": "google",
+    "price_input": 0.075,
+    "price_output": 0.3,
+    "price_blended": 0.1312,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:03.693839+00:00"
+  },
+  {
+    "model_name": "Anthropic: Claude 3 Haiku",
+    "model_id": "anthropic/claude-3-haiku",
+    "vendor": "anthropic",
+    "price_input": 0.25,
+    "price_output": 1.25,
+    "price_blended": 0.5,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:04.552991+00:00"
+  },
+  {
+    "model_name": "Mistral Large 2407",
+    "model_id": "mistralai/mistral-large-2407",
+    "vendor": "mistralai",
+    "price_input": 2.0,
+    "price_output": 6.0,
+    "price_blended": 3.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:05.70469+00:00"
+  },
+  {
+    "model_name": "MiniMax: MiniMax M2",
+    "model_id": "minimax/minimax-m2",
+    "vendor": "minimax",
+    "price_input": 0.255,
+    "price_output": 1.0,
+    "price_blended": 0.4413,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:45.636412+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT Chat Latest",
+    "model_id": "openai/gpt-chat-latest",
+    "vendor": "openai",
+    "price_input": 5.0,
+    "price_output": 30.0,
+    "price_blended": 11.25,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
@@ -382,134 +483,35 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-4o-mini",
-    "model_id": "openai/gpt-4o-mini",
-    "vendor": "openai",
-    "price_input": 0.15,
-    "price_output": 0.6,
-    "price_blended": 0.2625,
+    "model_name": "Owl Alpha",
+    "model_id": "openrouter/owl-alpha",
+    "vendor": "openrouter",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:30.567972+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Meta: Llama 3.1 8B Instruct",
-    "model_id": "meta-llama/llama-3.1-8b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.02,
-    "price_output": 0.05,
-    "price_blended": 0.0275,
+    "model_name": "Poolside: Laguna M.1 (free)",
+    "model_id": "poolside/laguna-m.1:free",
+    "vendor": "poolside",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Google: Gemini 2.0 Flash Lite",
-    "model_id": "google/gemini-2.0-flash-lite-001",
-    "vendor": "google",
-    "price_input": 0.075,
-    "price_output": 0.3,
-    "price_blended": 0.1312,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:37.459494+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude 3 Haiku",
-    "model_id": "anthropic/claude-3-haiku",
-    "vendor": "anthropic",
-    "price_input": 0.25,
-    "price_output": 1.25,
-    "price_blended": 0.5,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:38.04256+00:00"
-  },
-  {
-    "model_name": "Mistral Large 2407",
-    "model_id": "mistralai/mistral-large-2407",
-    "vendor": "mistralai",
-    "price_input": 2.0,
-    "price_output": 6.0,
-    "price_blended": 3.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:39.190532+00:00"
-  },
-  {
-    "model_name": "Anthropic Claude Haiku Latest",
-    "model_id": "~anthropic/claude-haiku-latest",
-    "vendor": "~anthropic",
-    "price_input": 1.0,
-    "price_output": 5.0,
-    "price_blended": 2.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "OpenAI GPT Mini Latest",
-    "model_id": "~openai/gpt-mini-latest",
-    "vendor": "~openai",
-    "price_input": 0.75,
-    "price_output": 4.5,
-    "price_blended": 1.6875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Google Gemini Pro Latest",
-    "model_id": "~google/gemini-pro-latest",
-    "vendor": "~google",
-    "price_input": 2.0,
-    "price_output": 12.0,
-    "price_blended": 4.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax M2",
-    "model_id": "minimax/minimax-m2",
-    "vendor": "minimax",
-    "price_input": 0.255,
-    "price_output": 1.0,
-    "price_blended": 0.4413,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:47.518743+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "MoonshotAI Kimi Latest",
@@ -523,63 +525,91 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.5 Pro",
+    "model_id": "openai/gpt-5.5-pro",
+    "vendor": "openai",
+    "price_input": 30.0,
+    "price_output": 180.0,
+    "price_blended": 67.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:39:40.477514+00:00"
   },
   {
     "model_name": "Google Gemini Flash Latest",
     "model_id": "~google/gemini-flash-latest",
     "vendor": "~google",
-    "price_input": 0.5,
-    "price_output": 3.0,
-    "price_blended": 1.125,
+    "price_input": 1.5,
+    "price_output": 9.0,
+    "price_blended": 3.375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Anthropic Claude Sonnet Latest",
-    "model_id": "~anthropic/claude-sonnet-latest",
+    "model_name": "Poolside: Laguna XS.2 (free)",
+    "model_id": "poolside/laguna-xs.2:free",
+    "vendor": "poolside",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Anthropic Claude Haiku Latest",
+    "model_id": "~anthropic/claude-haiku-latest",
     "vendor": "~anthropic",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
+    "price_input": 1.0,
+    "price_output": 5.0,
+    "price_blended": 2.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "OpenAI GPT Latest",
-    "model_id": "~openai/gpt-latest",
+    "model_name": "OpenAI GPT Mini Latest",
+    "model_id": "~openai/gpt-mini-latest",
     "vendor": "~openai",
-    "price_input": 5.0,
-    "price_output": 30.0,
-    "price_blended": 11.25,
+    "price_input": 0.75,
+    "price_output": 4.5,
+    "price_blended": 1.6875,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.5 Plus 2026-04-20",
-    "model_id": "qwen/qwen3.5-plus-20260420",
-    "vendor": "qwen",
-    "price_input": 0.3,
-    "price_output": 1.8,
-    "price_blended": 0.675,
+    "model_name": "Google Gemini Pro Latest",
+    "model_id": "~google/gemini-pro-latest",
+    "vendor": "~google",
+    "price_input": 2.0,
+    "price_output": 12.0,
+    "price_blended": 4.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "inclusionAI: Ling-2.6-flash (free)",
@@ -596,76 +626,6 @@
     "updated_at": "2026-04-28T05:36:15.093406+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.6 Flash",
-    "model_id": "qwen/qwen3.6-flash",
-    "vendor": "qwen",
-    "price_input": 0.1875,
-    "price_output": 1.125,
-    "price_blended": 0.4219,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Google: Gemini 2.0 Flash",
-    "model_id": "google/gemini-2.0-flash-001",
-    "vendor": "google",
-    "price_input": 0.1,
-    "price_output": 0.4,
-    "price_blended": 0.175,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3.6 35B A3B",
-    "model_id": "qwen/qwen3.6-35b-a3b",
-    "vendor": "qwen",
-    "price_input": 0.15,
-    "price_output": 1.0,
-    "price_blended": 0.3625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:42.282734+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3.6 Max Preview",
-    "model_id": "qwen/qwen3.6-max-preview",
-    "vendor": "qwen",
-    "price_input": 1.04,
-    "price_output": 6.24,
-    "price_blended": 2.34,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "AionLabs: Aion-RP 1.0 (8B)",
-    "model_id": "aion-labs/aion-rp-llama-3.1-8b",
-    "vendor": "aion-labs",
-    "price_input": 0.8,
-    "price_output": 1.6,
-    "price_blended": 1.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
     "model_name": "Perplexity: Sonar Reasoning Pro",
     "model_id": "perplexity/sonar-reasoning-pro",
     "vendor": "perplexity",
@@ -679,35 +639,91 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:55.797651+00:00"
+    "updated_at": "2026-05-22T07:41:52.322839+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V4 Pro",
-    "model_id": "deepseek/deepseek-v4-pro",
-    "vendor": "deepseek",
-    "price_input": 0.435,
-    "price_output": 0.87,
-    "price_blended": 0.5438,
+    "model_name": "Anthropic Claude Sonnet Latest",
+    "model_id": "~anthropic/claude-sonnet-latest",
+    "vendor": "~anthropic",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:36.478844+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 8B",
-    "model_id": "qwen/qwen3-8b",
-    "vendor": "qwen",
-    "price_input": 0.05,
+    "model_name": "Google: Gemini 2.0 Flash",
+    "model_id": "google/gemini-2.0-flash-001",
+    "vendor": "google",
+    "price_input": 0.1,
     "price_output": 0.4,
-    "price_blended": 0.1375,
+    "price_blended": 0.175,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.6 Max Preview",
+    "model_id": "qwen/qwen3.6-max-preview",
+    "vendor": "qwen",
+    "price_input": 1.04,
+    "price_output": 6.24,
+    "price_blended": 2.34,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "OpenAI GPT Latest",
+    "model_id": "~openai/gpt-latest",
+    "vendor": "~openai",
+    "price_input": 5.0,
+    "price_output": 30.0,
+    "price_blended": 11.25,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Mistral: Saba",
+    "model_id": "mistralai/mistral-saba",
+    "vendor": "mistralai",
+    "price_input": 0.2,
+    "price_output": 0.6,
+    "price_blended": 0.3,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:08.431953+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.6 35B A3B",
+    "model_id": "qwen/qwen3.6-35b-a3b",
+    "vendor": "qwen",
+    "price_input": 0.15,
+    "price_output": 1.0,
+    "price_blended": 0.3625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:40.309879+00:00"
   },
   {
     "model_name": "Google: Gemma 3 27B (free)",
@@ -752,60 +768,46 @@
     "updated_at": "2026-05-07T05:37:35.850672+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.6 27B",
-    "model_id": "qwen/qwen3.6-27b",
+    "model_name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "model_id": "qwen/qwen3.5-plus-20260420",
     "vendor": "qwen",
-    "price_input": 0.32,
-    "price_output": 3.2,
-    "price_blended": 1.04,
+    "price_input": 0.3,
+    "price_output": 1.8,
+    "price_blended": 0.675,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:40.629275+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5.5 Pro",
-    "model_id": "openai/gpt-5.5-pro",
-    "vendor": "openai",
-    "price_input": 30.0,
-    "price_output": 180.0,
-    "price_blended": 67.5,
+    "model_name": "Qwen: Qwen3 8B",
+    "model_id": "qwen/qwen3-8b",
+    "vendor": "qwen",
+    "price_input": 0.05,
+    "price_output": 0.4,
+    "price_blended": 0.1375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:16.244189+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Mistral: Saba",
-    "model_id": "mistralai/mistral-saba",
-    "vendor": "mistralai",
-    "price_input": 0.2,
-    "price_output": 0.6,
-    "price_blended": 0.3,
+    "model_name": "Qwen: Qwen3.6 Flash",
+    "model_id": "qwen/qwen3.6-flash",
+    "vendor": "qwen",
+    "price_input": 0.1238,
+    "price_output": 0.7425,
+    "price_blended": 0.2784,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:40.640358+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.5",
-    "model_id": "openai/gpt-5.5",
-    "vendor": "openai",
-    "price_input": 5.0,
-    "price_output": 30.0,
-    "price_blended": 11.25,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:34.522455+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "AionLabs: Aion-1.0-Mini",
@@ -819,49 +821,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5.1 Chat",
-    "model_id": "openai/gpt-5.1-chat",
-    "vendor": "openai",
-    "price_input": 1.25,
-    "price_output": 10.0,
-    "price_blended": 3.4375,
+    "model_name": "Tencent: Hy3 preview",
+    "model_id": "tencent/hy3-preview",
+    "vendor": "tencent",
+    "price_input": 0.066,
+    "price_output": 0.26,
+    "price_blended": 0.1145,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V4 Flash (free)",
-    "model_id": "deepseek/deepseek-v4-flash:free",
-    "vendor": "deepseek",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
+    "model_name": "Qwen: Qwen3.6 27B",
+    "model_id": "qwen/qwen3.6-27b",
+    "vendor": "qwen",
+    "price_input": 0.3,
+    "price_output": 3.2,
+    "price_blended": 1.025,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "DeepSeek: DeepSeek V4 Flash",
-    "model_id": "deepseek/deepseek-v4-flash",
-    "vendor": "deepseek",
-    "price_input": 0.112,
-    "price_output": 0.224,
-    "price_blended": 0.14,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:40.081425+00:00"
+    "updated_at": "2026-05-22T07:41:38.925952+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5.1-Codex",
@@ -876,91 +864,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:42.832542+00:00"
+    "updated_at": "2026-05-22T07:41:40.769423+00:00"
   },
   {
-    "model_name": "inclusionAI: Ling-2.6-1T",
-    "model_id": "inclusionai/ling-2.6-1t",
-    "vendor": "inclusionai",
-    "price_input": 0.3,
-    "price_output": 2.5,
-    "price_blended": 0.85,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:48.074896+00:00"
-  },
-  {
-    "model_name": "Tencent: Hy3 preview",
-    "model_id": "tencent/hy3-preview",
-    "vendor": "tencent",
-    "price_input": 0.066,
-    "price_output": 0.26,
-    "price_blended": 0.1145,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Xiaomi: MiMo-V2.5",
-    "model_id": "xiaomi/mimo-v2.5",
-    "vendor": "xiaomi",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Xiaomi: MiMo-V2.5-Pro",
-    "model_id": "xiaomi/mimo-v2.5-pro",
-    "vendor": "xiaomi",
-    "price_input": 1.0,
-    "price_output": 3.0,
-    "price_blended": 1.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:35.64677+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.4 Image 2",
-    "model_id": "openai/gpt-5.4-image-2",
+    "model_name": "OpenAI: GPT-5.1 Chat",
+    "model_id": "openai/gpt-5.1-chat",
     "vendor": "openai",
-    "price_input": 8.0,
-    "price_output": 15.0,
-    "price_blended": 9.75,
-    "aa_quality_index": null,
-    "categories": [
-      "image-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Opus Latest",
-    "model_id": "~anthropic/claude-opus-latest",
-    "vendor": "~anthropic",
-    "price_input": 5.0,
-    "price_output": 25.0,
-    "price_blended": 10.0,
+    "price_input": 1.25,
+    "price_output": 10.0,
+    "price_blended": 3.4375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "DeepSeek: DeepSeek V4 Flash",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "vendor": "deepseek",
+    "price_input": 0.112,
+    "price_output": 0.224,
+    "price_blended": 0.14,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:38.461944+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 14B",
@@ -974,21 +906,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Baidu: Qianfan-OCR-Fast",
-    "model_id": "baidu/qianfan-ocr-fast",
-    "vendor": "baidu",
-    "price_input": 0.68,
-    "price_output": 2.81,
-    "price_blended": 1.2125,
+    "model_name": "inclusionAI: Ling-2.6-1T",
+    "model_id": "inclusionai/ling-2.6-1t",
+    "vendor": "inclusionai",
+    "price_input": 0.075,
+    "price_output": 0.625,
+    "price_blended": 0.2125,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T07:41:46.096411+00:00"
+  },
+  {
+    "model_name": "DeepSeek: DeepSeek V4 Flash (free)",
+    "model_id": "deepseek/deepseek-v4-flash:free",
+    "vendor": "deepseek",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "Mistral: Voxtral Small 24B 2507",
@@ -1002,7 +948,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.5",
+    "model_id": "openai/gpt-5.5",
+    "vendor": "openai",
+    "price_input": 5.0,
+    "price_output": 30.0,
+    "price_blended": 11.25,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:31.969114+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 Coder Plus",
@@ -1017,21 +977,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "inclusionAI: Ling-2.6-flash",
-    "model_id": "inclusionai/ling-2.6-flash",
-    "vendor": "inclusionai",
-    "price_input": 0.01,
-    "price_output": 0.03,
-    "price_blended": 0.015,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:53.87495+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Baidu: Qianfan-OCR-Fast (free)",
@@ -1048,6 +994,20 @@
     "updated_at": "2026-05-14T05:53:44.85133+00:00"
   },
   {
+    "model_name": "DeepSeek: DeepSeek V4 Pro",
+    "model_id": "deepseek/deepseek-v4-pro",
+    "vendor": "deepseek",
+    "price_input": 0.435,
+    "price_output": 0.87,
+    "price_blended": 0.5438,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:35.428207+00:00"
+  },
+  {
     "model_name": "DeepSeek: DeepSeek V3.1",
     "model_id": "deepseek/deepseek-chat-v3.1",
     "vendor": "deepseek",
@@ -1059,35 +1019,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Baidu: ERNIE 4.5 VL 28B A3B",
-    "model_id": "baidu/ernie-4.5-vl-28b-a3b",
-    "vendor": "baidu",
-    "price_input": 0.14,
-    "price_output": 0.56,
-    "price_blended": 0.245,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "MoonshotAI: Kimi K2.6",
-    "model_id": "moonshotai/kimi-k2.6",
-    "vendor": "moonshotai",
-    "price_input": 0.73,
-    "price_output": 3.49,
-    "price_blended": 1.42,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5 Image",
@@ -1101,7 +1033,7 @@
       "image-gen",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
@@ -1115,36 +1047,63 @@
       "image-gen",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Google: Gemma 4 26B A4B  (free)",
-    "model_id": "google/gemma-4-26b-a4b-it:free",
-    "vendor": "google",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
+    "model_name": "Xiaomi: MiMo-V2.5",
+    "model_id": "xiaomi/mimo-v2.5",
+    "vendor": "xiaomi",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Anthropic: Claude Opus 4.7",
-    "model_id": "anthropic/claude-opus-4.7",
-    "vendor": "anthropic",
-    "price_input": 5.0,
-    "price_output": 25.0,
-    "price_blended": 10.0,
+    "model_name": "OpenAI: GPT-5.4 Image 2",
+    "model_id": "openai/gpt-5.4-image-2",
+    "vendor": "openai",
+    "price_input": 8.0,
+    "price_output": 15.0,
+    "price_blended": 9.75,
     "aa_quality_index": null,
     "categories": [
-      "coding",
+      "image-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Baidu: Qianfan-OCR-Fast",
+    "model_id": "baidu/qianfan-ocr-fast",
+    "vendor": "baidu",
+    "price_input": 0.68,
+    "price_output": 2.81,
+    "price_blended": 1.2125,
+    "aa_quality_index": null,
+    "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:34.816912+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Xiaomi: MiMo-V2.5-Pro",
+    "model_id": "xiaomi/mimo-v2.5-pro",
+    "vendor": "xiaomi",
+    "price_input": 1.0,
+    "price_output": 3.0,
+    "price_blended": 1.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:34.281171+00:00"
   },
   {
     "model_name": "Anthropic: Claude Sonnet 4.5",
@@ -1159,7 +1118,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Meta: Llama Guard 4 12B",
@@ -1173,35 +1132,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Google: Gemma 4 26B A4B ",
-    "model_id": "google/gemma-4-26b-a4b-it",
-    "vendor": "google",
-    "price_input": 0.06,
-    "price_output": 0.33,
-    "price_blended": 0.1275,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Google: Gemma 4 31B (free)",
-    "model_id": "google/gemma-4-31b-it:free",
-    "vendor": "google",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 VL 8B Instruct",
@@ -1215,37 +1146,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:50.500851+00:00"
+    "updated_at": "2026-05-22T06:40:17.471189+00:00"
   },
   {
-    "model_name": "Z.ai: GLM 5V Turbo",
-    "model_id": "z-ai/glm-5v-turbo",
-    "vendor": "z-ai",
-    "price_input": 1.2,
-    "price_output": 4.0,
-    "price_blended": 1.9,
+    "model_name": "Anthropic: Claude Opus Latest",
+    "model_id": "~anthropic/claude-opus-latest",
+    "vendor": "~anthropic",
+    "price_input": 5.0,
+    "price_output": 25.0,
+    "price_blended": 10.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:43.385432+00:00"
-  },
-  {
-    "model_name": "Arcee AI: Trinity Large Thinking (free)",
-    "model_id": "arcee-ai/trinity-large-thinking:free",
-    "vendor": "arcee-ai",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5.1-Codex-Mini",
@@ -1260,23 +1175,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:46.421029+00:00"
-  },
-  {
-    "model_name": "Arcee AI: Trinity Large Thinking",
-    "model_id": "arcee-ai/trinity-large-thinking",
-    "vendor": "arcee-ai",
-    "price_input": 0.22,
-    "price_output": 0.85,
-    "price_blended": 0.3775,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T07:41:44.461259+00:00"
   },
   {
     "model_name": "Xiaomi: MiMo-V2-Flash",
@@ -1290,64 +1189,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:50.850482+00:00"
+    "updated_at": "2026-05-22T07:41:48.39611+00:00"
   },
   {
-    "model_name": "Relace: Relace Search",
-    "model_id": "relace/relace-search",
-    "vendor": "relace",
-    "price_input": 1.0,
-    "price_output": 3.0,
-    "price_blended": 1.5,
+    "model_name": "inclusionAI: Ling-2.6-flash",
+    "model_id": "inclusionai/ling-2.6-flash",
+    "vendor": "inclusionai",
+    "price_input": 0.01,
+    "price_output": 0.03,
+    "price_blended": 0.015,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:50.922541+00:00"
   },
   {
-    "model_name": "Google: Lyria 3 Clip Preview",
-    "model_id": "google/lyria-3-clip-preview",
-    "vendor": "google",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "audio-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Kwaipilot: KAT-Coder-Pro V2",
-    "model_id": "kwaipilot/kat-coder-pro-v2",
-    "vendor": "kwaipilot",
-    "price_input": 0.3,
-    "price_output": 1.2,
-    "price_blended": 0.525,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Reka Edge",
-    "model_id": "rekaai/reka-edge",
-    "vendor": "rekaai",
-    "price_input": 0.1,
-    "price_output": 0.1,
-    "price_blended": 0.1,
+    "model_name": "MoonshotAI: Kimi K2.6",
+    "model_id": "moonshotai/kimi-k2.6",
+    "vendor": "moonshotai",
+    "price_input": 0.73,
+    "price_output": 3.49,
+    "price_blended": 1.42,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "OpenAI: o4 Mini High",
@@ -1363,35 +1233,7 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Xiaomi: MiMo-V2-Pro",
-    "model_id": "xiaomi/mimo-v2-pro",
-    "vendor": "xiaomi",
-    "price_input": 1.0,
-    "price_output": 3.0,
-    "price_blended": 1.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:38.419999+00:00"
-  },
-  {
-    "model_name": "Xiaomi: MiMo-V2-Omni",
-    "model_id": "xiaomi/mimo-v2-omni",
-    "vendor": "xiaomi",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:42.556584+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Baidu: ERNIE 4.5 300B A47B ",
@@ -1405,7 +1247,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:23.9352+00:00"
+    "updated_at": "2026-05-22T06:39:49.705028+00:00"
+  },
+  {
+    "model_name": "Relace: Relace Search",
+    "model_id": "relace/relace-search",
+    "vendor": "relace",
+    "price_input": 1.0,
+    "price_output": 3.0,
+    "price_blended": 1.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Z.ai: GLM 4.6V",
@@ -1419,133 +1275,153 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:48.766373+00:00"
+    "updated_at": "2026-05-22T06:40:15.054845+00:00"
   },
   {
-    "model_name": "MiniMax: MiniMax M2.7",
-    "model_id": "minimax/minimax-m2.7",
-    "vendor": "minimax",
-    "price_input": 0.279,
-    "price_output": 1.2,
-    "price_blended": 0.5093,
+    "model_name": "Google: Gemma 4 26B A4B  (free)",
+    "model_id": "google/gemma-4-26b-a4b-it:free",
+    "vendor": "google",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:37.868759+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Baidu: ERNIE 4.5 VL 424B A47B ",
-    "model_id": "baidu/ernie-4.5-vl-424b-a47b",
-    "vendor": "baidu",
-    "price_input": 0.42,
-    "price_output": 1.25,
-    "price_blended": 0.6275,
+    "model_name": "Arcee AI: Trinity Large Thinking (free)",
+    "model_id": "arcee-ai/trinity-large-thinking:free",
+    "vendor": "arcee-ai",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Google: Gemma 4 26B A4B ",
+    "model_id": "google/gemma-4-26b-a4b-it",
+    "vendor": "google",
+    "price_input": 0.06,
+    "price_output": 0.33,
+    "price_blended": 0.1275,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "OpenAI: GPT Audio",
-    "model_id": "openai/gpt-audio",
-    "vendor": "openai",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
+    "model_name": "Arcee AI: Trinity Large Thinking",
+    "model_id": "arcee-ai/trinity-large-thinking",
+    "vendor": "arcee-ai",
+    "price_input": 0.22,
+    "price_output": 0.85,
+    "price_blended": 0.3775,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Anthropic: Claude Opus 4.7",
+    "model_id": "anthropic/claude-opus-4.7",
+    "vendor": "anthropic",
+    "price_input": 5.0,
+    "price_output": 25.0,
+    "price_blended": 10.0,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:32.683679+00:00"
+  },
+  {
+    "model_name": "Z.ai: GLM 5.1",
+    "model_id": "z-ai/glm-5.1",
+    "vendor": "z-ai",
+    "price_input": 0.98,
+    "price_output": 3.08,
+    "price_blended": 1.505,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:35.656508+00:00"
+  },
+  {
+    "model_name": "Google: Gemma 4 31B (free)",
+    "model_id": "google/gemma-4-31b-it:free",
+    "vendor": "google",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Google: Lyria 3 Clip Preview",
+    "model_id": "google/lyria-3-clip-preview",
+    "vendor": "google",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
       "audio-gen",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Prime Intellect: INTELLECT-3",
-    "model_id": "prime-intellect/intellect-3",
-    "vendor": "prime-intellect",
-    "price_input": 0.2,
-    "price_output": 1.1,
-    "price_blended": 0.425,
+    "model_name": "Kwaipilot: KAT-Coder-Pro V2",
+    "model_id": "kwaipilot/kat-coder-pro-v2",
+    "vendor": "kwaipilot",
+    "price_input": 0.3,
+    "price_output": 1.2,
+    "price_blended": 0.525,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Reka Edge",
+    "model_id": "rekaai/reka-edge",
+    "vendor": "rekaai",
+    "price_input": 0.1,
+    "price_output": 0.1,
+    "price_blended": 0.1,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:57.716022+00:00"
-  },
-  {
-    "model_name": "Mistral: Mistral Small 4",
-    "model_id": "mistralai/mistral-small-2603",
-    "vendor": "mistralai",
-    "price_input": 0.15,
-    "price_output": 0.6,
-    "price_blended": 0.2625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Z.ai: GLM 5 Turbo",
-    "model_id": "z-ai/glm-5-turbo",
-    "vendor": "z-ai",
-    "price_input": 1.2,
-    "price_output": 4.0,
-    "price_blended": 1.9,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:39.523351+00:00"
-  },
-  {
-    "model_name": "NVIDIA: Nemotron 3 Super",
-    "model_id": "nvidia/nemotron-3-super-120b-a12b",
-    "vendor": "nvidia",
-    "price_input": 0.09,
-    "price_output": 0.45,
-    "price_blended": 0.18,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "ByteDance Seed: Seed-2.0-Lite",
-    "model_id": "bytedance-seed/seed-2.0-lite",
-    "vendor": "bytedance-seed",
-    "price_input": 0.25,
-    "price_output": 2.0,
-    "price_blended": 0.6875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.4 Nano",
-    "model_id": "openai/gpt-5.4-nano",
-    "vendor": "openai",
-    "price_input": 0.2,
-    "price_output": 1.25,
-    "price_blended": 0.4625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:42.008459+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "MoonshotAI: Kimi K2 Thinking",
@@ -1561,21 +1437,91 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:45.31809+00:00"
+    "updated_at": "2026-05-22T07:41:43.282769+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5.4 Mini",
-    "model_id": "openai/gpt-5.4-mini",
-    "vendor": "openai",
-    "price_input": 0.75,
-    "price_output": 4.5,
-    "price_blended": 1.6875,
+    "model_name": "Prime Intellect: INTELLECT-3",
+    "model_id": "prime-intellect/intellect-3",
+    "vendor": "prime-intellect",
+    "price_input": 0.2,
+    "price_output": 1.1,
+    "price_blended": 0.425,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:38.971556+00:00"
+    "updated_at": "2026-05-22T07:41:53.920421+00:00"
+  },
+  {
+    "model_name": "Baidu: ERNIE 4.5 VL 424B A47B ",
+    "model_id": "baidu/ernie-4.5-vl-424b-a47b",
+    "vendor": "baidu",
+    "price_input": 0.42,
+    "price_output": 1.25,
+    "price_blended": 0.6275,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Xiaomi: MiMo-V2-Omni",
+    "model_id": "xiaomi/mimo-v2-omni",
+    "vendor": "xiaomi",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:40.543953+00:00"
+  },
+  {
+    "model_name": "Z.ai: GLM 5V Turbo",
+    "model_id": "z-ai/glm-5v-turbo",
+    "vendor": "z-ai",
+    "price_input": 1.2,
+    "price_output": 4.0,
+    "price_blended": 1.9,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:41.236011+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT Audio",
+    "model_id": "openai/gpt-audio",
+    "vendor": "openai",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
+    "aa_quality_index": null,
+    "categories": [
+      "audio-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 3 Flash Preview",
+    "model_id": "google/gemini-3-flash-preview",
+    "vendor": "google",
+    "price_input": 0.5,
+    "price_output": 3.0,
+    "price_blended": 1.125,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "xAI: Grok 3 Mini",
@@ -1592,18 +1538,18 @@
     "updated_at": "2026-05-15T06:00:25.806419+00:00"
   },
   {
-    "model_name": "Google: Gemini 3 Flash Preview",
-    "model_id": "google/gemini-3-flash-preview",
-    "vendor": "google",
-    "price_input": 0.5,
+    "model_name": "Xiaomi: MiMo-V2-Pro",
+    "model_id": "xiaomi/mimo-v2-pro",
+    "vendor": "xiaomi",
+    "price_input": 1.0,
     "price_output": 3.0,
-    "price_blended": 1.125,
+    "price_blended": 1.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:37.03971+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 VL 8B Thinking",
@@ -1619,21 +1565,21 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.5-9B",
-    "model_id": "qwen/qwen3.5-9b",
-    "vendor": "qwen",
-    "price_input": 0.04,
-    "price_output": 0.15,
-    "price_blended": 0.0675,
+    "model_name": "OpenAI: GPT-5.4 Nano",
+    "model_id": "openai/gpt-5.4-nano",
+    "vendor": "openai",
+    "price_input": 0.2,
+    "price_output": 1.25,
+    "price_blended": 0.4625,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:49.722922+00:00"
+    "updated_at": "2026-05-22T07:41:40.083529+00:00"
   },
   {
     "model_name": "Google: Gemma 4 31B",
@@ -1647,7 +1593,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "xAI: Grok 4.20 Multi-Agent",
@@ -1662,49 +1608,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.5-Flash",
-    "model_id": "qwen/qwen3.5-flash-02-23",
-    "vendor": "qwen",
-    "price_input": 0.065,
-    "price_output": 0.26,
-    "price_blended": 0.1138,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "DeepSeek: DeepSeek V3.2 Exp",
-    "model_id": "deepseek/deepseek-v3.2-exp",
+    "model_name": "DeepSeek: DeepSeek V3.2",
+    "model_id": "deepseek/deepseek-v3.2",
     "vendor": "deepseek",
-    "price_input": 0.27,
-    "price_output": 0.41,
-    "price_blended": 0.305,
+    "price_input": 0.252,
+    "price_output": 0.378,
+    "price_blended": 0.2835,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "TheDrummer: Cydonia 24B V4.1",
-    "model_id": "thedrummer/cydonia-24b-v4.1",
-    "vendor": "thedrummer",
-    "price_input": 0.3,
-    "price_output": 0.5,
-    "price_blended": 0.35,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:47.474357+00:00"
   },
   {
     "model_name": "xAI: Grok 3",
@@ -1718,7 +1636,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:55.249439+00:00"
+    "updated_at": "2026-05-22T07:41:51.831337+00:00"
   },
   {
     "model_name": "Z.ai: GLM 4.5 Air",
@@ -1732,7 +1650,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:56.893943+00:00"
+    "updated_at": "2026-05-22T07:41:53.240169+00:00"
   },
   {
     "model_name": "Arcee AI: Trinity Large Preview (free)",
@@ -1749,32 +1667,88 @@
     "updated_at": "2026-04-22T04:51:15.251278+00:00"
   },
   {
-    "model_name": "Mistral: Mistral Medium 3.1",
-    "model_id": "mistralai/mistral-medium-3.1",
-    "vendor": "mistralai",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
+    "model_name": "OpenAI: GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "vendor": "openai",
+    "price_input": 0.75,
+    "price_output": 4.5,
+    "price_blended": 1.6875,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:57.995191+00:00"
+    "updated_at": "2026-05-22T07:41:37.534187+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5.4",
-    "model_id": "openai/gpt-5.4",
-    "vendor": "openai",
-    "price_input": 2.5,
-    "price_output": 15.0,
-    "price_blended": 5.625,
+    "model_name": "Mistral: Mistral Small 4",
+    "model_id": "mistralai/mistral-small-2603",
+    "vendor": "mistralai",
+    "price_input": 0.15,
+    "price_output": 0.6,
+    "price_blended": 0.2625,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:35.369571+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "MiniMax: MiniMax M2.7",
+    "model_id": "minimax/minimax-m2.7",
+    "vendor": "minimax",
+    "price_input": 0.279,
+    "price_output": 1.2,
+    "price_blended": 0.5093,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:36.582801+00:00"
+  },
+  {
+    "model_name": "Z.ai: GLM 5 Turbo",
+    "model_id": "z-ai/glm-5-turbo",
+    "vendor": "z-ai",
+    "price_input": 1.2,
+    "price_output": 4.0,
+    "price_blended": 1.9,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:37.995762+00:00"
+  },
+  {
+    "model_name": "DeepSeek: DeepSeek V3.2 Exp",
+    "model_id": "deepseek/deepseek-v3.2-exp",
+    "vendor": "deepseek",
+    "price_input": 0.27,
+    "price_output": 0.41,
+    "price_blended": 0.305,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "TheDrummer: Cydonia 24B V4.1",
+    "model_id": "thedrummer/cydonia-24b-v4.1",
+    "vendor": "thedrummer",
+    "price_input": 0.3,
+    "price_output": 0.5,
+    "price_blended": 0.35,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Z.ai: GLM 4.7",
@@ -1788,65 +1762,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:43.66375+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.3 Chat",
-    "model_id": "openai/gpt-5.3-chat",
-    "vendor": "openai",
-    "price_input": 1.75,
-    "price_output": 14.0,
-    "price_blended": 4.8125,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 30B A3B Thinking 2507",
-    "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
-    "vendor": "qwen",
-    "price_input": 0.08,
-    "price_output": 0.4,
-    "price_blended": 0.16,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.4 Pro",
-    "model_id": "openai/gpt-5.4-pro",
-    "vendor": "openai",
-    "price_input": 30.0,
-    "price_output": 180.0,
-    "price_blended": 67.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:36.312847+00:00"
-  },
-  {
-    "model_name": "Inception: Mercury 2",
-    "model_id": "inception/mercury-2",
-    "vendor": "inception",
-    "price_input": 0.25,
-    "price_output": 0.75,
-    "price_blended": 0.375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:49.173607+00:00"
+    "updated_at": "2026-05-22T07:41:41.462083+00:00"
   },
   {
     "model_name": "Z.ai: GLM 4 32B ",
@@ -1860,7 +1776,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "OpenAI: gpt-oss-safeguard-20b",
@@ -1874,77 +1790,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "ByteDance Seed: Seed-2.0-Mini",
-    "model_id": "bytedance-seed/seed-2.0-mini",
-    "vendor": "bytedance-seed",
-    "price_input": 0.1,
-    "price_output": 0.4,
-    "price_blended": 0.175,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Venice: Uncensored (free)",
-    "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-    "vendor": "cognitivecomputations",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Mistral: Mixtral 8x7B Instruct",
-    "model_id": "mistralai/mixtral-8x7b-instruct",
-    "vendor": "mistralai",
-    "price_input": 0.54,
-    "price_output": 0.54,
-    "price_blended": 0.54,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:40.060588+00:00"
-  },
-  {
-    "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
-    "model_id": "deepseek/deepseek-v3.1-terminus",
-    "vendor": "deepseek",
-    "price_input": 0.27,
-    "price_output": 0.95,
-    "price_blended": 0.44,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:52.223657+00:00"
-  },
-  {
-    "model_name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
-    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "model_name": "NVIDIA: Nemotron 3 Super",
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
     "vendor": "nvidia",
-    "price_input": 0.1,
-    "price_output": 0.4,
-    "price_blended": 0.175,
+    "price_input": 0.09,
+    "price_output": 0.45,
+    "price_blended": 0.18,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "xAI: Grok 4.1 Fast",
@@ -1958,36 +1818,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:56.61978+00:00"
+    "updated_at": "2026-05-22T07:41:53.004892+00:00"
   },
   {
-    "model_name": "Google: Gemini 3.1 Flash Lite Preview",
-    "model_id": "google/gemini-3.1-flash-lite-preview",
-    "vendor": "google",
-    "price_input": 0.25,
-    "price_output": 1.5,
-    "price_blended": 0.5625,
+    "model_name": "Mistral: Mixtral 8x7B Instruct",
+    "model_id": "mistralai/mixtral-8x7b-instruct",
+    "vendor": "mistralai",
+    "price_input": 0.54,
+    "price_output": 0.54,
+    "price_blended": 0.54,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:48.34977+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Opus 4.6",
-    "model_id": "anthropic/claude-opus-4.6",
-    "vendor": "anthropic",
-    "price_input": 5.0,
-    "price_output": 25.0,
-    "price_blended": 10.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:40.355242+00:00"
+    "updated_at": "2026-05-22T06:40:07.022543+00:00"
   },
   {
     "model_name": "xAI: Grok 4",
@@ -2001,35 +1846,93 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:44.768073+00:00"
+    "updated_at": "2026-05-22T07:41:42.822265+00:00"
   },
   {
-    "model_name": "StepFun: Step 3.5 Flash",
-    "model_id": "stepfun/step-3.5-flash",
-    "vendor": "stepfun",
-    "price_input": 0.1,
-    "price_output": 0.3,
-    "price_blended": 0.15,
+    "model_name": "ByteDance Seed: Seed-2.0-Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "vendor": "bytedance-seed",
+    "price_input": 0.25,
+    "price_output": 2.0,
+    "price_blended": 0.6875,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:46.696364+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Z.ai: GLM 5",
-    "model_id": "z-ai/glm-5",
-    "vendor": "z-ai",
-    "price_input": 0.6,
-    "price_output": 1.92,
-    "price_blended": 0.93,
+    "model_name": "Qwen: Qwen3.5-9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "vendor": "qwen",
+    "price_input": 0.04,
+    "price_output": 0.15,
+    "price_blended": 0.0675,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:37.591067+00:00"
+    "updated_at": "2026-05-22T07:41:47.245787+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "model_id": "qwen/qwen3-next-80b-a3b-thinking",
+    "vendor": "qwen",
+    "price_input": 0.0975,
+    "price_output": 0.78,
+    "price_blended": 0.2681,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen Plus 0728",
+    "model_id": "qwen/qwen-plus-2025-07-28",
+    "vendor": "qwen",
+    "price_input": 0.26,
+    "price_output": 0.78,
+    "price_blended": 0.39,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Venice: Uncensored (free)",
+    "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "vendor": "cognitivecomputations",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-4o Audio",
+    "model_id": "openai/gpt-4o-audio-preview",
+    "vendor": "openai",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
+    "aa_quality_index": null,
+    "categories": [
+      "audio-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "MoonshotAI: Kimi K2 0711",
@@ -2043,63 +1946,49 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:53.326195+00:00"
+    "updated_at": "2026-05-22T07:41:50.459924+00:00"
   },
   {
-    "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-    "model_id": "google/gemini-3.1-flash-image-preview",
-    "vendor": "google",
-    "price_input": 0.5,
-    "price_output": 3.0,
-    "price_blended": 1.125,
-    "aa_quality_index": null,
-    "categories": [
-      "image-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5",
-    "model_id": "openai/gpt-5",
+    "model_name": "OpenAI: GPT-5.3 Chat",
+    "model_id": "openai/gpt-5.3-chat",
     "vendor": "openai",
-    "price_input": 1.25,
-    "price_output": 10.0,
-    "price_blended": 3.4375,
+    "price_input": 1.75,
+    "price_output": 14.0,
+    "price_blended": 4.8125,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:41.18214+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.5-27B",
-    "model_id": "qwen/qwen3.5-27b",
-    "vendor": "qwen",
-    "price_input": 0.195,
-    "price_output": 1.56,
-    "price_blended": 0.5363,
+    "model_name": "OpenAI: GPT-5.4 Pro",
+    "model_id": "openai/gpt-5.4-pro",
+    "vendor": "openai",
+    "price_input": 30.0,
+    "price_output": 180.0,
+    "price_blended": 67.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:43.939311+00:00"
+    "updated_at": "2026-05-22T06:40:02.840409+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.5-35B-A3B",
-    "model_id": "qwen/qwen3.5-35b-a3b",
-    "vendor": "qwen",
-    "price_input": 0.14,
-    "price_output": 1.0,
-    "price_blended": 0.355,
+    "model_name": "OpenAI: GPT-5.4",
+    "model_id": "openai/gpt-5.4",
+    "vendor": "openai",
+    "price_input": 2.5,
+    "price_output": 15.0,
+    "price_blended": 5.625,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:47.244239+00:00"
+    "updated_at": "2026-05-22T07:41:33.586958+00:00"
   },
   {
     "model_name": "AI21: Jamba Large 1.7",
@@ -2113,22 +2002,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 Coder Next",
-    "model_id": "qwen/qwen3-coder-next",
-    "vendor": "qwen",
-    "price_input": 0.11,
-    "price_output": 0.8,
-    "price_blended": 0.2825,
+    "model_name": "OpenAI: GPT-5",
+    "model_id": "openai/gpt-5",
+    "vendor": "openai",
+    "price_input": 1.25,
+    "price_output": 10.0,
+    "price_blended": 3.4375,
     "aa_quality_index": null,
     "categories": [
-      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:52.498434+00:00"
+    "updated_at": "2026-05-22T07:41:39.394482+00:00"
+  },
+  {
+    "model_name": "Inception: Mercury 2",
+    "model_id": "inception/mercury-2",
+    "vendor": "inception",
+    "price_input": 0.25,
+    "price_output": 0.75,
+    "price_blended": 0.375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:47.013596+00:00"
   },
   {
     "model_name": "Google: Gemini 2.5 Pro Preview 06-05",
@@ -2142,49 +2044,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "LiquidAI: LFM2-24B-A2B",
-    "model_id": "liquid/lfm-2-24b-a2b",
-    "vendor": "liquid",
-    "price_input": 0.03,
-    "price_output": 0.12,
-    "price_blended": 0.0525,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Arcee AI: Trinity Mini",
-    "model_id": "arcee-ai/trinity-mini",
-    "vendor": "arcee-ai",
-    "price_input": 0.045,
-    "price_output": 0.15,
-    "price_blended": 0.0713,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Arcee AI: Trinity Large Preview",
-    "model_id": "arcee-ai/trinity-large-preview",
-    "vendor": "arcee-ai",
-    "price_input": 0.15,
-    "price_output": 0.45,
-    "price_blended": 0.225,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "DeepSeek: R1 0528",
@@ -2200,21 +2060,21 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Perplexity: Sonar Pro Search",
-    "model_id": "perplexity/sonar-pro-search",
-    "vendor": "perplexity",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
+    "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "vendor": "google",
+    "price_input": 0.5,
+    "price_output": 3.0,
+    "price_blended": 1.125,
     "aa_quality_index": null,
     "categories": [
-      "general",
+      "image-gen",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o (2024-11-20)",
@@ -2228,35 +2088,77 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5 Image Mini",
-    "model_id": "openai/gpt-5-image-mini",
-    "vendor": "openai",
-    "price_input": 2.5,
-    "price_output": 2.0,
-    "price_blended": 2.375,
-    "aa_quality_index": null,
-    "categories": [
-      "image-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3.5-122B-A10B",
-    "model_id": "qwen/qwen3.5-122b-a10b",
-    "vendor": "qwen",
-    "price_input": 0.26,
-    "price_output": 2.08,
-    "price_blended": 0.715,
+    "model_name": "ByteDance Seed: Seed-2.0-Mini",
+    "model_id": "bytedance-seed/seed-2.0-mini",
+    "vendor": "bytedance-seed",
+    "price_input": 0.1,
+    "price_output": 0.4,
+    "price_blended": 0.175,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:44.490436+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.5-35B-A3B",
+    "model_id": "qwen/qwen3.5-35b-a3b",
+    "vendor": "qwen",
+    "price_input": 0.139,
+    "price_output": 1.0,
+    "price_blended": 0.3542,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:45.405168+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 3.1 Flash Lite Preview",
+    "model_id": "google/gemini-3.1-flash-lite-preview",
+    "vendor": "google",
+    "price_input": 0.25,
+    "price_output": 1.5,
+    "price_blended": 0.5625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:46.320821+00:00"
+  },
+  {
+    "model_name": "Arcee AI: Trinity Mini",
+    "model_id": "arcee-ai/trinity-mini",
+    "vendor": "arcee-ai",
+    "price_input": 0.045,
+    "price_output": 0.15,
+    "price_blended": 0.0713,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Perplexity: Sonar Pro Search",
+    "model_id": "perplexity/sonar-pro-search",
+    "vendor": "perplexity",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Meta: Llama Guard 4 12B (free)",
@@ -2273,20 +2175,6 @@
     "updated_at": "2026-04-17T16:10:19.800802+00:00"
   },
   {
-    "model_name": "Tongyi DeepResearch 30B A3B",
-    "model_id": "alibaba/tongyi-deepresearch-30b-a3b",
-    "vendor": "alibaba",
-    "price_input": 0.09,
-    "price_output": 0.45,
-    "price_blended": 0.18,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
     "model_name": "Arcee AI: Coder Large",
     "model_id": "arcee-ai/coder-large",
     "vendor": "arcee-ai",
@@ -2299,7 +2187,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Amazon: Nova Micro 1.0",
@@ -2313,7 +2201,23 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "OpenAI: o3 Deep Research",
+    "model_id": "openai/o3-deep-research",
+    "vendor": "openai",
+    "price_input": 10.0,
+    "price_output": 40.0,
+    "price_blended": 17.5,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "AionLabs: Aion-2.0",
@@ -2327,21 +2231,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Nex AGI: DeepSeek V3.1 Nex N1",
-    "model_id": "nex-agi/deepseek-v3.1-nex-n1",
-    "vendor": "nex-agi",
-    "price_input": 0.135,
-    "price_output": 0.5,
-    "price_blended": 0.2263,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "Sao10K: Llama 3.1 70B Hanami x1",
@@ -2355,7 +2245,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "xAI: Grok 3 Mini Beta",
@@ -2372,6 +2262,20 @@
     "updated_at": "2026-05-15T06:00:25.806419+00:00"
   },
   {
+    "model_name": "Qwen: Qwen3.5-122B-A10B",
+    "model_id": "qwen/qwen3.5-122b-a10b",
+    "vendor": "qwen",
+    "price_input": 0.26,
+    "price_output": 2.08,
+    "price_blended": 0.715,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:42.15357+00:00"
+  },
+  {
     "model_name": "Mistral: Devstral Small 1.1",
     "model_id": "mistralai/devstral-small",
     "vendor": "mistralai",
@@ -2384,54 +2288,64 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:40.930896+00:00"
+    "updated_at": "2026-05-22T06:40:07.589138+00:00"
   },
   {
-    "model_name": "OpenAI: o3 Deep Research",
-    "model_id": "openai/o3-deep-research",
-    "vendor": "openai",
-    "price_input": 10.0,
-    "price_output": 40.0,
-    "price_blended": 17.5,
+    "model_name": "Nex AGI: DeepSeek V3.1 Nex N1",
+    "model_id": "nex-agi/deepseek-v3.1-nex-n1",
+    "vendor": "nex-agi",
+    "price_input": 0.135,
+    "price_output": 0.5,
+    "price_blended": 0.2263,
     "aa_quality_index": null,
     "categories": [
-      "agent",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "OpenAI: o4 Mini Deep Research",
-    "model_id": "openai/o4-mini-deep-research",
-    "vendor": "openai",
-    "price_input": 2.0,
-    "price_output": 8.0,
-    "price_blended": 3.5,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.3-Codex",
-    "model_id": "openai/gpt-5.3-codex",
-    "vendor": "openai",
-    "price_input": 1.75,
-    "price_output": 14.0,
-    "price_blended": 4.8125,
+    "model_name": "Anthropic: Claude Opus 4.6",
+    "model_id": "anthropic/claude-opus-4.6",
+    "vendor": "anthropic",
+    "price_input": 5.0,
+    "price_output": 25.0,
+    "price_blended": 10.0,
     "aa_quality_index": null,
     "categories": [
       "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:35.923256+00:00"
+    "updated_at": "2026-05-22T07:41:38.689064+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.5-Flash",
+    "model_id": "qwen/qwen3.5-flash-02-23",
+    "vendor": "qwen",
+    "price_input": 0.065,
+    "price_output": 0.26,
+    "price_blended": 0.1138,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.5-27B",
+    "model_id": "qwen/qwen3.5-27b",
+    "vendor": "qwen",
+    "price_input": 0.195,
+    "price_output": 1.56,
+    "price_blended": 0.5363,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:41.687747+00:00"
   },
   {
     "model_name": "Qwen: Qwen-Max ",
@@ -2448,20 +2362,6 @@
     "updated_at": "2026-05-12T05:43:51.202046+00:00"
   },
   {
-    "model_name": "Google: Gemini 3.1 Pro Preview",
-    "model_id": "google/gemini-3.1-pro-preview",
-    "vendor": "google",
-    "price_input": 2.0,
-    "price_output": 12.0,
-    "price_blended": 4.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:35.09402+00:00"
-  },
-  {
     "model_name": "xAI: Grok 4.20",
     "model_id": "x-ai/grok-4.20",
     "vendor": "x-ai",
@@ -2473,36 +2373,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:38.145374+00:00"
+    "updated_at": "2026-05-22T07:41:36.810276+00:00"
   },
   {
-    "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-    "model_id": "nvidia/nemotron-3-nano-30b-a3b",
-    "vendor": "nvidia",
-    "price_input": 0.05,
-    "price_output": 0.2,
-    "price_blended": 0.0875,
+    "model_name": "OpenAI: GPT-4.1",
+    "model_id": "openai/gpt-4.1",
+    "vendor": "openai",
+    "price_input": 2.0,
+    "price_output": 8.0,
+    "price_blended": 3.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Mistral: Devstral 2 2512",
-    "model_id": "mistralai/devstral-2512",
-    "vendor": "mistralai",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:50.688035+00:00"
   },
   {
     "model_name": "Google: Gemma 3n 4B",
@@ -2516,7 +2401,36 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "LiquidAI: LFM2-24B-A2B",
+    "model_id": "liquid/lfm-2-24b-a2b",
+    "vendor": "liquid",
+    "price_input": 0.03,
+    "price_output": 0.12,
+    "price_blended": 0.0525,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.3-Codex",
+    "model_id": "openai/gpt-5.3-codex",
+    "vendor": "openai",
+    "price_input": 1.75,
+    "price_output": 14.0,
+    "price_blended": 4.8125,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:34.514457+00:00"
   },
   {
     "model_name": "Google: Gemma 3 12B (free)",
@@ -2533,6 +2447,35 @@
     "updated_at": "2026-05-05T05:20:07.994047+00:00"
   },
   {
+    "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+    "vendor": "nvidia",
+    "price_input": 0.05,
+    "price_output": 0.2,
+    "price_blended": 0.0875,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Mistral: Devstral 2 2512",
+    "model_id": "mistralai/devstral-2512",
+    "vendor": "mistralai",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
     "model_name": "Qwen: Qwen3 235B A22B",
     "model_id": "qwen/qwen3-235b-a22b",
     "vendor": "qwen",
@@ -2544,40 +2487,71 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-4.1",
-    "model_id": "openai/gpt-4.1",
+    "model_name": "OpenAI: GPT-5 Image Mini",
+    "model_id": "openai/gpt-5-image-mini",
+    "vendor": "openai",
+    "price_input": 2.5,
+    "price_output": 2.0,
+    "price_blended": 2.375,
+    "aa_quality_index": null,
+    "categories": [
+      "image-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "OpenAI: o4 Mini Deep Research",
+    "model_id": "openai/o4-mini-deep-research",
     "vendor": "openai",
     "price_input": 2.0,
     "price_output": 8.0,
     "price_blended": 3.5,
     "aa_quality_index": null,
     "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Anthropic: Claude Sonnet 4.6",
+    "model_id": "anthropic/claude-sonnet-4.6",
+    "vendor": "anthropic",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:53.600996+00:00"
+    "updated_at": "2026-05-22T07:41:39.854012+00:00"
   },
   {
-    "model_name": "Sao10K: Llama 3.3 Euryale 70B",
-    "model_id": "sao10k/l3.3-euryale-70b",
-    "vendor": "sao10k",
-    "price_input": 0.65,
-    "price_output": 0.75,
-    "price_blended": 0.675,
+    "model_name": "Amazon: Nova Pro 1.0",
+    "model_id": "amazon/nova-pro-v1",
+    "vendor": "amazon",
+    "price_input": 0.8,
+    "price_output": 3.2,
+    "price_blended": 1.4,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Meta: Llama 3.3 70B Instruct (free)",
-    "model_id": "meta-llama/llama-3.3-70b-instruct:free",
-    "vendor": "meta-llama",
+    "model_name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+    "model_id": "liquid/lfm-2.5-1.2b-instruct:free",
+    "vendor": "liquid",
     "price_input": 0.0,
     "price_output": 0.0,
     "price_blended": 0.0,
@@ -2586,49 +2560,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Z.ai: GLM 4.7 Flash",
-    "model_id": "z-ai/glm-4.7-flash",
-    "vendor": "z-ai",
-    "price_input": 0.06,
-    "price_output": 0.4,
-    "price_blended": 0.145,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:51.400939+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3.5 Plus 2026-02-15",
-    "model_id": "qwen/qwen3.5-plus-02-15",
-    "vendor": "qwen",
-    "price_input": 0.26,
-    "price_output": 1.56,
-    "price_blended": 0.585,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "Mistral Large 2411",
-    "model_id": "mistralai/mistral-large-2411",
-    "vendor": "mistralai",
-    "price_input": 2.0,
-    "price_output": 6.0,
-    "price_blended": 3.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "AllenAI: Olmo 3.1 32B Instruct",
@@ -2645,20 +2577,6 @@
     "updated_at": "2026-05-06T05:35:14.051125+00:00"
   },
   {
-    "model_name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
-    "model_id": "liquid/lfm-2.5-1.2b-instruct:free",
-    "vendor": "liquid",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
     "model_name": "Google: Gemma 3 12B",
     "model_id": "google/gemma-3-12b-it",
     "vendor": "google",
@@ -2670,7 +2588,49 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 3.1 Pro Preview",
+    "model_id": "google/gemini-3.1-pro-preview",
+    "vendor": "google",
+    "price_input": 2.0,
+    "price_output": 12.0,
+    "price_blended": 4.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:33.351006+00:00"
+  },
+  {
+    "model_name": "Z.ai: GLM 4.7 Flash",
+    "model_id": "z-ai/glm-4.7-flash",
+    "vendor": "z-ai",
+    "price_input": 0.06,
+    "price_output": 0.4,
+    "price_blended": 0.145,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:48.85557+00:00"
+  },
+  {
+    "model_name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "vendor": "nvidia",
+    "price_input": 0.1,
+    "price_output": 0.4,
+    "price_blended": 0.175,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Qwen: Qwen-Plus",
@@ -2684,37 +2644,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Sonnet 4.6",
-    "model_id": "anthropic/claude-sonnet-4.6",
-    "vendor": "anthropic",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:41.729726+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Haiku 4.5",
-    "model_id": "anthropic/claude-haiku-4.5",
-    "vendor": "anthropic",
-    "price_input": 1.0,
-    "price_output": 5.0,
-    "price_blended": 2.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Microsoft: Phi 4",
@@ -2728,91 +2658,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Amazon: Nova Pro 1.0",
-    "model_id": "amazon/nova-pro-v1",
-    "vendor": "amazon",
-    "price_input": 0.8,
-    "price_output": 3.2,
-    "price_blended": 1.4,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Cohere: Command R7B (12-2024)",
-    "model_id": "cohere/command-r7b-12-2024",
-    "vendor": "cohere",
-    "price_input": 0.0375,
-    "price_output": 0.15,
-    "price_blended": 0.0656,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax M2.5 (free)",
-    "model_id": "minimax/minimax-m2.5:free",
-    "vendor": "minimax",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax M2.5",
-    "model_id": "minimax/minimax-m2.5",
-    "vendor": "minimax",
-    "price_input": 0.15,
-    "price_output": 1.15,
-    "price_blended": 0.4,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:44.215773+00:00"
-  },
-  {
-    "model_name": "Mistral: Ministral 3 14B 2512",
-    "model_id": "mistralai/ministral-14b-2512",
+    "model_name": "Mistral Large 2411",
+    "model_id": "mistralai/mistral-large-2411",
     "vendor": "mistralai",
-    "price_input": 0.2,
-    "price_output": 0.2,
-    "price_blended": 0.2,
+    "price_input": 2.0,
+    "price_output": 6.0,
+    "price_blended": 3.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.2",
-    "model_id": "openai/gpt-5.2",
-    "vendor": "openai",
-    "price_input": 1.75,
-    "price_output": 14.0,
-    "price_blended": 4.8125,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:37.031664+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5.2 Chat",
@@ -2826,7 +2686,63 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "model_id": "qwen/qwen3.5-plus-02-15",
+    "vendor": "qwen",
+    "price_input": 0.26,
+    "price_output": 1.56,
+    "price_blended": 0.585,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.2",
+    "model_id": "openai/gpt-5.2",
+    "vendor": "openai",
+    "price_input": 1.75,
+    "price_output": 14.0,
+    "price_blended": 4.8125,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:35.886175+00:00"
+  },
+  {
+    "model_name": "MiniMax: MiniMax M2.5 (free)",
+    "model_id": "minimax/minimax-m2.5:free",
+    "vendor": "minimax",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
+  },
+  {
+    "model_name": "Cohere: Command R7B (12-2024)",
+    "model_id": "cohere/command-r7b-12-2024",
+    "vendor": "cohere",
+    "price_input": 0.0375,
+    "price_output": 0.15,
+    "price_blended": 0.0656,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen: Qwen3.5 397B A17B",
@@ -2840,21 +2756,65 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:40.904161+00:00"
+    "updated_at": "2026-05-22T07:41:39.161292+00:00"
   },
   {
-    "model_name": "Z.ai: GLM 4.6",
-    "model_id": "z-ai/glm-4.6",
-    "vendor": "z-ai",
-    "price_input": 0.43,
-    "price_output": 1.74,
-    "price_blended": 0.7575,
+    "model_name": "MiniMax: MiniMax M2.5",
+    "model_id": "minimax/minimax-m2.5",
+    "vendor": "minimax",
+    "price_input": 0.15,
+    "price_output": 1.15,
+    "price_blended": 0.4,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:51.12506+00:00"
+    "updated_at": "2026-05-22T07:41:41.91843+00:00"
+  },
+  {
+    "model_name": "Mistral: Ministral 3 14B 2512",
+    "model_id": "mistralai/ministral-14b-2512",
+    "vendor": "mistralai",
+    "price_input": 0.2,
+    "price_output": 0.2,
+    "price_blended": 0.2,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Baidu: ERNIE 4.5 21B A3B Thinking",
+    "model_id": "baidu/ernie-4.5-21b-a3b-thinking",
+    "vendor": "baidu",
+    "price_input": 0.07,
+    "price_output": 0.28,
+    "price_blended": 0.1225,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Amazon: Nova Lite 1.0",
+    "model_id": "amazon/nova-lite-v1",
+    "vendor": "amazon",
+    "price_input": 0.06,
+    "price_output": 0.24,
+    "price_blended": 0.105,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Meta: Llama 3.2 11B Vision Instruct",
@@ -2868,23 +2828,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
-    "model_id": "qwen/qwen3-next-80b-a3b-thinking",
-    "vendor": "qwen",
-    "price_input": 0.0975,
-    "price_output": 0.78,
-    "price_blended": 0.2681,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Elephant",
@@ -2913,36 +2857,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:43.106817+00:00"
-  },
-  {
-    "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
-    "model_id": "google/gemini-3-pro-image-preview",
-    "vendor": "google",
-    "price_input": 2.0,
-    "price_output": 12.0,
-    "price_blended": 4.5,
-    "aa_quality_index": null,
-    "categories": [
-      "image-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Opus 4.6 (Fast)",
-    "model_id": "anthropic/claude-opus-4.6-fast",
-    "vendor": "anthropic",
-    "price_input": 30.0,
-    "price_output": 150.0,
-    "price_blended": 60.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T07:41:41.00108+00:00"
   },
   {
     "model_name": "Mistral: Pixtral Large 2411",
@@ -2956,7 +2871,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:39.481248+00:00"
+    "updated_at": "2026-05-22T06:40:06.45561+00:00"
   },
   {
     "model_name": "xAI: Grok 3 Beta",
@@ -2973,46 +2888,18 @@
     "updated_at": "2026-05-15T06:00:25.806419+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-4 Turbo",
-    "model_id": "openai/gpt-4-turbo",
-    "vendor": "openai",
-    "price_input": 10.0,
-    "price_output": 30.0,
-    "price_blended": 15.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:29.985865+00:00"
-  },
-  {
-    "model_name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
-    "model_id": "nousresearch/hermes-2-pro-llama-3-8b",
-    "vendor": "nousresearch",
-    "price_input": 0.14,
-    "price_output": 0.14,
-    "price_blended": 0.14,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Z.ai: GLM 5.1",
-    "model_id": "z-ai/glm-5.1",
+    "model_name": "Z.ai: GLM 5",
+    "model_id": "z-ai/glm-5",
     "vendor": "z-ai",
-    "price_input": 0.98,
-    "price_output": 3.08,
-    "price_blended": 1.505,
+    "price_input": 0.6,
+    "price_output": 1.92,
+    "price_blended": 0.93,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:36.756277+00:00"
+    "updated_at": "2026-05-22T07:41:36.348371+00:00"
   },
   {
     "model_name": "Relace: Relace Apply 3",
@@ -3026,106 +2913,94 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "NVIDIA: Nemotron Nano 9B V2",
-    "model_id": "nvidia/nemotron-nano-9b-v2",
-    "vendor": "nvidia",
-    "price_input": 0.04,
-    "price_output": 0.16,
-    "price_blended": 0.07,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 Max",
-    "model_id": "qwen/qwen3-max",
-    "vendor": "qwen",
-    "price_input": 0.78,
-    "price_output": 3.9,
-    "price_blended": 1.56,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:54.150147+00:00"
-  },
-  {
-    "model_name": "Switchpoint Router",
-    "model_id": "switchpoint/router",
-    "vendor": "switchpoint",
-    "price_input": 0.85,
-    "price_output": 3.4,
-    "price_blended": 1.4875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Google: Lyria 3 Pro Preview",
-    "model_id": "google/lyria-3-pro-preview",
-    "vendor": "google",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "audio-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT Audio Mini",
-    "model_id": "openai/gpt-audio-mini",
-    "vendor": "openai",
-    "price_input": 0.6,
-    "price_output": 2.4,
-    "price_blended": 1.05,
-    "aa_quality_index": null,
-    "categories": [
-      "audio-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5.1-Codex-Max",
-    "model_id": "openai/gpt-5.1-codex-max",
-    "vendor": "openai",
-    "price_input": 1.25,
-    "price_output": 10.0,
-    "price_blended": 3.4375,
+    "model_name": "Anthropic: Claude Opus 4.6 (Fast)",
+    "model_id": "anthropic/claude-opus-4.6-fast",
+    "vendor": "anthropic",
+    "price_input": 30.0,
+    "price_output": 150.0,
+    "price_blended": 60.0,
     "aa_quality_index": null,
     "categories": [
       "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3.6 Plus",
-    "model_id": "qwen/qwen3.6-plus",
-    "vendor": "qwen",
-    "price_input": 0.325,
-    "price_output": 1.95,
-    "price_blended": 0.7313,
+    "model_name": "Baidu: ERNIE 4.5 VL 28B A3B",
+    "model_id": "baidu/ernie-4.5-vl-28b-a3b",
+    "vendor": "baidu",
+    "price_input": 0.14,
+    "price_output": 0.56,
+    "price_blended": 0.245,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:37.311662+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "model_id": "qwen/qwen3-235b-a22b-2507",
+    "vendor": "qwen",
+    "price_input": 0.071,
+    "price_output": 0.1,
+    "price_blended": 0.0782,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Perplexity: Sonar Deep Research",
+    "model_id": "perplexity/sonar-deep-research",
+    "vendor": "perplexity",
+    "price_input": 2.0,
+    "price_output": 8.0,
+    "price_blended": 3.5,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+    "model_id": "nousresearch/hermes-2-pro-llama-3-8b",
+    "vendor": "nousresearch",
+    "price_input": 0.14,
+    "price_output": 0.14,
+    "price_blended": 0.14,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "vendor": "qwen",
+    "price_input": 0.2,
+    "price_output": 0.88,
+    "price_blended": 0.37,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:54.37762+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 Max Thinking",
@@ -3141,56 +3016,124 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:49.449451+00:00"
+    "updated_at": "2026-05-22T07:41:43.781557+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
-    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
-    "vendor": "qwen",
-    "price_input": 0.2,
-    "price_output": 0.88,
-    "price_blended": 0.37,
+    "model_name": "Switchpoint Router",
+    "model_id": "switchpoint/router",
+    "vendor": "switchpoint",
+    "price_input": 0.85,
+    "price_output": 3.4,
+    "price_blended": 1.4875,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:58.268098+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
-    "model_id": "liquid/lfm-2.5-1.2b-thinking:free",
-    "vendor": "liquid",
+    "model_name": "Google: Lyria 3 Pro Preview",
+    "model_id": "google/lyria-3-pro-preview",
+    "vendor": "google",
     "price_input": 0.0,
     "price_output": 0.0,
     "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
-      "agent",
-      "general",
-      "reasoning",
+      "audio-gen",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
-    "model_name": "Mistral: Devstral Medium",
-    "model_id": "mistralai/devstral-medium",
-    "vendor": "mistralai",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
+    "model_name": "Qwen: Qwen3.6 Plus",
+    "model_id": "qwen/qwen3.6-plus",
+    "vendor": "qwen",
+    "price_input": 0.1794,
+    "price_output": 1.0732,
+    "price_blended": 0.4028,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:36.115353+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT Audio Mini",
+    "model_id": "openai/gpt-audio-mini",
+    "vendor": "openai",
+    "price_input": 0.6,
+    "price_output": 2.4,
+    "price_blended": 1.05,
+    "aa_quality_index": null,
+    "categories": [
+      "audio-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 Coder Next",
+    "model_id": "qwen/qwen3-coder-next",
+    "vendor": "qwen",
+    "price_input": 0.11,
+    "price_output": 0.8,
+    "price_blended": 0.2825,
     "aa_quality_index": null,
     "categories": [
       "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:20:00.191538+00:00"
+    "updated_at": "2026-05-22T07:41:49.777484+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5 Codex",
-    "model_id": "openai/gpt-5-codex",
+    "model_name": "Arcee AI: Trinity Large Preview",
+    "model_id": "arcee-ai/trinity-large-preview",
+    "vendor": "arcee-ai",
+    "price_input": 0.15,
+    "price_output": 0.45,
+    "price_blended": 0.225,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-21T06:17:52.522249+00:00"
+  },
+  {
+    "model_name": "AionLabs: Aion-1.0",
+    "model_id": "aion-labs/aion-1.0",
+    "vendor": "aion-labs",
+    "price_input": 4.0,
+    "price_output": 8.0,
+    "price_blended": 5.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "AionLabs: Aion-RP 1.0 (8B)",
+    "model_id": "aion-labs/aion-rp-llama-3.1-8b",
+    "vendor": "aion-labs",
+    "price_input": 0.8,
+    "price_output": 1.6,
+    "price_blended": 1.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.1-Codex-Max",
+    "model_id": "openai/gpt-5.1-codex-max",
     "vendor": "openai",
     "price_input": 1.25,
     "price_output": 10.0,
@@ -3201,7 +3144,36 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:41.455612+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 2.5 Flash",
+    "model_id": "google/gemini-2.5-flash",
+    "vendor": "google",
+    "price_input": 0.3,
+    "price_output": 2.5,
+    "price_blended": 0.85,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:54.606402+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5.2-Codex",
+    "model_id": "openai/gpt-5.2-codex",
+    "vendor": "openai",
+    "price_input": 1.75,
+    "price_output": 14.0,
+    "price_blended": 4.8125,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:37.303993+00:00"
   },
   {
     "model_name": "NVIDIA: Nemotron 3 Super (free)",
@@ -3215,7 +3187,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "Google: Gemma 3n 4B (free)",
@@ -3243,7 +3215,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Writer: Palmyra X5",
@@ -3257,22 +3229,68 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5.2-Codex",
-    "model_id": "openai/gpt-5.2-codex",
-    "vendor": "openai",
-    "price_input": 1.75,
-    "price_output": 14.0,
-    "price_blended": 4.8125,
+    "model_name": "StepFun: Step 3.5 Flash",
+    "model_id": "stepfun/step-3.5-flash",
+    "vendor": "stepfun",
+    "price_input": 0.09,
+    "price_output": 0.3,
+    "price_blended": 0.1425,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:44.953554+00:00"
+  },
+  {
+    "model_name": "DeepSeek: R1",
+    "model_id": "deepseek/deepseek-r1",
+    "vendor": "deepseek",
+    "price_input": 0.7,
+    "price_output": 2.5,
+    "price_blended": 1.15,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:50.004268+00:00"
+  },
+  {
+    "model_name": "Mistral: Devstral Medium",
+    "model_id": "mistralai/devstral-medium",
+    "vendor": "mistralai",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
     "aa_quality_index": null,
     "categories": [
       "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:38.695842+00:00"
+    "updated_at": "2026-05-22T07:41:55.989951+00:00"
+  },
+  {
+    "model_name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+    "model_id": "liquid/lfm-2.5-1.2b-thinking:free",
+    "vendor": "liquid",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Upstage: Solar Pro 3",
@@ -3286,21 +3304,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:54.424693+00:00"
-  },
-  {
-    "model_name": "Google: Gemini 2.5 Flash",
-    "model_id": "google/gemini-2.5-flash",
-    "vendor": "google",
-    "price_input": 0.3,
-    "price_output": 2.5,
-    "price_blended": 0.85,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:58.544679+00:00"
+    "updated_at": "2026-05-22T07:41:51.147248+00:00"
   },
   {
     "model_name": "Google: Gemini 3.1 Pro Preview Custom Tools",
@@ -3315,21 +3319,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
-  },
-  {
-    "model_name": "EssentialAI: Rnj 1 Instruct",
-    "model_id": "essentialai/rnj-1-instruct",
-    "vendor": "essentialai",
-    "price_input": 0.15,
-    "price_output": 0.15,
-    "price_blended": 0.15,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "Free Models Router",
@@ -3343,7 +3333,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:26.749507+00:00"
+    "updated_at": "2026-05-22T06:15:18.557983+00:00"
   },
   {
     "model_name": "ByteDance Seed: Seed 1.6 Flash",
@@ -3357,63 +3347,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Amazon: Nova 2 Lite",
-    "model_id": "amazon/nova-2-lite-v1",
-    "vendor": "amazon",
-    "price_input": 0.3,
-    "price_output": 2.5,
-    "price_blended": 0.85,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "ByteDance Seed: Seed 1.6",
-    "model_id": "bytedance-seed/seed-1.6",
-    "vendor": "bytedance-seed",
-    "price_input": 0.25,
-    "price_output": 2.0,
-    "price_blended": 0.6875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5 Mini",
-    "model_id": "openai/gpt-5-mini",
-    "vendor": "openai",
-    "price_input": 0.25,
-    "price_output": 2.0,
-    "price_blended": 0.6875,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:45.043385+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax M2.1",
-    "model_id": "minimax/minimax-m2.1",
-    "vendor": "minimax",
-    "price_input": 0.29,
-    "price_output": 0.95,
-    "price_blended": 0.455,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:45.869997+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5.2 Pro",
@@ -3427,63 +3361,77 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V3.2",
-    "model_id": "deepseek/deepseek-v3.2",
-    "vendor": "deepseek",
-    "price_input": 0.252,
-    "price_output": 0.378,
-    "price_blended": 0.2835,
+    "model_name": "EssentialAI: Rnj 1 Instruct",
+    "model_id": "essentialai/rnj-1-instruct",
+    "vendor": "essentialai",
+    "price_input": 0.15,
+    "price_output": 0.15,
+    "price_blended": 0.15,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:50.02587+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Meta: Llama 3.1 70B Instruct",
-    "model_id": "meta-llama/llama-3.1-70b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.4,
-    "price_output": 0.4,
-    "price_blended": 0.4,
+    "model_name": "Amazon: Nova 2 Lite",
+    "model_id": "amazon/nova-2-lite-v1",
+    "vendor": "amazon",
+    "price_input": 0.3,
+    "price_output": 2.5,
+    "price_blended": 0.85,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Mistral: Mistral Nemo",
-    "model_id": "mistralai/mistral-nemo",
-    "vendor": "mistralai",
-    "price_input": 0.02,
-    "price_output": 0.03,
-    "price_blended": 0.0225,
+    "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "model_id": "google/gemini-3-pro-image-preview",
+    "vendor": "google",
+    "price_input": 2.0,
+    "price_output": 12.0,
+    "price_blended": 4.5,
+    "aa_quality_index": null,
+    "categories": [
+      "image-gen",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "MiniMax: MiniMax-01",
+    "model_id": "minimax/minimax-01",
+    "vendor": "minimax",
+    "price_input": 0.2,
+    "price_output": 1.1,
+    "price_blended": 0.425,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V3.2 Speciale",
-    "model_id": "deepseek/deepseek-v3.2-speciale",
-    "vendor": "deepseek",
-    "price_input": 0.287,
-    "price_output": 0.431,
-    "price_blended": 0.323,
+    "model_name": "MiniMax: MiniMax M2.1",
+    "model_id": "minimax/minimax-m2.1",
+    "vendor": "minimax",
+    "price_input": 0.29,
+    "price_output": 0.95,
+    "price_blended": 0.455,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:51.674593+00:00"
+    "updated_at": "2026-05-22T07:41:44.006018+00:00"
   },
   {
     "model_name": "Mistral: Ministral 3 8B 2512",
@@ -3497,21 +3445,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Meta: Llama 3 70B Instruct",
-    "model_id": "meta-llama/llama-3-70b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.51,
-    "price_output": 0.74,
-    "price_blended": 0.5675,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "MoonshotAI: Kimi K2.5",
@@ -3525,7 +3459,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:39.807096+00:00"
+    "updated_at": "2026-05-22T07:41:38.234439+00:00"
   },
   {
     "model_name": "Mistral: Ministral 3 3B 2512",
@@ -3539,23 +3473,91 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "AllenAI: Olmo 3 32B Think",
-    "model_id": "allenai/olmo-3-32b-think",
-    "vendor": "allenai",
-    "price_input": 0.15,
-    "price_output": 0.5,
-    "price_blended": 0.2375,
+    "model_name": "DeepSeek: DeepSeek V3.2 Speciale",
+    "model_id": "deepseek/deepseek-v3.2-speciale",
+    "vendor": "deepseek",
+    "price_input": 0.287,
+    "price_output": 0.431,
+    "price_blended": 0.323,
     "aa_quality_index": null,
     "categories": [
-      "agent",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:49.085058+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.1 70B Instruct",
+    "model_id": "meta-llama/llama-3.1-70b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.4,
+    "price_output": 0.4,
+    "price_blended": 0.4,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Mistral: Mistral Nemo",
+    "model_id": "mistralai/mistral-nemo",
+    "vendor": "mistralai",
+    "price_input": 0.02,
+    "price_output": 0.03,
+    "price_blended": 0.0225,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "ByteDance Seed: Seed 1.6",
+    "model_id": "bytedance-seed/seed-1.6",
+    "vendor": "bytedance-seed",
+    "price_input": 0.25,
+    "price_output": 2.0,
+    "price_blended": 0.6875,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3 70B Instruct",
+    "model_id": "meta-llama/llama-3-70b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.51,
+    "price_output": 0.74,
+    "price_blended": 0.5675,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Sao10K: Llama 3.3 Euryale 70B",
+    "model_id": "sao10k/l3.3-euryale-70b",
+    "vendor": "sao10k",
+    "price_input": 0.65,
+    "price_output": 0.75,
+    "price_blended": 0.675,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Mistral: Mistral Small Creative",
@@ -3572,32 +3574,18 @@
     "updated_at": "2026-04-29T05:32:15.739744+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
-    "model_id": "qwen/qwen3-235b-a22b-2507",
-    "vendor": "qwen",
-    "price_input": 0.071,
-    "price_output": 0.1,
-    "price_blended": 0.0782,
+    "model_name": "Google: Gemini 2.5 Flash Lite",
+    "model_id": "google/gemini-2.5-flash-lite",
+    "vendor": "google",
+    "price_input": 0.1,
+    "price_output": 0.4,
+    "price_blended": 0.175,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-    "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
-    "vendor": "nvidia",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:40:03.975445+00:00"
   },
   {
     "model_name": "Deep Cogito: Cogito v2.1 671B",
@@ -3611,21 +3599,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Google: Gemini 2.5 Flash Lite",
-    "model_id": "google/gemini-2.5-flash-lite",
-    "vendor": "google",
-    "price_input": 0.1,
-    "price_output": 0.4,
-    "price_blended": 0.175,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:37.177872+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "OpenAI: GPT-5.1",
@@ -3639,35 +3613,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:39.246419+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax M1",
-    "model_id": "minimax/minimax-m1",
-    "vendor": "minimax",
-    "price_input": 0.4,
-    "price_output": 2.2,
-    "price_blended": 0.85,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Amazon: Nova Premier 1.0",
-    "model_id": "amazon/nova-premier-v1",
-    "vendor": "amazon",
-    "price_input": 2.5,
-    "price_output": 12.5,
-    "price_blended": 5.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:37.763057+00:00"
   },
   {
     "model_name": "ByteDance: UI-TARS 7B ",
@@ -3681,22 +3627,37 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Anthropic: Claude Sonnet 4",
-    "model_id": "anthropic/claude-sonnet-4",
-    "vendor": "anthropic",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
+    "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+    "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "vendor": "nvidia",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
-      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "AllenAI: Olmo 3 32B Think",
+    "model_id": "allenai/olmo-3-32b-think",
+    "vendor": "allenai",
+    "price_input": 0.15,
+    "price_output": 0.5,
+    "price_blended": 0.2375,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Mistral: Mistral Large 3 2512",
@@ -3710,21 +3671,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Mistral: Mistral Medium 3",
-    "model_id": "mistralai/mistral-medium-3",
-    "vendor": "mistralai",
-    "price_input": 0.4,
-    "price_output": 2.0,
-    "price_blended": 0.8,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:59.917543+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
@@ -3738,50 +3685,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
-    "model_id": "alfredpros/codellama-7b-instruct-solidity",
-    "vendor": "alfredpros",
-    "price_input": 0.8,
-    "price_output": 1.2,
-    "price_blended": 0.9,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Microsoft: Phi 4 Mini Instruct",
-    "model_id": "microsoft/phi-4-mini-instruct",
-    "vendor": "microsoft",
-    "price_input": 0.08,
-    "price_output": 0.35,
-    "price_blended": 0.1475,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Google: Gemma 2 27B",
-    "model_id": "google/gemma-2-27b-it",
-    "vendor": "google",
-    "price_input": 0.65,
-    "price_output": 0.65,
-    "price_blended": 0.65,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Arcee AI: Virtuoso Large",
@@ -3795,37 +3699,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "ReMM SLERP 13B",
-    "model_id": "undi95/remm-slerp-l2-13b",
-    "vendor": "undi95",
-    "price_input": 0.45,
-    "price_output": 0.65,
-    "price_blended": 0.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "OpenAI: o4 Mini",
-    "model_id": "openai/o4-mini",
-    "vendor": "openai",
-    "price_input": 1.1,
-    "price_output": 4.4,
-    "price_blended": 1.925,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:48.899393+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 30B A3B",
@@ -3839,21 +3713,133 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 32B",
-    "model_id": "qwen/qwen3-32b",
-    "vendor": "qwen",
+    "model_name": "Google: Gemma 2 27B",
+    "model_id": "google/gemma-2-27b-it",
+    "vendor": "google",
+    "price_input": 0.65,
+    "price_output": 0.65,
+    "price_blended": 0.65,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Microsoft: Phi 4 Mini Instruct",
+    "model_id": "microsoft/phi-4-mini-instruct",
+    "vendor": "microsoft",
     "price_input": 0.08,
-    "price_output": 0.28,
+    "price_output": 0.35,
+    "price_blended": 0.1475,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Z.ai: GLM 4.6",
+    "model_id": "z-ai/glm-4.6",
+    "vendor": "z-ai",
+    "price_input": 0.43,
+    "price_output": 1.74,
+    "price_blended": 0.7575,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:48.624608+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-4 Turbo",
+    "model_id": "openai/gpt-4-turbo",
+    "vendor": "openai",
+    "price_input": 10.0,
+    "price_output": 30.0,
+    "price_blended": 15.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:39:56.252353+00:00"
+  },
+  {
+    "model_name": "Mistral: Mistral Medium 3",
+    "model_id": "mistralai/mistral-medium-3",
+    "vendor": "mistralai",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:55.759998+00:00"
+  },
+  {
+    "model_name": "Cohere: Command R (08-2024)",
+    "model_id": "cohere/command-r-08-2024",
+    "vendor": "cohere",
+    "price_input": 0.15,
+    "price_output": 0.6,
+    "price_blended": 0.2625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Cohere: Command R+ (08-2024)",
+    "model_id": "cohere/command-r-plus-08-2024",
+    "vendor": "cohere",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-4o",
+    "model_id": "openai/gpt-4o",
+    "vendor": "openai",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:39:56.911372+00:00"
+  },
+  {
+    "model_name": "Mistral: Mistral 7B Instruct v0.1",
+    "model_id": "mistralai/mistral-7b-instruct-v0.1",
+    "vendor": "mistralai",
+    "price_input": 0.11,
+    "price_output": 0.19,
     "price_blended": 0.13,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o (2024-05-13)",
@@ -3867,21 +3853,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:29.698907+00:00"
+    "updated_at": "2026-05-22T06:39:55.97233+00:00"
   },
   {
-    "model_name": "IBM: Granite 4.0 Micro",
-    "model_id": "ibm-granite/granite-4.0-h-micro",
-    "vendor": "ibm-granite",
-    "price_input": 0.017,
-    "price_output": 0.112,
-    "price_blended": 0.0408,
+    "model_name": "OpenAI: GPT-4 Turbo Preview",
+    "model_id": "openai/gpt-4-turbo-preview",
+    "vendor": "openai",
+    "price_input": 10.0,
+    "price_output": 30.0,
+    "price_blended": 15.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-3.5 Turbo Instruct",
+    "model_id": "openai/gpt-3.5-turbo-instruct",
+    "vendor": "openai",
+    "price_input": 1.5,
+    "price_output": 2.0,
+    "price_blended": 1.625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "NVIDIA: Nemotron Nano 12B 2 VL",
@@ -3898,54 +3898,54 @@
     "updated_at": "2026-05-06T05:35:14.051125+00:00"
   },
   {
-    "model_name": "Mistral: Mistral Small 3.1 24B",
-    "model_id": "mistralai/mistral-small-3.1-24b-instruct",
-    "vendor": "mistralai",
-    "price_input": 0.351,
-    "price_output": 0.555,
-    "price_blended": 0.402,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4 Turbo Preview",
-    "model_id": "openai/gpt-4-turbo-preview",
+    "model_name": "OpenAI: GPT-4",
+    "model_id": "openai/gpt-4",
     "vendor": "openai",
-    "price_input": 10.0,
-    "price_output": 30.0,
-    "price_blended": 15.0,
+    "price_input": 30.0,
+    "price_output": 60.0,
+    "price_blended": 37.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:40:01.708954+00:00"
   },
   {
-    "model_name": "TheDrummer: Skyfall 36B V2",
-    "model_id": "thedrummer/skyfall-36b-v2",
-    "vendor": "thedrummer",
-    "price_input": 0.55,
-    "price_output": 0.8,
-    "price_blended": 0.6125,
+    "model_name": "IBM: Granite 4.0 Micro",
+    "model_id": "ibm-granite/granite-4.0-h-micro",
+    "vendor": "ibm-granite",
+    "price_input": 0.017,
+    "price_output": 0.112,
+    "price_blended": 0.0408,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
-    "model_name": "Baidu: ERNIE 4.5 21B A3B Thinking",
-    "model_id": "baidu/ernie-4.5-21b-a3b-thinking",
-    "vendor": "baidu",
-    "price_input": 0.07,
-    "price_output": 0.28,
-    "price_blended": 0.1225,
+    "model_name": "Amazon: Nova Premier 1.0",
+    "model_id": "amazon/nova-premier-v1",
+    "vendor": "amazon",
+    "price_input": 2.5,
+    "price_output": 12.5,
+    "price_blended": 5.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "OpenAI: o1-pro",
+    "model_id": "openai/o1-pro",
+    "vendor": "openai",
+    "price_input": 150.0,
+    "price_output": 600.0,
+    "price_blended": 262.5,
     "aa_quality_index": null,
     "categories": [
       "agent",
@@ -3953,23 +3953,36 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:51.605768+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
-    "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
-    "vendor": "qwen",
-    "price_input": 0.13,
-    "price_output": 1.56,
-    "price_blended": 0.4875,
+    "model_name": "Anthropic: Claude Haiku 4.5",
+    "model_id": "anthropic/claude-haiku-4.5",
+    "vendor": "anthropic",
+    "price_input": 1.0,
+    "price_output": 5.0,
+    "price_blended": 2.0,
     "aa_quality_index": null,
     "categories": [
-      "agent",
+      "coding",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "ReMM SLERP 13B",
+    "model_id": "undi95/remm-slerp-l2-13b",
+    "vendor": "undi95",
+    "price_input": 0.45,
+    "price_output": 0.65,
+    "price_blended": 0.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Qwen: Qwen2.5 VL 32B Instruct",
@@ -3986,48 +3999,32 @@
     "updated_at": "2026-04-17T16:10:19.800802+00:00"
   },
   {
-    "model_name": "OpenAI: o1-pro",
-    "model_id": "openai/o1-pro",
-    "vendor": "openai",
-    "price_input": 150.0,
-    "price_output": 600.0,
-    "price_blended": 262.5,
+    "model_name": "Mistral: Mistral Small 3.1 24B",
+    "model_id": "mistralai/mistral-small-3.1-24b-instruct",
+    "vendor": "mistralai",
+    "price_input": 0.351,
+    "price_output": 0.555,
+    "price_blended": 0.402,
     "aa_quality_index": null,
     "categories": [
-      "agent",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:54.971683+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5 Pro",
-    "model_id": "openai/gpt-5-pro",
-    "vendor": "openai",
-    "price_input": 15.0,
-    "price_output": 120.0,
-    "price_blended": 41.25,
+    "model_name": "TheDrummer: Skyfall 36B V2",
+    "model_id": "thedrummer/skyfall-36b-v2",
+    "vendor": "thedrummer",
+    "price_input": 0.55,
+    "price_output": 0.8,
+    "price_blended": 0.6125,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Tencent: Hunyuan A13B Instruct",
-    "model_id": "tencent/hunyuan-a13b-instruct",
-    "vendor": "tencent",
-    "price_input": 0.14,
-    "price_output": 0.57,
-    "price_blended": 0.2475,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "xAI: Grok 4 Fast",
@@ -4041,44 +4038,15 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:57.168542+00:00"
+    "updated_at": "2026-05-22T07:41:53.466234+00:00"
   },
   {
-    "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
-    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
     "vendor": "qwen",
     "price_input": 0.13,
-    "price_output": 0.52,
-    "price_blended": 0.2275,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:51.923133+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude 3.7 Sonnet",
-    "model_id": "anthropic/claude-3.7-sonnet",
-    "vendor": "anthropic",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:50.576544+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
-    "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
-    "vendor": "qwen",
-    "price_input": 0.26,
-    "price_output": 2.6,
-    "price_blended": 0.845,
+    "price_output": 1.56,
+    "price_blended": 0.4875,
     "aa_quality_index": null,
     "categories": [
       "agent",
@@ -4086,7 +4054,35 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Tencent: Hunyuan A13B Instruct",
+    "model_id": "tencent/hunyuan-a13b-instruct",
+    "vendor": "tencent",
+    "price_input": 0.14,
+    "price_output": 0.57,
+    "price_blended": 0.2475,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Morph: Morph V3 Large",
+    "model_id": "morph/morph-v3-large",
+    "vendor": "morph",
+    "price_input": 0.9,
+    "price_output": 1.9,
+    "price_blended": 1.15,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "TNG: DeepSeek R1T2 Chimera",
@@ -4116,77 +4112,66 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Morph: Morph V3 Large",
-    "model_id": "morph/morph-v3-large",
-    "vendor": "morph",
-    "price_input": 0.9,
-    "price_output": 1.9,
-    "price_blended": 1.15,
+    "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "vendor": "qwen",
+    "price_input": 0.26,
+    "price_output": 2.6,
+    "price_blended": 0.845,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "vendor": "qwen",
+    "price_input": 0.13,
+    "price_output": 0.52,
+    "price_blended": 0.2275,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:40:18.601426+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V3 0324",
-    "model_id": "deepseek/deepseek-chat-v3-0324",
-    "vendor": "deepseek",
-    "price_input": 0.2,
-    "price_output": 0.77,
-    "price_blended": 0.3425,
+    "model_name": "Anthropic: Claude 3.7 Sonnet",
+    "model_id": "anthropic/claude-3.7-sonnet",
+    "vendor": "anthropic",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
     "aa_quality_index": null,
     "categories": [
+      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T07:41:48.166369+00:00"
   },
   {
-    "model_name": "DeepSeek: DeepSeek V3",
-    "model_id": "deepseek/deepseek-chat",
-    "vendor": "deepseek",
-    "price_input": 0.32,
-    "price_output": 0.89,
-    "price_blended": 0.4625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Meta: Llama 3.3 70B Instruct",
-    "model_id": "meta-llama/llama-3.3-70b-instruct",
+    "model_name": "Meta: Llama 3 8B Instruct",
+    "model_id": "meta-llama/llama-3-8b-instruct",
     "vendor": "meta-llama",
-    "price_input": 0.1,
-    "price_output": 0.32,
-    "price_blended": 0.155,
+    "price_input": 0.04,
+    "price_output": 0.04,
+    "price_blended": 0.04,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Amazon: Nova Lite 1.0",
-    "model_id": "amazon/nova-lite-v1",
-    "vendor": "amazon",
-    "price_input": 0.06,
-    "price_output": 0.24,
-    "price_blended": 0.105,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Mistral: Codestral 2508",
@@ -4201,36 +4186,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "MythoMax 13B",
-    "model_id": "gryphe/mythomax-l2-13b",
-    "vendor": "gryphe",
-    "price_input": 0.06,
-    "price_output": 0.06,
-    "price_blended": 0.06,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 Coder Flash",
-    "model_id": "qwen/qwen3-coder-flash",
-    "vendor": "qwen",
-    "price_input": 0.195,
-    "price_output": 0.975,
-    "price_blended": 0.39,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
@@ -4244,7 +4200,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
@@ -4259,21 +4215,78 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:59.093885+00:00"
+    "updated_at": "2026-05-22T07:41:55.072239+00:00"
   },
   {
-    "model_name": "Qwen: Qwen Plus 0728 (thinking)",
-    "model_id": "qwen/qwen-plus-2025-07-28:thinking",
-    "vendor": "qwen",
-    "price_input": 0.26,
-    "price_output": 0.78,
-    "price_blended": 0.39,
+    "model_name": "MythoMax 13B",
+    "model_id": "gryphe/mythomax-l2-13b",
+    "vendor": "gryphe",
+    "price_input": 0.06,
+    "price_output": 0.06,
+    "price_blended": 0.06,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 Max",
+    "model_id": "qwen/qwen3-max",
+    "vendor": "qwen",
+    "price_input": 0.78,
+    "price_output": 3.9,
+    "price_blended": 1.56,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:47.700681+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5 Pro",
+    "model_id": "openai/gpt-5-pro",
+    "vendor": "openai",
+    "price_input": 15.0,
+    "price_output": 120.0,
+    "price_blended": 41.25,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 Coder Flash",
+    "model_id": "qwen/qwen3-coder-flash",
+    "vendor": "qwen",
+    "price_input": 0.195,
+    "price_output": 0.975,
+    "price_blended": 0.39,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.3 70B Instruct (free)",
+    "model_id": "meta-llama/llama-3.3-70b-instruct:free",
+    "vendor": "meta-llama",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Sao10k: Llama 3 Euryale 70B v2.1",
@@ -4287,26 +4300,71 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Qwen: Qwen Plus 0728",
-    "model_id": "qwen/qwen-plus-2025-07-28",
-    "vendor": "qwen",
-    "price_input": 0.26,
-    "price_output": 0.78,
-    "price_blended": 0.39,
+    "model_name": "OpenAI: GPT-5 Codex",
+    "model_id": "openai/gpt-5-codex",
+    "vendor": "openai",
+    "price_input": 1.25,
+    "price_output": 10.0,
+    "price_blended": 3.4375,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:39.621393+00:00"
+  },
+  {
+    "model_name": "MoonshotAI: Kimi K2 0905",
+    "model_id": "moonshotai/kimi-k2-0905",
+    "vendor": "moonshotai",
+    "price_input": 0.6,
+    "price_output": 2.5,
+    "price_blended": 1.075,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
+    "updated_at": "2026-05-22T07:41:47.933615+00:00"
   },
   {
-    "model_name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-    "model_id": "nvidia/nemotron-nano-9b-v2:free",
-    "vendor": "nvidia",
+    "model_name": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+    "vendor": "qwen",
+    "price_input": 0.08,
+    "price_output": 0.4,
+    "price_blended": 0.16,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Nous: Hermes 4 70B",
+    "model_id": "nousresearch/hermes-4-70b",
+    "vendor": "nousresearch",
+    "price_input": 0.13,
+    "price_output": 0.4,
+    "price_blended": 0.1975,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "OpenAI: gpt-oss-120b (free)",
+    "model_id": "openai/gpt-oss-120b:free",
+    "vendor": "openai",
     "price_input": 0.0,
     "price_output": 0.0,
     "price_blended": 0.0,
@@ -4315,21 +4373,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Meta: Llama 3 8B Instruct",
-    "model_id": "meta-llama/llama-3-8b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.04,
-    "price_output": 0.04,
-    "price_blended": 0.04,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "xAI: Grok Code Fast 1",
@@ -4344,77 +4388,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:51.948606+00:00"
-  },
-  {
-    "model_name": "Nous: Hermes 4 70B",
-    "model_id": "nousresearch/hermes-4-70b",
-    "vendor": "nousresearch",
-    "price_input": 0.13,
-    "price_output": 0.4,
-    "price_blended": 0.1975,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Nous: Hermes 4 405B",
-    "model_id": "nousresearch/hermes-4-405b",
-    "vendor": "nousresearch",
-    "price_input": 1.0,
-    "price_output": 3.0,
-    "price_blended": 1.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4o Audio",
-    "model_id": "openai/gpt-4o-audio-preview",
-    "vendor": "openai",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
-    "aa_quality_index": null,
-    "categories": [
-      "audio-gen",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-5 Chat",
-    "model_id": "openai/gpt-5-chat",
-    "vendor": "openai",
-    "price_input": 1.25,
-    "price_output": 10.0,
-    "price_blended": 3.4375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "OpenAI: gpt-oss-120b (free)",
-    "model_id": "openai/gpt-oss-120b:free",
-    "vendor": "openai",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T07:41:49.310005+00:00"
   },
   {
     "model_name": "OpenAI: gpt-oss-20b",
@@ -4428,21 +4402,22 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:56.070999+00:00"
+    "updated_at": "2026-05-22T07:41:52.54747+00:00"
   },
   {
-    "model_name": "MoonshotAI: Kimi K2 0905",
-    "model_id": "moonshotai/kimi-k2-0905",
-    "vendor": "moonshotai",
-    "price_input": 0.6,
-    "price_output": 2.5,
-    "price_blended": 1.075,
+    "model_name": "Anthropic: Claude Sonnet 4",
+    "model_id": "anthropic/claude-sonnet-4",
+    "vendor": "anthropic",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
     "aa_quality_index": null,
     "categories": [
+      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:50.299955+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Goliath 120B",
@@ -4459,6 +4434,20 @@
     "updated_at": "2026-05-11T06:05:00.494316+00:00"
   },
   {
+    "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "model_id": "deepseek/deepseek-v3.1-terminus",
+    "vendor": "deepseek",
+    "price_input": 0.27,
+    "price_output": 0.95,
+    "price_blended": 0.44,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:49.541318+00:00"
+  },
+  {
     "model_name": "Baidu: ERNIE 4.5 21B A3B",
     "model_id": "baidu/ernie-4.5-21b-a3b",
     "vendor": "baidu",
@@ -4470,50 +4459,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:27.564501+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
-    "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
-    "vendor": "qwen",
-    "price_input": 0.09,
-    "price_output": 0.3,
-    "price_blended": 0.1425,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "OpenAI: gpt-oss-20b (free)",
-    "model_id": "openai/gpt-oss-20b:free",
-    "vendor": "openai",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Opus 4.1",
-    "model_id": "anthropic/claude-opus-4.1",
-    "vendor": "anthropic",
-    "price_input": 15.0,
-    "price_output": 75.0,
-    "price_blended": 30.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Z.ai: GLM 4.5V",
@@ -4527,7 +4473,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:49.057997+00:00"
+    "updated_at": "2026-05-22T06:40:16.191746+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5 Mini",
+    "model_id": "openai/gpt-5-mini",
+    "vendor": "openai",
+    "price_input": 0.25,
+    "price_output": 2.0,
+    "price_blended": 0.6875,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:43.051285+00:00"
   },
   {
     "model_name": "OpenAI: gpt-oss-120b",
@@ -4541,21 +4501,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:48.624428+00:00"
+    "updated_at": "2026-05-22T07:41:46.553126+00:00"
   },
   {
-    "model_name": "OpenAI: GPT-5 Nano",
-    "model_id": "openai/gpt-5-nano",
+    "model_name": "OpenAI: gpt-oss-20b (free)",
+    "model_id": "openai/gpt-oss-20b:free",
     "vendor": "openai",
-    "price_input": 0.05,
-    "price_output": 0.4,
-    "price_blended": 0.1375,
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:53.046977+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Inception: Mercury",
@@ -4571,18 +4531,60 @@
     "updated_at": "2026-04-17T15:45:11.926987+00:00"
   },
   {
-    "model_name": "Z.ai: GLM 4.5",
-    "model_id": "z-ai/glm-4.5",
-    "vendor": "z-ai",
-    "price_input": 0.6,
-    "price_output": 2.2,
-    "price_blended": 1.0,
+    "model_name": "Tongyi DeepResearch 30B A3B",
+    "model_id": "alibaba/tongyi-deepresearch-30b-a3b",
+    "vendor": "alibaba",
+    "price_input": 0.09,
+    "price_output": 0.45,
+    "price_blended": 0.18,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen Plus 0728 (thinking)",
+    "model_id": "qwen/qwen-plus-2025-07-28:thinking",
+    "vendor": "qwen",
+    "price_input": 0.26,
+    "price_output": 0.78,
+    "price_blended": 0.39,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+    "model_id": "nvidia/nemotron-nano-9b-v2:free",
+    "vendor": "nvidia",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "NVIDIA: Nemotron Nano 9B V2",
+    "model_id": "nvidia/nemotron-nano-9b-v2",
+    "vendor": "nvidia",
+    "price_input": 0.04,
+    "price_output": 0.16,
+    "price_blended": 0.07,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Google: Gemma 3n 2B (free)",
@@ -4599,6 +4601,20 @@
     "updated_at": "2026-05-05T05:20:07.994047+00:00"
   },
   {
+    "model_name": "Z.ai: GLM 4.5",
+    "model_id": "z-ai/glm-4.5",
+    "vendor": "z-ai",
+    "price_input": 0.6,
+    "price_output": 2.2,
+    "price_blended": 1.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
     "model_name": "Z.ai: GLM 4.5 Air (free)",
     "model_id": "z-ai/glm-4.5-air:free",
     "vendor": "z-ai",
@@ -4610,53 +4626,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
-    "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-    "vendor": "qwen",
-    "price_input": 0.1495,
-    "price_output": 1.495,
-    "price_blended": 0.4859,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 Coder 480B A35B (free)",
-    "model_id": "qwen/qwen3-coder:free",
-    "vendor": "qwen",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Qwen: Qwen3 Coder 480B A35B",
-    "model_id": "qwen/qwen3-coder",
-    "vendor": "qwen",
-    "price_input": 0.22,
-    "price_output": 1.8,
-    "price_blended": 0.615,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Inception: Mercury Coder",
@@ -4673,18 +4643,60 @@
     "updated_at": "2026-04-17T15:45:15.120069+00:00"
   },
   {
-    "model_name": "Meta: Llama 3.2 1B Instruct",
-    "model_id": "meta-llama/llama-3.2-1b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.027,
-    "price_output": 0.201,
-    "price_blended": 0.0705,
+    "model_name": "Mistral: Mistral Small 3.2 24B",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+    "vendor": "mistralai",
+    "price_input": 0.075,
+    "price_output": 0.2,
+    "price_blended": 0.1062,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Mistral: Mistral Medium 3.1",
+    "model_id": "mistralai/mistral-medium-3.1",
+    "vendor": "mistralai",
+    "price_input": 0.4,
+    "price_output": 2.0,
+    "price_blended": 0.8,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:54.147858+00:00"
+  },
+  {
+    "model_name": "Nous: Hermes 4 405B",
+    "model_id": "nousresearch/hermes-4-405b",
+    "vendor": "nousresearch",
+    "price_input": 1.0,
+    "price_output": 3.0,
+    "price_blended": 1.5,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
+  },
+  {
+    "model_name": "OpenAI: GPT-5 Chat",
+    "model_id": "openai/gpt-5-chat",
+    "vendor": "openai",
+    "price_input": 1.25,
+    "price_output": 10.0,
+    "price_blended": 3.4375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.448915+00:00"
   },
   {
     "model_name": "Morph: Morph V3 Fast",
@@ -4698,7 +4710,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.2 1B Instruct",
+    "model_id": "meta-llama/llama-3.2-1b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.027,
+    "price_output": 0.201,
+    "price_blended": 0.0705,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-3.5 Turbo",
@@ -4712,66 +4738,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Mistral: Mistral Small 3.2 24B",
-    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-    "vendor": "mistralai",
-    "price_input": 0.075,
-    "price_output": 0.2,
-    "price_blended": 0.1062,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "OpenAI: o3 Pro",
-    "model_id": "openai/o3-pro",
-    "vendor": "openai",
-    "price_input": 20.0,
-    "price_output": 80.0,
-    "price_blended": 35.0,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:45.592687+00:00"
-  },
-  {
-    "model_name": "Anthropic: Claude Opus 4",
-    "model_id": "anthropic/claude-opus-4",
-    "vendor": "anthropic",
-    "price_input": 15.0,
-    "price_output": 75.0,
-    "price_blended": 30.0,
-    "aa_quality_index": null,
-    "categories": [
-      "coding",
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Google: Gemini 2.5 Pro",
-    "model_id": "google/gemini-2.5-pro",
-    "vendor": "google",
-    "price_input": 1.25,
-    "price_output": 10.0,
-    "price_blended": 3.4375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:19:47.796814+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "AllenAI: Olmo 2 32B Instruct",
@@ -4788,6 +4755,51 @@
     "updated_at": "2026-04-17T15:45:18.03195+00:00"
   },
   {
+    "model_name": "Anthropic: Claude Opus 4.1",
+    "model_id": "anthropic/claude-opus-4.1",
+    "vendor": "anthropic",
+    "price_input": 15.0,
+    "price_output": 75.0,
+    "price_blended": 30.0,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "vendor": "qwen",
+    "price_input": 0.09,
+    "price_output": 0.3,
+    "price_blended": 0.1425,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "vendor": "qwen",
+    "price_input": 0.1495,
+    "price_output": 1.495,
+    "price_blended": 0.4859,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
     "model_name": "TheDrummer: UnslopNemo 12B",
     "model_id": "thedrummer/unslopnemo-12b",
     "vendor": "thedrummer",
@@ -4799,21 +4811,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4.1 Nano",
-    "model_id": "openai/gpt-4.1-nano",
-    "vendor": "openai",
-    "price_input": 0.1,
-    "price_output": 0.4,
-    "price_blended": 0.175,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:31.431985+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Google: Gemini 2.5 Pro Preview 05-06",
@@ -4827,35 +4825,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Arcee AI: Spotlight",
-    "model_id": "arcee-ai/spotlight",
-    "vendor": "arcee-ai",
-    "price_input": 0.18,
-    "price_output": 0.18,
-    "price_blended": 0.18,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4.1 Mini",
-    "model_id": "openai/gpt-4.1-mini",
+    "model_name": "OpenAI: GPT-5 Nano",
+    "model_id": "openai/gpt-5-nano",
     "vendor": "openai",
-    "price_input": 0.4,
-    "price_output": 1.6,
-    "price_blended": 0.7,
+    "price_input": 0.05,
+    "price_output": 0.4,
+    "price_blended": 0.1375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:57.44175+00:00"
+    "updated_at": "2026-05-22T07:41:50.228745+00:00"
   },
   {
     "model_name": "Qwen: QwQ 32B",
@@ -4871,37 +4855,22 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:59.36795+00:00"
+    "updated_at": "2026-05-22T07:41:55.300407+00:00"
   },
   {
-    "model_name": "Arcee AI: Maestro Reasoning",
-    "model_id": "arcee-ai/maestro-reasoning",
-    "vendor": "arcee-ai",
-    "price_input": 0.9,
-    "price_output": 3.3,
-    "price_blended": 1.5,
+    "model_name": "Qwen: Qwen3 Coder 480B A35B (free)",
+    "model_id": "qwen/qwen3-coder:free",
+    "vendor": "qwen",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
     "aa_quality_index": null,
     "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Google: Gemma 3 4B",
-    "model_id": "google/gemma-3-4b-it",
-    "vendor": "google",
-    "price_input": 0.04,
-    "price_output": 0.08,
-    "price_blended": 0.05,
-    "aa_quality_index": null,
-    "categories": [
+      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Google: Gemma 3 4B (free)",
@@ -4929,51 +4898,50 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "DeepSeek: R1",
-    "model_id": "deepseek/deepseek-r1",
-    "vendor": "deepseek",
-    "price_input": 0.7,
-    "price_output": 2.5,
-    "price_blended": 1.15,
+    "model_name": "Qwen: Qwen3 Coder 480B A35B",
+    "model_id": "qwen/qwen3-coder",
+    "vendor": "qwen",
+    "price_input": 0.22,
+    "price_output": 1.8,
+    "price_blended": 0.615,
     "aa_quality_index": null,
     "categories": [
-      "agent",
+      "coding",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:52.772494+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Sao10K: Llama 3 8B Lunaris",
-    "model_id": "sao10k/l3-lunaris-8b",
-    "vendor": "sao10k",
+    "model_name": "MiniMax: MiniMax M1",
+    "model_id": "minimax/minimax-m1",
+    "vendor": "minimax",
+    "price_input": 0.4,
+    "price_output": 2.2,
+    "price_blended": 0.85,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Google: Gemma 3 4B",
+    "model_id": "google/gemma-3-4b-it",
+    "vendor": "google",
     "price_input": 0.04,
-    "price_output": 0.05,
-    "price_blended": 0.0425,
+    "price_output": 0.08,
+    "price_blended": 0.05,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4 (older v0314)",
-    "model_id": "openai/gpt-4-0314",
-    "vendor": "openai",
-    "price_input": 30.0,
-    "price_output": 60.0,
-    "price_blended": 37.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o-mini Search Preview",
@@ -4987,7 +4955,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o Search Preview",
@@ -5001,49 +4969,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Reka Flash 3",
-    "model_id": "rekaai/reka-flash-3",
-    "vendor": "rekaai",
-    "price_input": 0.1,
-    "price_output": 0.2,
-    "price_blended": 0.125,
+    "model_name": "Sao10K: Llama 3 8B Lunaris",
+    "model_id": "sao10k/l3-lunaris-8b",
+    "vendor": "sao10k",
+    "price_input": 0.04,
+    "price_output": 0.05,
+    "price_blended": 0.0425,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Google: Gemma 3 27B",
-    "model_id": "google/gemma-3-27b-it",
-    "vendor": "google",
-    "price_input": 0.08,
-    "price_output": 0.16,
-    "price_blended": 0.1,
+    "model_name": "OpenAI: GPT-4 (older v0314)",
+    "model_id": "openai/gpt-4-0314",
+    "vendor": "openai",
+    "price_input": 30.0,
+    "price_output": 60.0,
+    "price_blended": 37.5,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "Inflection: Inflection 3 Productivity",
-    "model_id": "inflection/inflection-3-productivity",
-    "vendor": "inflection",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
@@ -5057,29 +5011,30 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:35.455707+00:00"
+    "updated_at": "2026-05-22T06:40:03.128401+00:00"
   },
   {
-    "model_name": "Perplexity: Sonar Pro",
-    "model_id": "perplexity/sonar-pro",
-    "vendor": "perplexity",
-    "price_input": 3.0,
-    "price_output": 15.0,
-    "price_blended": 6.0,
+    "model_name": "Anthropic: Claude Opus 4",
+    "model_id": "anthropic/claude-opus-4",
+    "vendor": "anthropic",
+    "price_input": 15.0,
+    "price_output": 75.0,
+    "price_blended": 30.0,
     "aa_quality_index": null,
     "categories": [
+      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:43.240951+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "OpenAI: o3 Mini High",
-    "model_id": "openai/o3-mini-high",
+    "model_name": "OpenAI: o3 Pro",
+    "model_id": "openai/o3-pro",
     "vendor": "openai",
-    "price_input": 1.1,
-    "price_output": 4.4,
-    "price_blended": 1.925,
+    "price_input": 20.0,
+    "price_output": 80.0,
+    "price_blended": 35.0,
     "aa_quality_index": null,
     "categories": [
       "agent",
@@ -5087,15 +5042,29 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:55.523522+00:00"
+    "updated_at": "2026-05-22T07:41:43.552818+00:00"
   },
   {
-    "model_name": "Perplexity: Sonar Deep Research",
-    "model_id": "perplexity/sonar-deep-research",
-    "vendor": "perplexity",
-    "price_input": 2.0,
-    "price_output": 8.0,
-    "price_blended": 3.5,
+    "model_name": "Arcee AI: Spotlight",
+    "model_id": "arcee-ai/spotlight",
+    "vendor": "arcee-ai",
+    "price_input": 0.18,
+    "price_output": 0.18,
+    "price_blended": 0.18,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Arcee AI: Maestro Reasoning",
+    "model_id": "arcee-ai/maestro-reasoning",
+    "vendor": "arcee-ai",
+    "price_input": 0.9,
+    "price_output": 3.3,
+    "price_blended": 1.5,
     "aa_quality_index": null,
     "categories": [
       "agent",
@@ -5103,7 +5072,7 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Anthropic: Claude 3.7 Sonnet (thinking)",
@@ -5121,18 +5090,32 @@
     "updated_at": "2026-05-10T05:42:29.396016+00:00"
   },
   {
-    "model_name": "Llama Guard 3 8B",
-    "model_id": "meta-llama/llama-guard-3-8b",
-    "vendor": "meta-llama",
-    "price_input": 0.484,
-    "price_output": 0.03,
-    "price_blended": 0.3705,
+    "model_name": "Inflection: Inflection 3 Productivity",
+    "model_id": "inflection/inflection-3-productivity",
+    "vendor": "inflection",
+    "price_input": 2.5,
+    "price_output": 10.0,
+    "price_blended": 4.375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Google: Gemini 2.5 Pro",
+    "model_id": "google/gemini-2.5-pro",
+    "vendor": "google",
+    "price_input": 1.25,
+    "price_output": 10.0,
+    "price_blended": 3.4375,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:45.869267+00:00"
   },
   {
     "model_name": "Qwen: Qwen VL Plus",
@@ -5149,19 +5132,18 @@
     "updated_at": "2026-05-12T05:43:51.202046+00:00"
   },
   {
-    "model_name": "Anthropic: Claude 3.5 Haiku",
-    "model_id": "anthropic/claude-3.5-haiku",
-    "vendor": "anthropic",
-    "price_input": 0.8,
-    "price_output": 4.0,
-    "price_blended": 1.6,
+    "model_name": "Qwen: Qwen-Turbo",
+    "model_id": "qwen/qwen-turbo",
+    "vendor": "qwen",
+    "price_input": 0.0325,
+    "price_output": 0.13,
+    "price_blended": 0.0569,
     "aa_quality_index": null,
     "categories": [
-      "coding",
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:20:00.465126+00:00"
+    "updated_at": "2026-05-22T06:40:16.472821+00:00"
   },
   {
     "model_name": "Magnum v4 72B",
@@ -5175,29 +5157,15 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "AionLabs: Aion-1.0",
-    "model_id": "aion-labs/aion-1.0",
-    "vendor": "aion-labs",
-    "price_input": 4.0,
-    "price_output": 8.0,
-    "price_blended": 5.0,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "DeepSeek: R1 Distill Llama 70B",
-    "model_id": "deepseek/deepseek-r1-distill-llama-70b",
-    "vendor": "deepseek",
-    "price_input": 0.7,
-    "price_output": 0.8,
-    "price_blended": 0.725,
+    "model_name": "OpenAI: o4 Mini",
+    "model_id": "openai/o4-mini",
+    "vendor": "openai",
+    "price_input": 1.1,
+    "price_output": 4.4,
+    "price_blended": 1.925,
     "aa_quality_index": null,
     "categories": [
       "agent",
@@ -5205,21 +5173,21 @@
       "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:19.865176+00:00"
+    "updated_at": "2026-05-22T07:41:46.782527+00:00"
   },
   {
-    "model_name": "Perplexity: Sonar",
-    "model_id": "perplexity/sonar",
-    "vendor": "perplexity",
-    "price_input": 1.0,
-    "price_output": 1.0,
-    "price_blended": 1.0,
+    "model_name": "OpenAI: GPT-4.1 Mini",
+    "model_id": "openai/gpt-4.1-mini",
+    "vendor": "openai",
+    "price_input": 0.4,
+    "price_output": 1.6,
+    "price_blended": 0.7,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:42.952299+00:00"
+    "updated_at": "2026-05-22T07:41:53.697703+00:00"
   },
   {
     "model_name": "Qwen: Qwen VL Max",
@@ -5236,32 +5204,62 @@
     "updated_at": "2026-05-12T05:43:51.202046+00:00"
   },
   {
-    "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
-    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "model_name": "Qwen: Qwen3 32B",
+    "model_id": "qwen/qwen3-32b",
     "vendor": "qwen",
-    "price_input": 0.25,
-    "price_output": 0.75,
-    "price_blended": 0.375,
+    "price_input": 0.08,
+    "price_output": 0.28,
+    "price_blended": 0.13,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Qwen: Qwen-Turbo",
-    "model_id": "qwen/qwen-turbo",
-    "vendor": "qwen",
-    "price_input": 0.0325,
-    "price_output": 0.13,
-    "price_blended": 0.0569,
+    "model_name": "OpenAI: GPT-4.1 Nano",
+    "model_id": "openai/gpt-4.1-nano",
+    "vendor": "openai",
+    "price_input": 0.1,
+    "price_output": 0.4,
+    "price_blended": 0.175,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:45:49.348812+00:00"
+    "updated_at": "2026-05-22T06:40:00.58297+00:00"
+  },
+  {
+    "model_name": "Anthropic: Claude 3.5 Haiku",
+    "model_id": "anthropic/claude-3.5-haiku",
+    "vendor": "anthropic",
+    "price_input": 0.8,
+    "price_output": 4.0,
+    "price_blended": 1.6,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:56.22149+00:00"
+  },
+  {
+    "model_name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+    "model_id": "alfredpros/codellama-7b-instruct-solidity",
+    "vendor": "alfredpros",
+    "price_input": 0.8,
+    "price_output": 1.2,
+    "price_blended": 0.9,
+    "aa_quality_index": null,
+    "categories": [
+      "coding",
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen2.5 Coder 32B Instruct",
@@ -5276,35 +5274,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Mistral: Mistral Small 3",
-    "model_id": "mistralai/mistral-small-24b-instruct-2501",
-    "vendor": "mistralai",
-    "price_input": 0.05,
-    "price_output": 0.08,
-    "price_blended": 0.0575,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
-  },
-  {
-    "model_name": "MiniMax: MiniMax-01",
-    "model_id": "minimax/minimax-01",
-    "vendor": "minimax",
+    "model_name": "DeepSeek: DeepSeek V3 0324",
+    "model_id": "deepseek/deepseek-chat-v3-0324",
+    "vendor": "deepseek",
     "price_input": 0.2,
-    "price_output": 1.1,
-    "price_blended": 0.425,
+    "price_output": 0.77,
+    "price_blended": 0.3425,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:28.602703+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Qwen: Qwen2.5 7B Instruct",
@@ -5318,7 +5302,23 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "OpenAI: o3 Mini",
+    "model_id": "openai/o3-mini",
+    "vendor": "openai",
+    "price_input": 1.1,
+    "price_output": 4.4,
+    "price_blended": 1.925,
+    "aa_quality_index": null,
+    "categories": [
+      "agent",
+      "general",
+      "reasoning",
+      "text"
+    ],
+    "updated_at": "2026-05-22T07:41:51.378027+00:00"
   },
   {
     "model_name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
@@ -5335,20 +5335,18 @@
     "updated_at": "2026-05-07T05:37:37.409981+00:00"
   },
   {
-    "model_name": "OpenAI: o3 Mini",
-    "model_id": "openai/o3-mini",
-    "vendor": "openai",
-    "price_input": 1.1,
-    "price_output": 4.4,
-    "price_blended": 1.925,
+    "model_name": "Mistral: Mistral Small 3",
+    "model_id": "mistralai/mistral-small-24b-instruct-2501",
+    "vendor": "mistralai",
+    "price_input": 0.05,
+    "price_output": 0.08,
+    "price_blended": 0.0575,
     "aa_quality_index": null,
     "categories": [
-      "agent",
       "general",
-      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T06:19:54.697268+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "TheDrummer: Rocinante 12B",
@@ -5362,23 +5360,7 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "DeepSeek: R1 Distill Qwen 32B",
-    "model_id": "deepseek/deepseek-r1-distill-qwen-32b",
-    "vendor": "deepseek",
-    "price_input": 0.29,
-    "price_output": 0.29,
-    "price_blended": 0.29,
-    "aa_quality_index": null,
-    "categories": [
-      "agent",
-      "general",
-      "reasoning",
-      "text"
-    ],
-    "updated_at": "2026-05-16T06:20:01.840612+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "Mancer: Weaver (alpha)",
@@ -5392,105 +5374,109 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Inflection: Inflection 3 Pi",
-    "model_id": "inflection/inflection-3-pi",
-    "vendor": "inflection",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "Meta: Llama 3.2 3B Instruct (free)",
-    "model_id": "meta-llama/llama-3.2-3b-instruct:free",
+    "model_name": "Llama Guard 3 8B",
+    "model_id": "meta-llama/llama-guard-3-8b",
     "vendor": "meta-llama",
-    "price_input": 0.0,
-    "price_output": 0.0,
-    "price_blended": 0.0,
+    "price_input": 0.484,
+    "price_output": 0.03,
+    "price_blended": 0.3705,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Meta: Llama 3.2 3B Instruct",
-    "model_id": "meta-llama/llama-3.2-3b-instruct",
-    "vendor": "meta-llama",
-    "price_input": 0.0509,
-    "price_output": 0.335,
-    "price_blended": 0.1219,
+    "model_name": "Reka Flash 3",
+    "model_id": "rekaai/reka-flash-3",
+    "vendor": "rekaai",
+    "price_input": 0.1,
+    "price_output": 0.2,
+    "price_blended": 0.125,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Qwen2.5 72B Instruct",
-    "model_id": "qwen/qwen-2.5-72b-instruct",
+    "model_name": "Google: Gemma 3 27B",
+    "model_id": "google/gemma-3-27b-it",
+    "vendor": "google",
+    "price_input": 0.08,
+    "price_output": 0.16,
+    "price_blended": 0.1,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
+  },
+  {
+    "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
     "vendor": "qwen",
-    "price_input": 0.36,
-    "price_output": 0.4,
-    "price_blended": 0.37,
+    "price_input": 0.25,
+    "price_output": 0.75,
+    "price_blended": 0.375,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
-    "model_name": "Cohere: Command R+ (08-2024)",
-    "model_id": "cohere/command-r-plus-08-2024",
-    "vendor": "cohere",
-    "price_input": 2.5,
-    "price_output": 10.0,
-    "price_blended": 4.375,
+    "model_name": "Perplexity: Sonar Pro",
+    "model_id": "perplexity/sonar-pro",
+    "vendor": "perplexity",
+    "price_input": 3.0,
+    "price_output": 15.0,
+    "price_blended": 6.0,
     "aa_quality_index": null,
     "categories": [
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:40:10.12304+00:00"
   },
   {
-    "model_name": "Cohere: Command R (08-2024)",
-    "model_id": "cohere/command-r-08-2024",
-    "vendor": "cohere",
-    "price_input": 0.15,
-    "price_output": 0.6,
-    "price_blended": 0.2625,
+    "model_name": "OpenAI: o3 Mini High",
+    "model_id": "openai/o3-mini-high",
+    "vendor": "openai",
+    "price_input": 1.1,
+    "price_output": 4.4,
+    "price_blended": 1.925,
     "aa_quality_index": null,
     "categories": [
+      "agent",
       "general",
+      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T07:41:52.092566+00:00"
   },
   {
-    "model_name": "Nous: Hermes 3 405B Instruct",
-    "model_id": "nousresearch/hermes-3-llama-3.1-405b",
-    "vendor": "nousresearch",
-    "price_input": 1.0,
-    "price_output": 1.0,
-    "price_blended": 1.0,
+    "model_name": "DeepSeek: R1 Distill Llama 70B",
+    "model_id": "deepseek/deepseek-r1-distill-llama-70b",
+    "vendor": "deepseek",
+    "price_input": 0.7,
+    "price_output": 0.8,
+    "price_blended": 0.725,
     "aa_quality_index": null,
     "categories": [
+      "agent",
       "general",
+      "reasoning",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:39:45.314899+00:00"
   },
   {
     "model_name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
@@ -5504,7 +5490,21 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "DeepSeek: DeepSeek V3",
+    "model_id": "deepseek/deepseek-chat",
+    "vendor": "deepseek",
+    "price_input": 0.32,
+    "price_output": 0.89,
+    "price_blended": 0.4625,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "Nous: Hermes 3 70B Instruct",
@@ -5518,7 +5518,49 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Perplexity: Sonar",
+    "model_id": "perplexity/sonar",
+    "vendor": "perplexity",
+    "price_input": 1.0,
+    "price_output": 1.0,
+    "price_blended": 1.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:40:09.840528+00:00"
+  },
+  {
+    "model_name": "Nous: Hermes 3 405B Instruct",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b",
+    "vendor": "nousresearch",
+    "price_input": 1.0,
+    "price_output": 1.0,
+    "price_blended": 1.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.3 70B Instruct",
+    "model_id": "meta-llama/llama-3.3-70b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.1,
+    "price_output": 0.32,
+    "price_blended": 0.155,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:19.901116+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o-mini (2024-07-18)",
@@ -5532,54 +5574,12 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
-    "model_name": "Mistral: Mistral 7B Instruct v0.1",
-    "model_id": "mistralai/mistral-7b-instruct-v0.1",
-    "vendor": "mistralai",
-    "price_input": 0.11,
-    "price_output": 0.19,
-    "price_blended": 0.13,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4",
-    "model_id": "openai/gpt-4",
-    "vendor": "openai",
-    "price_input": 30.0,
-    "price_output": 60.0,
-    "price_blended": 37.5,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:45:32.864043+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-3.5 Turbo Instruct",
-    "model_id": "openai/gpt-3.5-turbo-instruct",
-    "vendor": "openai",
-    "price_input": 1.5,
-    "price_output": 2.0,
-    "price_blended": 1.625,
-    "aa_quality_index": null,
-    "categories": [
-      "general",
-      "text"
-    ],
-    "updated_at": "2026-05-16T05:32:29.20474+00:00"
-  },
-  {
-    "model_name": "OpenAI: GPT-4o",
-    "model_id": "openai/gpt-4o",
-    "vendor": "openai",
+    "model_name": "Inflection: Inflection 3 Pi",
+    "model_id": "inflection/inflection-3-pi",
+    "vendor": "inflection",
     "price_input": 2.5,
     "price_output": 10.0,
     "price_blended": 4.375,
@@ -5588,7 +5588,35 @@
       "general",
       "text"
     ],
-    "updated_at": "2026-05-16T06:20:01.289222+00:00"
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.2 3B Instruct (free)",
+    "model_id": "meta-llama/llama-3.2-3b-instruct:free",
+    "vendor": "meta-llama",
+    "price_input": 0.0,
+    "price_output": 0.0,
+    "price_blended": 0.0,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
+  },
+  {
+    "model_name": "Meta: Llama 3.2 3B Instruct",
+    "model_id": "meta-llama/llama-3.2-3b-instruct",
+    "vendor": "meta-llama",
+    "price_input": 0.0509,
+    "price_output": 0.335,
+    "price_blended": 0.1219,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   },
   {
     "model_name": "OpenAI: GPT-4o (extended)",
@@ -5603,5 +5631,19 @@
       "text"
     ],
     "updated_at": "2026-04-17T16:10:20.752034+00:00"
+  },
+  {
+    "model_name": "Qwen2.5 72B Instruct",
+    "model_id": "qwen/qwen-2.5-72b-instruct",
+    "vendor": "qwen",
+    "price_input": 0.36,
+    "price_output": 0.4,
+    "price_blended": 0.37,
+    "aa_quality_index": null,
+    "categories": [
+      "general",
+      "text"
+    ],
+    "updated_at": "2026-05-22T06:15:20.286127+00:00"
   }
 ]

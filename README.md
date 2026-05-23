@@ -1,6 +1,6 @@
 # TokenDealHub Price Data
 
-Last updated: 2026-05-16
+Last updated: 2026-05-23
 
 This repository contains AI model price data tracked by [TokenDealHub](https://tokendealhub.com/).
 
@@ -10,10 +10,10 @@ This repository contains AI model price data tracked by [TokenDealHub](https://t
 |------|-------|--------|--------------|---------------|----------------|
 | 1 | inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | $0.00 | $0.00 |
 | 2 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | $0.00 | $0.00 |
-| 3 | Poolside: Laguna XS.2 (free) | poolside | $0.00 | $0.00 | $0.00 |
-| 4 | Poolside: Laguna M.1 (free) | poolside | $0.00 | $0.00 | $0.00 |
-| 5 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
-| 6 | NVIDIA: Nemotron 3 Nano Omni (free) | nvidia | $0.00 | $0.00 | $0.00 |
+| 3 | NVIDIA: Nemotron 3 Nano Omni (free) | nvidia | $0.00 | $0.00 | $0.00 |
+| 4 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
+| 5 | Poolside: Laguna M.1 (free) | poolside | $0.00 | $0.00 | $0.00 |
+| 6 | Poolside: Laguna XS.2 (free) | poolside | $0.00 | $0.00 | $0.00 |
 | 7 | inclusionAI: Ling-2.6-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
 | 8 | Google: Gemma 3 27B (free) | google | $0.00 | $0.00 | $0.00 |
 | 9 | Tencent: Hy3 preview (free) | tencent | $0.00 | $0.00 | $0.00 |
@@ -21,8 +21,8 @@ This repository contains AI model price data tracked by [TokenDealHub](https://t
 | 11 | DeepSeek: DeepSeek V4 Flash (free) | deepseek | $0.00 | $0.00 | $0.00 |
 | 12 | Baidu: Qianfan-OCR-Fast (free) | baidu | $0.00 | $0.00 | $0.00 |
 | 13 | Google: Gemma 4 26B A4B  (free) | google | $0.00 | $0.00 | $0.00 |
-| 14 | Google: Gemma 4 31B (free) | google | $0.00 | $0.00 | $0.00 |
-| 15 | Arcee AI: Trinity Large Thinking (free) | arcee-ai | $0.00 | $0.00 | $0.00 |
+| 14 | Arcee AI: Trinity Large Thinking (free) | arcee-ai | $0.00 | $0.00 | $0.00 |
+| 15 | Google: Gemma 4 31B (free) | google | $0.00 | $0.00 | $0.00 |
 | 16 | Google: Lyria 3 Clip Preview | google | $0.00 | $0.00 | $0.00 |
 | 17 | Arcee AI: Trinity Large Preview (free) | arcee-ai | $0.00 | $0.00 | $0.00 |
 | 18 | Venice: Uncensored (free) | cognitivecomputations | $0.00 | $0.00 | $0.00 |
@@ -46,8 +46,8 @@ Total active deals: 8
 
 ## Subscription Plans
 
-Total plans: 66
-Categories: 26 personal, 31 coding, 9 enterprise
+Total plans: 70
+Categories: 26 personal, 35 coding, 9 enterprise
 
 ### USD Plans
 
@@ -72,8 +72,8 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | Windsurf Free | Windsurf | coding | - | - | Developers / Programming enthusiasts |
 | GLM Coding Plan Lite | Z.AI | coding | $18.00 | $144.00 | Individual developers / Lightweight task |
 | Windsurf Pro | Windsurf | coding | $20.00 | $200.00 | Developers / Programmers |
-| Windsurf Max | Windsurf | coding | $200.00 | $2000.00 | Heavy AI users / Professional developers |
 | GLM Coding Plan Pro | Z.AI | coding | $72.00 | $576.00 | Professional developers / Complex tasks |
+| Windsurf Max | Windsurf | coding | $200.00 | $2000.00 | Heavy AI users / Professional developers |
 | GLM Coding Plan Max | Z.AI | coding | $160.00 | $1280.00 | Advanced developers / High-volume usage |
 | Windsurf Teams | Windsurf | enterprise | $40.00 | $400.00 | Enterprise users / Team collaboration |
 | Kiro Free | Kiro (AWS) | personal | - | - | Developers / Programming enthusiasts |
@@ -113,8 +113,12 @@ Categories: 26 personal, 31 coding, 9 enterprise
 | MiMo Token Plan Pro | Xiaomi Mimo | coding | ¥329.00 | - | Professional developers |
 | MiMo Token Plan Max | Xiaomi Mimo | coding | ¥659.00 | - | Programming enthusiasts |
 | Token Plan Lite | Tencent | coding | ¥39.00 | - | Individual developers / Experience users |
+| Hy Lite | Tencent | coding | ¥28.00 | - | Individual developers / First-time users |
 | Token Plan Standard | Tencent | coding | ¥99.00 | - | Individual developers / Basic usage |
+| Hy Standard | Tencent | coding | ¥78.00 | - | Individual developers / Basic usage |
+| Hy Pro | Tencent | coding | ¥238.00 | - | High-frequency developers / Efficiency e |
 | Token Plan Pro | Tencent | coding | ¥299.00 | - | High-frequency developers / Efficiency e |
+| Hy Max | Tencent | coding | ¥468.00 | - | Heavy AI users / Productivity users |
 | Token Plan Max | Tencent | coding | ¥599.00 | - | Heavy AI users / Productivity users |
 | Qianfan Coding Plan Lite | Baidu | coding | ¥49.00 | - | Individual developers / Entry-level user |
 | Qianfan Coding Plan Pro | Baidu | coding | ¥149.00 | - | Professional developers |
@@ -130,21 +134,21 @@ Categories: 26 personal, 31 coding, 9 enterprise
 
 | Model | Vendor | Blended Price ($/1M) | AA Quality Index |
 |-------|--------|---------------------|------------------|
-| inclusionAI: Ring-2.6-1T | inclusionai | $0.21 | N/A |
-| Baidu: Qianfan-OCR-Fast | baidu | $1.21 | N/A |
+| Qwen: Qwen3.7 Max | qwen | $3.75 | 56.6 |
+| xAI: Grok Build 0.1 | x-ai | $1.25 | N/A |
+| Google: Gemini 3.5 Flash | google | $3.38 | 55.3 |
+| inclusionAI: Ring-2.6-1T | inclusionai | $0.21 | 38.5 |
 | DeepSeek: DeepSeek V4 Flash (free) | deepseek | $0.00 | N/A |
-| Anthropic: Claude Opus 4.7 (Fast) | anthropic | $60.00 | N/A |
 | Perceptron: Perceptron Mk1 | perceptron | $0.49 | N/A |
-| inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | N/A |
+| Anthropic: Claude Opus 4.7 (Fast) | anthropic | $60.00 | N/A |
 | Tencent: Hy3 preview | tencent | $0.11 | N/A |
-| inclusionAI: Ling-2.6-1T | inclusionai | $0.85 | 33.6 |
+| inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | N/A |
+| inclusionAI: Ling-2.6-1T | inclusionai | $0.21 | 33.6 |
 | Google: Gemini 3.1 Flash Lite | google | $0.56 | N/A |
 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | N/A |
 | OpenAI: GPT Chat Latest | openai | $11.25 | N/A |
 | Mistral: Mistral Medium 3.5 | mistralai | $3.00 | 39.2 |
-| IBM: Granite 4.1 8B | ibm-granite | $0.06 | N/A |
 | Owl Alpha | openrouter | $0.00 | N/A |
-| xAI: Grok 4.3 | x-ai | $1.56 | 53.2 |
 
 ---
-Data generated by TokenDealHub on 2026-05-16
+Data generated by TokenDealHub on 2026-05-23
