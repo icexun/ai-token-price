@@ -1,16 +1,72 @@
 {
-  "date": "2026-05-23",
-  "updated_at": "2026-05-23T00:41:20.958091Z",
-  "total_new_models": 43,
+  "date": "2026-05-30",
+  "updated_at": "2026-05-30T00:54:53.306610Z",
+  "total_new_models": 21,
   "models": [
+    {
+      "model_name": "Anthropic: Claude Opus 4.8",
+      "model_id": "anthropic/claude-opus-4.8",
+      "vendor": "anthropic",
+      "price": {
+        "input": 5.0,
+        "output": 25.0,
+        "blended": 10.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": 61.4,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-05-27T18:04:51+00:00"
+    },
+    {
+      "model_name": "StepFun: Step 3.7 Flash",
+      "model_id": "stepfun/step-3.7-flash",
+      "vendor": "stepfun",
+      "price": {
+        "input": 0.2,
+        "output": 1.15,
+        "blended": 0.4375
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 256000,
+      "published_at": "2026-05-28T16:17:49+00:00"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.8 (Fast)",
+      "model_id": "anthropic/claude-opus-4.8-fast",
+      "vendor": "anthropic",
+      "price": {
+        "input": 10.0,
+        "output": 50.0,
+        "blended": 20.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-05-27T20:28:23+00:00"
+    },
     {
       "model_name": "Qwen: Qwen3.7 Max",
       "model_id": "qwen/qwen3.7-max",
       "vendor": "qwen",
       "price": {
-        "input": 2.5,
-        "output": 7.5,
-        "blended": 3.75
+        "input": 1.25,
+        "output": 3.75,
+        "blended": 1.875
       },
       "aa_quality_index": null,
       "aa_intelligence_index": 56.6,
@@ -76,22 +132,23 @@
       "published_at": "2026-05-08T13:37:20+00:00"
     },
     {
-      "model_name": "DeepSeek: DeepSeek V4 Flash (free)",
-      "model_id": "deepseek/deepseek-v4-flash:free",
-      "vendor": "deepseek",
+      "model_name": "Anthropic: Claude Opus 4.7 (Fast)",
+      "model_id": "anthropic/claude-opus-4.7-fast",
+      "vendor": "anthropic",
       "price": {
-        "input": 0.0,
-        "output": 0.0,
-        "blended": 0.0
+        "input": 30.0,
+        "output": 150.0,
+        "blended": 60.0
       },
       "aa_quality_index": null,
       "aa_intelligence_index": null,
       "categories": [
+        "coding",
         "general",
         "text"
       ],
-      "context_length": 1048576,
-      "published_at": "2026-04-24T03:17:46+00:00"
+      "context_length": 1000000,
+      "published_at": "2026-05-12T19:10:11+00:00"
     },
     {
       "model_name": "Perceptron: Perceptron Mk1",
@@ -112,43 +169,6 @@
       "published_at": "2026-05-12T14:43:49+00:00"
     },
     {
-      "model_name": "Anthropic: Claude Opus 4.7 (Fast)",
-      "model_id": "anthropic/claude-opus-4.7-fast",
-      "vendor": "anthropic",
-      "price": {
-        "input": 30.0,
-        "output": 150.0,
-        "blended": 60.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "coding",
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-05-12T19:10:11+00:00"
-    },
-    {
-      "model_name": "Tencent: Hy3 preview",
-      "model_id": "tencent/hy3-preview",
-      "vendor": "tencent",
-      "price": {
-        "input": 0.066,
-        "output": 0.26,
-        "blended": 0.1145
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-22T17:15:50+00:00"
-    },
-    {
       "model_name": "inclusionAI: Ring-2.6-1T (free)",
       "model_id": "inclusionai/ring-2.6-1t:free",
       "vendor": "inclusionai",
@@ -165,24 +185,6 @@
       ],
       "context_length": 262144,
       "published_at": "2026-05-08T13:37:20+00:00"
-    },
-    {
-      "model_name": "inclusionAI: Ling-2.6-1T",
-      "model_id": "inclusionai/ling-2.6-1t",
-      "vendor": "inclusionai",
-      "price": {
-        "input": 0.075,
-        "output": 0.625,
-        "blended": 0.2125
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 33.6,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-23T12:43:58+00:00"
     },
     {
       "model_name": "Google: Gemini 3.1 Flash Lite",
@@ -257,42 +259,6 @@
       "published_at": "2026-04-30T17:33:59+00:00"
     },
     {
-      "model_name": "Owl Alpha",
-      "model_id": "openrouter/owl-alpha",
-      "vendor": "openrouter",
-      "price": {
-        "input": 0.0,
-        "output": 0.0,
-        "blended": 0.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048756,
-      "published_at": "2026-04-28T17:49:49+00:00"
-    },
-    {
-      "model_name": "IBM: Granite 4.1 8B",
-      "model_id": "ibm-granite/granite-4.1-8b",
-      "vendor": "ibm-granite",
-      "price": {
-        "input": 0.05,
-        "output": 0.1,
-        "blended": 0.0625
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 131072,
-      "published_at": "2026-04-30T19:24:31+00:00"
-    },
-    {
       "model_name": "xAI: Grok 4.3",
       "model_id": "x-ai/grok-4.3",
       "vendor": "x-ai",
@@ -311,13 +277,13 @@
       "published_at": "2026-04-30T23:30:21+00:00"
     },
     {
-      "model_name": "Poolside: Laguna M.1 (free)",
-      "model_id": "poolside/laguna-m.1:free",
-      "vendor": "poolside",
+      "model_name": "IBM: Granite 4.1 8B",
+      "model_id": "ibm-granite/granite-4.1-8b",
+      "vendor": "ibm-granite",
       "price": {
-        "input": 0.0,
-        "output": 0.0,
-        "blended": 0.0
+        "input": 0.05,
+        "output": 0.1,
+        "blended": 0.0625
       },
       "aa_quality_index": null,
       "aa_intelligence_index": null,
@@ -326,333 +292,7 @@
         "text"
       ],
       "context_length": 131072,
-      "published_at": "2026-04-28T15:01:44+00:00"
-    },
-    {
-      "model_name": "Poolside: Laguna XS.2 (free)",
-      "model_id": "poolside/laguna-xs.2:free",
-      "vendor": "poolside",
-      "price": {
-        "input": 0.0,
-        "output": 0.0,
-        "blended": 0.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 131072,
-      "published_at": "2026-04-28T15:20:04+00:00"
-    },
-    {
-      "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
-      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-      "vendor": "nvidia",
-      "price": {
-        "input": 0.0,
-        "output": 0.0,
-        "blended": 0.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "agent",
-        "general",
-        "reasoning",
-        "text"
-      ],
-      "context_length": 256000,
-      "published_at": "2026-04-28T16:18:15+00:00"
-    },
-    {
-      "model_name": "OpenAI GPT Latest",
-      "model_id": "~openai/gpt-latest",
-      "vendor": "~openai",
-      "price": {
-        "input": 5.0,
-        "output": 30.0,
-        "blended": 11.25
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1050000,
-      "published_at": "2026-04-27T19:32:14+00:00"
-    },
-    {
-      "model_name": "MoonshotAI Kimi Latest",
-      "model_id": "~moonshotai/kimi-latest",
-      "vendor": "~moonshotai",
-      "price": {
-        "input": 0.73,
-        "output": 3.49,
-        "blended": 1.42
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-27T19:33:48+00:00"
-    },
-    {
-      "model_name": "Google Gemini Flash Latest",
-      "model_id": "~google/gemini-flash-latest",
-      "vendor": "~google",
-      "price": {
-        "input": 1.5,
-        "output": 9.0,
-        "blended": 3.375
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-27T19:33:18+00:00"
-    },
-    {
-      "model_name": "Anthropic Claude Haiku Latest",
-      "model_id": "~anthropic/claude-haiku-latest",
-      "vendor": "~anthropic",
-      "price": {
-        "input": 1.0,
-        "output": 5.0,
-        "blended": 2.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 200000,
-      "published_at": "2026-04-27T19:34:52+00:00"
-    },
-    {
-      "model_name": "OpenAI GPT Mini Latest",
-      "model_id": "~openai/gpt-mini-latest",
-      "vendor": "~openai",
-      "price": {
-        "input": 0.75,
-        "output": 4.5,
-        "blended": 1.6875
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 400000,
-      "published_at": "2026-04-27T19:34:31+00:00"
-    },
-    {
-      "model_name": "Google Gemini Pro Latest",
-      "model_id": "~google/gemini-pro-latest",
-      "vendor": "~google",
-      "price": {
-        "input": 2.0,
-        "output": 12.0,
-        "blended": 4.5
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-27T19:34:11+00:00"
-    },
-    {
-      "model_name": "Anthropic Claude Sonnet Latest",
-      "model_id": "~anthropic/claude-sonnet-latest",
-      "vendor": "~anthropic",
-      "price": {
-        "input": 3.0,
-        "output": 15.0,
-        "blended": 6.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-04-27T19:32:48+00:00"
-    },
-    {
-      "model_name": "Qwen: Qwen3.6 Max Preview",
-      "model_id": "qwen/qwen3.6-max-preview",
-      "vendor": "qwen",
-      "price": {
-        "input": 1.04,
-        "output": 6.24,
-        "blended": 2.34
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-27T03:24:02+00:00"
-    },
-    {
-      "model_name": "Qwen: Qwen3.6 35B A3B",
-      "model_id": "qwen/qwen3.6-35b-a3b",
-      "vendor": "qwen",
-      "price": {
-        "input": 0.15,
-        "output": 1.0,
-        "blended": 0.3625
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 43.5,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-27T03:24:15+00:00"
-    },
-    {
-      "model_name": "Qwen: Qwen3.6 27B",
-      "model_id": "qwen/qwen3.6-27b",
-      "vendor": "qwen",
-      "price": {
-        "input": 0.3,
-        "output": 3.2,
-        "blended": 1.025
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 45.8,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 262144,
-      "published_at": "2026-04-27T01:57:44+00:00"
-    },
-    {
-      "model_name": "Qwen: Qwen3.5 Plus 2026-04-20",
-      "model_id": "qwen/qwen3.5-plus-20260420",
-      "vendor": "qwen",
-      "price": {
-        "input": 0.3,
-        "output": 1.8,
-        "blended": 0.675
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-04-27T03:42:48+00:00"
-    },
-    {
-      "model_name": "Qwen: Qwen3.6 Flash",
-      "model_id": "qwen/qwen3.6-flash",
-      "vendor": "qwen",
-      "price": {
-        "input": 0.1238,
-        "output": 0.7425,
-        "blended": 0.2784
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-04-27T03:42:42+00:00"
-    },
-    {
-      "model_name": "OpenAI: GPT-5.5",
-      "model_id": "openai/gpt-5.5",
-      "vendor": "openai",
-      "price": {
-        "input": 5.0,
-        "output": 30.0,
-        "blended": 11.25
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 60.2,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1050000,
-      "published_at": "2026-04-24T17:31:33+00:00"
-    },
-    {
-      "model_name": "OpenAI: GPT-5.5 Pro",
-      "model_id": "openai/gpt-5.5-pro",
-      "vendor": "openai",
-      "price": {
-        "input": 30.0,
-        "output": 180.0,
-        "blended": 67.5
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1050000,
-      "published_at": "2026-04-24T17:31:36+00:00"
-    },
-    {
-      "model_name": "DeepSeek: DeepSeek V4 Flash",
-      "model_id": "deepseek/deepseek-v4-flash",
-      "vendor": "deepseek",
-      "price": {
-        "input": 0.112,
-        "output": 0.224,
-        "blended": 0.14
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 46.5,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-24T03:17:46+00:00"
-    },
-    {
-      "model_name": "DeepSeek: DeepSeek V4 Pro",
-      "model_id": "deepseek/deepseek-v4-pro",
-      "vendor": "deepseek",
-      "price": {
-        "input": 0.435,
-        "output": 0.87,
-        "blended": 0.5438
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 51.5,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-24T03:17:59+00:00"
+      "published_at": "2026-04-30T19:24:31+00:00"
     },
     {
       "model_name": "Tencent: Hy3 preview (free)",
@@ -691,24 +331,6 @@
       "published_at": "2026-04-23T12:43:58+00:00"
     },
     {
-      "model_name": "Xiaomi: MiMo-V2.5",
-      "model_id": "xiaomi/mimo-v2.5",
-      "vendor": "xiaomi",
-      "price": {
-        "input": 0.4,
-        "output": 2.0,
-        "blended": 0.8
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-22T16:11:09+00:00"
-    },
-    {
       "model_name": "Baidu: Qianfan-OCR-Fast (free)",
       "model_id": "baidu/qianfan-ocr-fast:free",
       "vendor": "baidu",
@@ -725,24 +347,6 @@
       ],
       "context_length": 65536,
       "published_at": "2026-04-20T17:51:12+00:00"
-    },
-    {
-      "model_name": "Xiaomi: MiMo-V2.5-Pro",
-      "model_id": "xiaomi/mimo-v2.5-pro",
-      "vendor": "xiaomi",
-      "price": {
-        "input": 1.0,
-        "output": 3.0,
-        "blended": 1.5
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 53.8,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-04-22T16:11:13+00:00"
     },
     {
       "model_name": "inclusionAI: Ling-2.6-flash (free)",
