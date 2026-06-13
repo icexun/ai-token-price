@@ -1,410 +1,413 @@
 model_name,model_id,vendor,price_input,price_output,price_blended,aa_quality_index,categories
-NVIDIA: Nemotron 3.5 Content Safety (free),nvidia/nemotron-3.5-content-safety:free,nvidia,0.0,0.0,0.0,,general;text
+Anthropic: Claude Fable 5,anthropic/claude-fable-5,anthropic,10.0,50.0,20.0,,coding;general;text
 inclusionAI: Ring-2.6-1T (free),inclusionai/ring-2.6-1t:free,inclusionai,0.0,0.0,0.0,,general;text
-Meta: Llama 4 Maverick,meta-llama/llama-4-maverick,meta-llama,0.15,0.6,0.2625,,general;text
-Qwen: Qwen3 VL 32B Instruct,qwen/qwen3-vl-32b-instruct,qwen,0.104,0.416,0.182,,general;text
-NVIDIA: Nemotron 3 Ultra (free),nvidia/nemotron-3-ultra-550b-a55b:free,nvidia,0.0,0.0,0.0,,general;text
-OpenAI: o3,openai/o3,openai,2.0,8.0,3.5,,agent;general;reasoning;text
-Mistral: Mixtral 8x22B Instruct,mistralai/mixtral-8x22b-instruct,mistralai,2.0,6.0,3.0,,general;text
+Anthropic: Claude Fable Latest,~anthropic/claude-fable-latest,~anthropic,10.0,50.0,20.0,,general;text
 Mistral Large,mistralai/mistral-large,mistralai,2.0,6.0,3.0,,general;text
+Qwen: Qwen3 VL 32B Instruct,qwen/qwen3-vl-32b-instruct,qwen,0.104,0.416,0.182,,general;text
+Nex AGI: Nex-N2-Pro (free),nex-agi/nex-n2-pro:free,nex-agi,0.0,0.0,0.0,,general;text
+Mistral: Mixtral 8x22B Instruct,mistralai/mixtral-8x22b-instruct,mistralai,2.0,6.0,3.0,,general;text
+NVIDIA: Nemotron 3.5 Content Safety (free),nvidia/nemotron-3.5-content-safety:free,nvidia,0.0,0.0,0.0,,general;text
+OpenAI: o3,openai/o3,openai,2.0,8.0,3.5,,agent;general;reasoning;text
+Meta: Llama 4 Maverick,meta-llama/llama-4-maverick,meta-llama,0.15,0.6,0.2625,,general;text
 OpenAI: GPT-3.5 Turbo 16k,openai/gpt-3.5-turbo-16k,openai,3.0,4.0,3.25,,general;text
-Meta: Llama 4 Scout,meta-llama/llama-4-scout,meta-llama,0.08,0.3,0.135,,general;text
-NVIDIA: Nemotron 3 Ultra,nvidia/nemotron-3-ultra-550b-a55b,nvidia,0.5,2.5,1.0,,general;text
-Cohere: Command A,cohere/command-a,cohere,2.5,10.0,4.375,,general;text
-Auto Router,openrouter/auto,openrouter,-1000000.0,-1000000.0,-1000000.0,,chat;image-generation;vision
-MiniMax: MiniMax M3,minimax/minimax-m3,minimax,0.3,1.2,0.525,,general;text
-Qwen: Qwen3.7 Plus,qwen/qwen3.7-plus,qwen,0.4,1.6,0.7,,general;text
-Qwen: Qwen3 Next 80B A3B Instruct,qwen/qwen3-next-80b-a3b-instruct,qwen,0.09,1.1,0.3425,,general;text
 OpenAI: GPT-4 Turbo (older v1106),openai/gpt-4-1106-preview,openai,10.0,30.0,15.0,,general;text
-Anthropic: Claude Opus 4.8 (Fast),anthropic/claude-opus-4.8-fast,anthropic,10.0,50.0,20.0,,coding;general;text
-OpenAI: GPT-4o (2024-08-06),openai/gpt-4o-2024-08-06,openai,2.5,10.0,4.375,,general;text
+Meta: Llama 4 Scout,meta-llama/llama-4-scout,meta-llama,0.1,0.3,0.15,,general;text
+Cohere: Command A,cohere/command-a,cohere,2.5,10.0,4.375,,general;text
+NVIDIA: Nemotron 3 Ultra (free),nvidia/nemotron-3-ultra-550b-a55b:free,nvidia,0.0,0.0,0.0,,general;text
+Auto Router,openrouter/auto,openrouter,-1000000.0,-1000000.0,-1000000.0,,chat;image-generation;vision
+NVIDIA: Nemotron 3 Ultra,nvidia/nemotron-3-ultra-550b-a55b,nvidia,0.5,2.5,1.0,,general;text
+Qwen: Qwen3.6 35B A3B,qwen/qwen3.6-35b-a3b,qwen,0.15,1.0,0.3625,,general;text
+Qwen: Qwen3 Next 80B A3B Instruct,qwen/qwen3-next-80b-a3b-instruct,qwen,0.09,1.1,0.3425,,general;text
 Qwen: Qwen3.7 Max,qwen/qwen3.7-max,qwen,1.25,3.75,1.875,,general;text
+Qwen: Qwen3.7 Plus,qwen/qwen3.7-plus,qwen,0.32,1.28,0.56,,general;text
+OpenAI: GPT-4o (2024-08-06),openai/gpt-4o-2024-08-06,openai,2.5,10.0,4.375,,general;text
+Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,anthropic,5.0,25.0,10.0,,coding;general;text
+Anthropic: Claude Opus 4.8 (Fast),anthropic/claude-opus-4.8-fast,anthropic,10.0,50.0,20.0,,coding;general;text
+MiniMax: MiniMax M3,minimax/minimax-m3,minimax,0.3,1.2,0.525,,general;text
+OpenAI: o1,openai/o1,openai,15.0,60.0,26.25,,agent;general;reasoning;text
 StepFun: Step 3.7 Flash,stepfun/step-3.7-flash,stepfun,0.2,1.15,0.4375,,general;text
 Baidu Qianfan: CoBuddy (free),baidu/cobuddy:free,baidu,0.0,0.0,0.0,,general;text
-OpenAI: o1,openai/o1,openai,15.0,60.0,26.25,,agent;general;reasoning;text
-OpenAI: GPT-4o-mini,openai/gpt-4o-mini,openai,0.15,0.6,0.2625,,general;text
-Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,anthropic,5.0,25.0,10.0,,coding;general;text
-MiniMax: MiniMax M2,minimax/minimax-m2,minimax,0.255,1.0,0.4413,,general;text
-Google: Gemini 2.0 Flash Lite,google/gemini-2.0-flash-lite-001,google,0.075,0.3,0.1312,,general;text
+Amazon: Nova Micro 1.0,amazon/nova-micro-v1,amazon,0.035,0.14,0.0613,,general;text
 xAI: Grok Build 0.1,x-ai/grok-build-0.1,x-ai,1.0,2.0,1.25,,general;text
-Anthropic: Claude 3 Haiku,anthropic/claude-3-haiku,anthropic,0.25,1.25,0.5,,coding;general;text
-Meta: Llama 3.1 8B Instruct,meta-llama/llama-3.1-8b-instruct,meta-llama,0.02,0.03,0.0225,,general;text
-Mistral Large 2407,mistralai/mistral-large-2407,mistralai,2.0,6.0,3.0,,general;text
-Google: Gemini 3.5 Flash,google/gemini-3.5-flash,google,1.5,9.0,3.375,,general;text
+MiniMax: MiniMax M2,minimax/minimax-m2,minimax,0.255,1.0,0.4413,,general;text
 Anthropic: Claude Opus 4.7 (Fast),anthropic/claude-opus-4.7-fast,anthropic,30.0,150.0,60.0,,coding;general;text
-OpenRouter: Fusion,openrouter/fusion,openrouter,-1000000.0,-1000000.0,-1000000.0,,general;text
+Anthropic: Claude 3 Haiku,anthropic/claude-3-haiku,anthropic,0.25,1.25,0.5,,coding;general;text
+Google: Gemini 3.5 Flash,google/gemini-3.5-flash,google,1.5,9.0,3.375,,general;text
+DeepSeek: DeepSeek V4 Pro,deepseek/deepseek-v4-pro,deepseek,0.435,0.87,0.5438,,general;text
+Meta: Llama 3.1 8B Instruct,meta-llama/llama-3.1-8b-instruct,meta-llama,0.02,0.03,0.0225,,general;text
+OpenAI: GPT-5.5,openai/gpt-5.5,openai,5.0,30.0,11.25,,general;text
+Google: Gemini 2.0 Flash Lite,google/gemini-2.0-flash-lite-001,google,0.075,0.3,0.1312,,general;text
+Mistral Large 2407,mistralai/mistral-large-2407,mistralai,2.0,6.0,3.0,,general;text
 inclusionAI: Ring-2.6-1T,inclusionai/ring-2.6-1t,inclusionai,0.075,0.625,0.2125,,general;text
+OpenRouter: Fusion,openrouter/fusion,openrouter,-1000000.0,-1000000.0,-1000000.0,,general;text
 Perceptron: Perceptron Mk1,perceptron/perceptron-mk1,perceptron,0.15,1.5,0.4875,,general;text
 Perplexity: Sonar Reasoning Pro,perplexity/sonar-reasoning-pro,perplexity,2.0,8.0,3.5,,agent;general;reasoning;text
-Google: Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,google,0.25,1.5,0.5625,,general;text
 Google: Gemini 2.0 Flash,google/gemini-2.0-flash-001,google,0.1,0.4,0.175,,general;text
 inclusionAI: Ling-2.6-flash (free),inclusionai/ling-2.6-flash:free,inclusionai,0.0,0.0,0.0,,general;text
-OpenAI: GPT Chat Latest,openai/gpt-chat-latest,openai,5.0,30.0,11.25,,general;text
-xAI: Grok 4.3,x-ai/grok-4.3,x-ai,1.25,2.5,1.5625,,general;text
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,ibm-granite,0.05,0.1,0.0625,,general;text
+Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,xiaomi,0.14,0.28,0.175,,general;text
+xAI: Grok 4.3,x-ai/grok-4.3,x-ai,1.25,2.5,1.5625,,general;text
 Qwen: Qwen3 8B,qwen/qwen3-8b,qwen,0.05,0.4,0.1375,,general;text
-Mistral: Saba,mistralai/mistral-saba,mistralai,0.2,0.6,0.3,,general;text
+OpenAI: GPT-5.3-Codex,openai/gpt-5.3-codex,openai,1.75,14.0,4.8125,,coding;general;text
 Google: Gemma 3 27B (free),google/gemma-3-27b-it:free,google,0.0,0.0,0.0,,general;text
 Tencent: Hy3 preview (free),tencent/hy3-preview:free,tencent,0.0,0.0,0.0,,general;text
 inclusionAI: Ling-2.6-1T (free),inclusionai/ling-2.6-1t:free,inclusionai,0.0,0.0,0.0,,general;text
-Mistral: Mistral Medium 3.5,mistralai/mistral-medium-3-5,mistralai,1.5,7.5,3.0,,general;text
-AionLabs: Aion-1.0-Mini,aion-labs/aion-1.0-mini,aion-labs,0.7,1.4,0.875,,general;text
+Google: Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,google,0.25,1.5,0.5625,,general;text
+OpenAI: GPT Chat Latest,openai/gpt-chat-latest,openai,5.0,30.0,11.25,,general;text
 Owl Alpha,openrouter/owl-alpha,openrouter,0.0,0.0,0.0,,general;text
+Mistral: Mistral Small 4,mistralai/mistral-small-2603,mistralai,0.15,0.6,0.2625,,general;text
+OpenAI: GPT-5.4 Pro,openai/gpt-5.4-pro,openai,30.0,180.0,67.5,,general;text
+Mistral: Saba,mistralai/mistral-saba,mistralai,0.2,0.6,0.3,,general;text
+Z.ai: GLM 5 Turbo,z-ai/glm-5-turbo,z-ai,1.2,4.0,1.9,,general;text
+Mistral: Mistral Medium 3.5,mistralai/mistral-medium-3-5,mistralai,1.5,7.5,3.0,,general;text
 NVIDIA: Nemotron 3 Nano Omni (free),nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,nvidia,0.0,0.0,0.0,,agent;general;reasoning;text
 Poolside: Laguna XS.2 (free),poolside/laguna-xs.2:free,poolside,0.0,0.0,0.0,,general;text
-Poolside: Laguna M.1 (free),poolside/laguna-m.1:free,poolside,0.0,0.0,0.0,,general;text
-Anthropic Claude Haiku Latest,~anthropic/claude-haiku-latest,~anthropic,1.0,5.0,2.0,,general;text
-OpenAI: GPT-5.1 Chat,openai/gpt-5.1-chat,openai,1.25,10.0,3.4375,,general;text
-OpenAI GPT Mini Latest,~openai/gpt-mini-latest,~openai,0.75,4.5,1.6875,,general;text
-Google Gemini Pro Latest,~google/gemini-pro-latest,~google,2.0,12.0,4.5,,general;text
-MoonshotAI Kimi Latest,~moonshotai/kimi-latest,~moonshotai,0.684,3.42,1.368,,general;text
+Mistral: Mistral Small 3.1 24B,mistralai/mistral-small-3.1-24b-instruct,mistralai,0.351,0.555,0.402,,general;text
+Llama Guard 3 8B,meta-llama/llama-guard-3-8b,meta-llama,0.484,0.03,0.3705,,general;text
 DeepSeek: DeepSeek V4 Flash (free),deepseek/deepseek-v4-flash:free,deepseek,0.0,0.0,0.0,,general;text
+Free Models Router,openrouter/free,openrouter,0.0,0.0,0.0,,general;text
+Qwen: Qwen3.5 397B A17B,qwen/qwen3.5-397b-a17b,qwen,0.39,2.34,0.8775,,general;text
+Mistral: Mistral Large 3 2512,mistralai/mistral-large-2512,mistralai,0.5,1.5,0.75,,general;text
+Google: Nano Banana Pro (Gemini 3 Pro Image Preview),google/gemini-3-pro-image-preview,google,2.0,12.0,4.5,,image-gen;text
+OpenAI: GPT-5.1 Chat,openai/gpt-5.1-chat,openai,1.25,10.0,3.4375,,general;text
+Poolside: Laguna M.1 (free),poolside/laguna-m.1:free,poolside,0.0,0.0,0.0,,general;text
+Qwen: Qwen3 14B,qwen/qwen3-14b,qwen,0.1,0.24,0.135,,general;text
+AllenAI: Olmo 3 32B Think,allenai/olmo-3-32b-think,allenai,0.15,0.5,0.2375,,agent;general;reasoning;text
+AionLabs: Aion-1.0-Mini,aion-labs/aion-1.0-mini,aion-labs,0.7,1.4,0.875,,general;text
+Baidu: Qianfan-OCR-Fast (free),baidu/qianfan-ocr-fast:free,baidu,0.0,0.0,0.0,,general;text
+Anthropic Claude Haiku Latest,~anthropic/claude-haiku-latest,~anthropic,1.0,5.0,2.0,,general;text
+OpenAI GPT Mini Latest,~openai/gpt-mini-latest,~openai,0.75,4.5,1.6875,,general;text
+Mistral: Voxtral Small 24B 2507,mistralai/voxtral-small-24b-2507,mistralai,0.1,0.3,0.15,,general;text
+DeepSeek: DeepSeek V3.2 Exp,deepseek/deepseek-v3.2-exp,deepseek,0.27,0.41,0.305,,general;text
+Google Gemini Pro Latest,~google/gemini-pro-latest,~google,2.0,12.0,4.5,,general;text
+Qwen: Qwen3 Coder Plus,qwen/qwen3-coder-plus,qwen,0.65,3.25,1.3,,coding;general;text
+MoonshotAI Kimi Latest,~moonshotai/kimi-latest,~moonshotai,0.67,3.39,1.35,,general;text
+Z.ai: GLM 4.5V,z-ai/glm-4.5v,z-ai,0.6,1.8,0.9,,general;text
+OpenAI: GPT-5 Image,openai/gpt-5-image,openai,10.0,10.0,10.0,,image-gen;text
+Google: Nano Banana (Gemini 2.5 Flash Image),google/gemini-2.5-flash-image,google,0.3,2.5,0.85,,image-gen;text
+Anthropic: Claude Sonnet 4.5,anthropic/claude-sonnet-4.5,anthropic,3.0,15.0,6.0,,coding;general;text
 Google Gemini Flash Latest,~google/gemini-flash-latest,~google,1.5,9.0,3.375,,general;text
+Meta: Llama Guard 4 12B,meta-llama/llama-guard-4-12b,meta-llama,0.18,0.18,0.18,,general;text
 Anthropic Claude Sonnet Latest,~anthropic/claude-sonnet-latest,~anthropic,3.0,15.0,6.0,,general;text
 OpenAI GPT Latest,~openai/gpt-latest,~openai,5.0,30.0,11.25,,general;text
 Qwen: Qwen3.5 Plus 2026-04-20,qwen/qwen3.5-plus-20260420,qwen,0.3,1.8,0.675,,general;text
-OpenAI: GPT-5.5 Pro,openai/gpt-5.5-pro,openai,30.0,180.0,67.5,,general;text
 Qwen: Qwen3.6 Flash,qwen/qwen3.6-flash,qwen,0.1875,1.125,0.4219,,general;text
-DeepSeek: DeepSeek V3.1 Terminus,deepseek/deepseek-v3.1-terminus,deepseek,0.27,0.95,0.44,,general;text
+OpenAI: GPT-5.5 Pro,openai/gpt-5.5-pro,openai,30.0,180.0,67.5,,general;text
 Qwen: Qwen3.6 Max Preview,qwen/qwen3.6-max-preview,qwen,1.04,6.24,2.34,,general;text
-Mistral: Voxtral Small 24B 2507,mistralai/voxtral-small-24b-2507,mistralai,0.1,0.3,0.15,,general;text
-Qwen: Qwen3 Coder Plus,qwen/qwen3-coder-plus,qwen,0.65,3.25,1.3,,coding;general;text
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,qwen,0.29,3.2,1.0175,,general;text
-Qwen: Qwen3 14B,qwen/qwen3-14b,qwen,0.1,0.24,0.135,,general;text
-Qwen: Qwen3.6 35B A3B,qwen/qwen3.6-35b-a3b,qwen,0.14,1.0,0.355,,general;text
-Baidu: Qianfan-OCR-Fast (free),baidu/qianfan-ocr-fast:free,baidu,0.0,0.0,0.0,,general;text
-OpenAI: GPT-5 Image,openai/gpt-5-image,openai,10.0,10.0,10.0,,image-gen;text
-Google: Nano Banana (Gemini 2.5 Flash Image),google/gemini-2.5-flash-image,google,0.3,2.5,0.85,,image-gen;text
-OpenAI: GPT-5.5,openai/gpt-5.5,openai,5.0,30.0,11.25,,general;text
-Xiaomi: MiMo-V2.5-Pro,xiaomi/mimo-v2.5-pro,xiaomi,0.435,0.87,0.5438,,general;text
-Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,xiaomi,0.14,0.28,0.175,,general;text
-Anthropic: Claude Sonnet 4.5,anthropic/claude-sonnet-4.5,anthropic,3.0,15.0,6.0,,coding;general;text
-Meta: Llama Guard 4 12B,meta-llama/llama-guard-4-12b,meta-llama,0.18,0.18,0.18,,general;text
-DeepSeek: DeepSeek V4 Pro,deepseek/deepseek-v4-pro,deepseek,0.435,0.87,0.5438,,general;text
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,deepseek,0.0983,0.1966,0.1229,,general;text
 Xiaomi: MiMo-V2-Flash,xiaomi/mimo-v2-flash,xiaomi,0.1,0.3,0.15,,general;text
-Tencent: Hy3 preview,tencent/hy3-preview,tencent,0.063,0.21,0.0998,,general;text
-OpenAI: GPT-5.4 Image 2,openai/gpt-5.4-image-2,openai,8.0,15.0,9.75,,image-gen;text
-inclusionAI: Ling-2.6-flash,inclusionai/ling-2.6-flash,inclusionai,0.01,0.03,0.015,,general;text
-MoonshotAI: Kimi K2.6 (free),moonshotai/kimi-k2.6:free,moonshotai,0.0,0.0,0.0,,general;text
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,moonshotai,0.684,3.42,1.368,,general;text
-Google: Gemma 4 31B (free),google/gemma-4-31b-it:free,google,0.0,0.0,0.0,,general;text
-Reka Edge,rekaai/reka-edge,rekaai,0.1,0.1,0.1,,general;text
+OpenAI: GPT-4o (2024-11-20),openai/gpt-4o-2024-11-20,openai,2.5,10.0,4.375,,general;text
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,qwen,0.289,2.4,0.8168,,general;text
+TheDrummer: UnslopNemo 12B,thedrummer/unslopnemo-12b,thedrummer,0.4,0.4,0.4,,general;text
+Qwen: Qwen2.5 7B Instruct,qwen/qwen-2.5-7b-instruct,qwen,0.04,0.1,0.055,,general;text
 OpenAI: GPT-5.1-Codex-Mini,openai/gpt-5.1-codex-mini,openai,0.25,2.0,0.6875,,coding;general;text
-inclusionAI: Ling-2.6-1T,inclusionai/ling-2.6-1t,inclusionai,0.075,0.625,0.2125,,general;text
-OpenAI: GPT-5.4 Mini,openai/gpt-5.4-mini,openai,0.75,4.5,1.6875,,general;text
+Relace: Relace Search,relace/relace-search,relace,1.0,3.0,1.5,,general;text
 Anthropic: Claude Opus Latest,~anthropic/claude-opus-latest,~anthropic,5.0,25.0,10.0,,general;text
 Baidu: ERNIE 4.5 300B A47B ,baidu/ernie-4.5-300b-a47b,baidu,0.28,1.1,0.485,,general;text
-Relace: Relace Search,relace/relace-search,relace,1.0,3.0,1.5,,general;text
-Z.ai: GLM 4.6V,z-ai/glm-4.6v,z-ai,0.3,0.9,0.45,,general;text
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,deepseek,0.098,0.196,0.1225,,general;text
 Pareto Code Router,openrouter/pareto-code,openrouter,-1000000.0,-1000000.0,-1000000.0,,coding;general;text
-Z.ai: GLM 5.1,z-ai/glm-5.1,z-ai,0.98,3.08,1.505,,general;text
 Baidu: Qianfan-OCR-Fast,baidu/qianfan-ocr-fast,baidu,0.68,2.81,1.2125,,general;text
+Z.ai: GLM 5V Turbo,z-ai/glm-5v-turbo,z-ai,1.2,4.0,1.9,,general;text
+Z.ai: GLM 4.6V,z-ai/glm-4.6v,z-ai,0.3,0.9,0.45,,general;text
+Z.ai: GLM 5.1,z-ai/glm-5.1,z-ai,0.98,3.08,1.505,,general;text
 NVIDIA: Nemotron Nano 12B 2 VL (free),nvidia/nemotron-nano-12b-v2-vl:free,nvidia,0.0,0.0,0.0,,general;text
-Z.ai: GLM 5 Turbo,z-ai/glm-5-turbo,z-ai,1.2,4.0,1.9,,general;text
-OpenAI: GPT-5.4 Pro,openai/gpt-5.4-pro,openai,30.0,180.0,67.5,,general;text
+OpenAI: GPT-5.4 Mini,openai/gpt-5.4-mini,openai,0.75,4.5,1.6875,,general;text
+inclusionAI: Ling-2.6-1T,inclusionai/ling-2.6-1t,inclusionai,0.075,0.625,0.2125,,general;text
+Tencent: Hy3 preview,tencent/hy3-preview,tencent,0.063,0.21,0.0998,,general;text
 OpenAI: GPT Audio,openai/gpt-audio,openai,2.5,10.0,4.375,,audio-gen;text
-Prime Intellect: INTELLECT-3,prime-intellect/intellect-3,prime-intellect,0.2,1.1,0.425,,general;text
 DeepSeek: R1 Distill Qwen 32B,deepseek/deepseek-r1-distill-qwen-32b,deepseek,0.29,0.29,0.29,,agent;general;reasoning;text
 Anthropic: Claude Opus 4.7,anthropic/claude-opus-4.7,anthropic,5.0,25.0,10.0,,coding;general;text
-OpenAI: GPT-5.4,openai/gpt-5.4,openai,2.5,15.0,5.625,,general;text
+Prime Intellect: INTELLECT-3,prime-intellect/intellect-3,prime-intellect,0.2,1.1,0.425,,general;text
 Baidu: ERNIE 4.5 VL 424B A47B ,baidu/ernie-4.5-vl-424b-a47b,baidu,0.42,1.25,0.6275,,general;text
 OpenAI: o4 Mini High,openai/o4-mini-high,openai,1.1,4.4,1.925,,agent;general;reasoning;text
 xAI: Grok 3 Mini,x-ai/grok-3-mini,x-ai,0.3,0.5,0.35,,general;text
-Google: Gemma 4 26B A4B  (free),google/gemma-4-26b-a4b-it:free,google,0.0,0.0,0.0,,general;text
-Writer: Palmyra X5,writer/palmyra-x5,writer,0.6,6.0,1.95,,general;text
-Mistral: Mistral 7B Instruct v0.1,mistralai/mistral-7b-instruct-v0.1,mistralai,0.11,0.19,0.13,,general;text
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,google,0.06,0.33,0.1275,,general;text
-xAI: Grok 3,x-ai/grok-3,x-ai,3.0,15.0,6.0,,general;text
-Google: Gemini 3 Flash Preview,google/gemini-3-flash-preview,google,0.5,3.0,1.125,,general;text
-OpenAI: GPT-4 Turbo,openai/gpt-4-turbo,openai,10.0,30.0,15.0,,general;text
-Google: Gemini 3.1 Flash Lite Preview,google/gemini-3.1-flash-lite-preview,google,0.25,1.5,0.5625,,general;text
-Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,qwen,0.195,1.56,0.5363,,general;text
 DeepSeek: DeepSeek V3.2,deepseek/deepseek-v3.2,deepseek,0.2288,0.3432,0.2574,,general;text
-Google: Gemma 4 31B,google/gemma-4-31b-it,google,0.12,0.37,0.1825,,general;text
+xAI: Grok 3,x-ai/grok-3,x-ai,3.0,15.0,6.0,,general;text
+Mistral: Mistral 7B Instruct v0.1,mistralai/mistral-7b-instruct-v0.1,mistralai,0.11,0.19,0.13,,general;text
+Google: Gemma 4 26B A4B  (free),google/gemma-4-26b-a4b-it:free,google,0.0,0.0,0.0,,general;text
+OpenAI: GPT-4 Turbo,openai/gpt-4-turbo,openai,10.0,30.0,15.0,,general;text
+Xiaomi: MiMo-V2.5-Pro,xiaomi/mimo-v2.5-pro,xiaomi,0.435,0.87,0.5438,,general;text
+Writer: Palmyra X5,writer/palmyra-x5,writer,0.6,6.0,1.95,,general;text
+Google: Gemini 3 Flash Preview,google/gemini-3-flash-preview,google,0.5,3.0,1.125,,general;text
+OpenAI: GPT-5.4 Image 2,openai/gpt-5.4-image-2,openai,8.0,15.0,9.75,,image-gen;text
 LiquidAI: LFM2.5-1.2B-Thinking (free),liquid/lfm-2.5-1.2b-thinking:free,liquid,0.0,0.0,0.0,,agent;general;reasoning;text
 Arcee AI: Trinity Large Preview (free),arcee-ai/trinity-large-preview:free,arcee-ai,0.0,0.0,0.0,,general;text
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,arcee-ai,0.22,0.85,0.3775,,agent;general;reasoning;text
 Z.ai: GLM 4.5 Air,z-ai/glm-4.5-air,z-ai,0.125,0.85,0.3063,,general;text
-MiniMax: MiniMax M2.7,minimax/minimax-m2.7,minimax,0.279,1.2,0.5093,,general;text
-TheDrummer: Cydonia 24B V4.1,thedrummer/cydonia-24b-v4.1,thedrummer,0.3,0.5,0.35,,general;text
 Z.ai: GLM 4 32B ,z-ai/glm-4-32b,z-ai,0.1,0.1,0.1,,general;text
 Z.ai: GLM 4.7,z-ai/glm-4.7,z-ai,0.4,1.75,0.7375,,general;text
 ReMM SLERP 13B,undi95/remm-slerp-l2-13b,undi95,0.45,0.65,0.5,,general;text
+inclusionAI: Ling-2.6-flash,inclusionai/ling-2.6-flash,inclusionai,0.01,0.03,0.015,,general;text
+Google: Gemma 4 31B,google/gemma-4-31b-it,google,0.12,0.35,0.1775,,general;text
+TheDrummer: Cydonia 24B V4.1,thedrummer/cydonia-24b-v4.1,thedrummer,0.3,0.5,0.35,,general;text
 OpenAI: GPT-4,openai/gpt-4,openai,30.0,60.0,37.5,,general;text
-xAI: Grok 4.1 Fast,x-ai/grok-4.1-fast,x-ai,0.2,0.5,0.275,,general;text
-OpenAI: gpt-oss-safeguard-20b,openai/gpt-oss-safeguard-20b,openai,0.075,0.3,0.1312,,general;text
+MoonshotAI: Kimi K2.6 (free),moonshotai/kimi-k2.6:free,moonshotai,0.0,0.0,0.0,,general;text
 Mistral: Mixtral 8x7B Instruct,mistralai/mixtral-8x7b-instruct,mistralai,0.54,0.54,0.54,,general;text
+xAI: Grok 4.1 Fast,x-ai/grok-4.1-fast,x-ai,0.2,0.5,0.275,,general;text
 Arcee AI: Trinity Large Thinking (free),arcee-ai/trinity-large-thinking:free,arcee-ai,0.0,0.0,0.0,,agent;general;reasoning;text
-Z.ai: GLM 5V Turbo,z-ai/glm-5v-turbo,z-ai,1.2,4.0,1.9,,general;text
+OpenAI: gpt-oss-safeguard-20b,openai/gpt-oss-safeguard-20b,openai,0.075,0.3,0.1312,,general;text
+MiniMax: MiniMax M2.5,minimax/minimax-m2.5,minimax,0.15,0.9,0.3375,,general;text
 xAI: Grok 4,x-ai/grok-4,x-ai,3.0,15.0,6.0,,general;text
-Qwen: Qwen3 Next 80B A3B Thinking,qwen/qwen3-next-80b-a3b-thinking,qwen,0.0975,0.78,0.2681,,agent;general;reasoning;text
 Venice: Uncensored (free),cognitivecomputations/dolphin-mistral-24b-venice-edition:free,cognitivecomputations,0.0,0.0,0.0,,general;text
-Mistral: Mistral Small 4,mistralai/mistral-small-2603,mistralai,0.15,0.6,0.2625,,general;text
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,nvidia,0.09,0.45,0.18,,general;text
-xAI: Grok 4.20 Multi-Agent,x-ai/grok-4.20-multi-agent,x-ai,2.0,6.0,3.0,,agent;general;text
-Google: Lyria 3 Clip Preview,google/lyria-3-clip-preview,google,0.0,0.0,0.0,,audio-gen;text
-Kwaipilot: KAT-Coder-Pro V2,kwaipilot/kat-coder-pro-v2,kwaipilot,0.3,1.2,0.525,,coding;general;text
-Qwen: Qwen3.5-Flash,qwen/qwen3.5-flash-02-23,qwen,0.065,0.26,0.1138,,general;text
-OpenAI: GPT-4o Audio,openai/gpt-4o-audio-preview,openai,2.5,10.0,4.375,,audio-gen;text
-MoonshotAI: Kimi K2 0711,moonshotai/kimi-k2,moonshotai,0.57,2.3,1.0025,,general;text
-LiquidAI: LFM2-24B-A2B,liquid/lfm-2-24b-a2b,liquid,0.03,0.12,0.0525,,general;text
-AI21: Jamba Large 1.7,ai21/jamba-large-1.7,ai21,2.0,8.0,3.5,,general;text
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,moonshotai,0.67,3.39,1.35,,general;text
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,google,0.06,0.33,0.1275,,general;text
 OpenAI: GPT-5,openai/gpt-5,openai,1.25,10.0,3.4375,,general;text
+Google: Gemma 4 31B (free),google/gemma-4-31b-it:free,google,0.0,0.0,0.0,,general;text
+AI21: Jamba Large 1.7,ai21/jamba-large-1.7,ai21,2.0,8.0,3.5,,general;text
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,arcee-ai,0.22,0.85,0.3775,,agent;general;reasoning;text
+OpenAI: GPT-4o Audio,openai/gpt-4o-audio-preview,openai,2.5,10.0,4.375,,audio-gen;text
+xAI: Grok 4.20 Multi-Agent,x-ai/grok-4.20-multi-agent,x-ai,2.0,6.0,3.0,,agent;general;text
+MoonshotAI: Kimi K2 0711,moonshotai/kimi-k2,moonshotai,0.57,2.3,1.0025,,general;text
 Qwen: Qwen3 Coder 30B A3B Instruct,qwen/qwen3-coder-30b-a3b-instruct,qwen,0.07,0.27,0.12,,coding;general;text
 Google: Gemini 2.5 Pro Preview 06-05,google/gemini-2.5-pro-preview,google,1.25,10.0,3.4375,,general;text
-Xiaomi: MiMo-V2-Omni,xiaomi/mimo-v2-omni,xiaomi,0.4,2.0,0.8,,general;text
+ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,bytedance-seed,0.1,0.4,0.175,,general;text
 Arcee AI: Trinity Mini,arcee-ai/trinity-mini,arcee-ai,0.045,0.15,0.0713,,general;text
 Xiaomi: MiMo-V2-Pro,xiaomi/mimo-v2-pro,xiaomi,1.0,3.0,1.5,,general;text
-AionLabs: Aion-2.0,aion-labs/aion-2.0,aion-labs,0.8,1.6,1.0,,general;text
+Microsoft: Phi 4 Mini Instruct,microsoft/phi-4-mini-instruct,microsoft,0.08,0.35,0.1475,,general;text
+Google: Lyria 3 Clip Preview,google/lyria-3-clip-preview,google,0.0,0.0,0.0,,audio-gen;text
+Kwaipilot: KAT-Coder-Pro V2,kwaipilot/kat-coder-pro-v2,kwaipilot,0.3,1.2,0.525,,coding;general;text
+Reka Edge,rekaai/reka-edge,rekaai,0.1,0.1,0.1,,general;text
 DeepSeek: R1 0528,deepseek/deepseek-r1-0528,deepseek,0.5,2.15,0.9125,,agent;general;reasoning;text
 OpenAI: GPT-5.1,openai/gpt-5.1,openai,1.25,10.0,3.4375,,general;text
-Microsoft: Phi 4 Mini Instruct,microsoft/phi-4-mini-instruct,microsoft,0.08,0.35,0.1475,,general;text
+Xiaomi: MiMo-V2-Omni,xiaomi/mimo-v2-omni,xiaomi,0.4,2.0,0.8,,general;text
 Meta: Llama Guard 4 12B (free),meta-llama/llama-guard-4-12b:free,meta-llama,0.0,0.0,0.0,,general;text
-OpenAI: GPT-5.3-Codex,openai/gpt-5.3-codex,openai,1.75,14.0,4.8125,,coding;general;text
-Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,anthropic,3.0,15.0,6.0,,coding;general;text
-Qwen: Qwen3.5 397B A17B,qwen/qwen3.5-397b-a17b,qwen,0.39,2.34,0.8775,,general;text
-xAI: Grok 3 Mini Beta,x-ai/grok-3-mini-beta,x-ai,0.3,0.5,0.35,,general;text
-OpenAI: GPT-5.4 Nano,openai/gpt-5.4-nano,openai,0.2,1.25,0.4625,,general;text
 MoonshotAI: Kimi K2 Thinking,moonshotai/kimi-k2-thinking,moonshotai,0.6,2.5,1.075,,agent;general;reasoning;text
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,nvidia,0.09,0.45,0.18,,general;text
+xAI: Grok 3 Mini Beta,x-ai/grok-3-mini-beta,x-ai,0.3,0.5,0.35,,general;text
 Nex AGI: DeepSeek V3.1 Nex N1,nex-agi/deepseek-v3.1-nex-n1,nex-agi,0.135,0.5,0.2263,,general;text
-OpenAI: GPT-5 Image Mini,openai/gpt-5-image-mini,openai,2.5,2.0,2.375,,image-gen;text
+Qwen: Qwen3 Next 80B A3B Thinking,qwen/qwen3-next-80b-a3b-thinking,qwen,0.0975,0.78,0.2681,,agent;general;reasoning;text
 Sao10K: Llama 3.1 70B Hanami x1,sao10k/l3.1-70b-hanami-x1,sao10k,3.0,3.0,3.0,,general;text
 Mistral: Devstral Small 1.1,mistralai/devstral-small,mistralai,0.1,0.3,0.15,,coding;general;text
+MiniMax: MiniMax M2.7,minimax/minimax-m2.7,minimax,0.25,1.0,0.4375,,general;text
+OpenAI: GPT-5.4 Nano,openai/gpt-5.4-nano,openai,0.2,1.25,0.4625,,general;text
 Qwen: Qwen-Max ,qwen/qwen-max,qwen,1.04,4.16,1.82,,general;text
-xAI: Grok 4.20,x-ai/grok-4.20,x-ai,1.25,2.5,1.5625,,general;text
-Google: Gemma 3n 4B,google/gemma-3n-e4b-it,google,0.06,0.12,0.075,,general;text
-ByteDance Seed: Seed-2.0-Lite,bytedance-seed/seed-2.0-lite,bytedance-seed,0.25,2.0,0.6875,,general;text
+Qwen: Qwen3 Coder Next,qwen/qwen3-coder-next,qwen,0.11,0.8,0.2825,,coding;general;text
 NVIDIA: Nemotron 3 Nano 30B A3B,nvidia/nemotron-3-nano-30b-a3b,nvidia,0.05,0.2,0.0875,,general;text
-Qwen: Qwen3.5-9B,qwen/qwen3.5-9b,qwen,0.04,0.15,0.0675,,general;text
-Qwen: Qwen3 235B A22B,qwen/qwen3-235b-a22b,qwen,0.455,1.82,0.7962,,general;text
-Mistral: Devstral 2 2512,mistralai/devstral-2512,mistralai,0.4,2.0,0.8,,coding;general;text
-Google: Gemma 3 12B (free),google/gemma-3-12b-it:free,google,0.0,0.0,0.0,,general;text
-Google: Nano Banana Pro (Gemini 3 Pro Image Preview),google/gemini-3-pro-image-preview,google,2.0,12.0,4.5,,image-gen;text
 OpenAI: GPT-4.1,openai/gpt-4.1,openai,2.0,8.0,3.5,,general;text
+ByteDance Seed: Seed-2.0-Lite,bytedance-seed/seed-2.0-lite,bytedance-seed,0.25,2.0,0.6875,,general;text
+xAI: Grok 4.20,x-ai/grok-4.20,x-ai,1.25,2.5,1.5625,,general;text
+Qwen: Qwen3.5-9B,qwen/qwen3.5-9b,qwen,0.1,0.15,0.1125,,general;text
+Google: Gemma 3 12B (free),google/gemma-3-12b-it:free,google,0.0,0.0,0.0,,general;text
+Mistral: Devstral 2 2512,mistralai/devstral-2512,mistralai,0.4,2.0,0.8,,coding;general;text
+Google: Gemma 3n 4B,google/gemma-3n-e4b-it,google,0.06,0.12,0.075,,general;text
+Qwen: Qwen3 235B A22B,qwen/qwen3-235b-a22b,qwen,0.455,1.82,0.7962,,general;text
+OpenAI: GPT-5.4,openai/gpt-5.4,openai,2.5,15.0,5.625,,general;text
+Google: Gemma 3 12B,google/gemma-3-12b-it,google,0.05,0.15,0.075,,general;text
+LiquidAI: LFM2.5-1.2B-Instruct (free),liquid/lfm-2.5-1.2b-instruct:free,liquid,0.0,0.0,0.0,,general;text
+Inception: Mercury 2,inception/mercury-2,inception,0.25,0.75,0.375,,general;text
+AllenAI: Olmo 3.1 32B Instruct,allenai/olmo-3.1-32b-instruct,allenai,0.2,0.6,0.3,,general;text
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,z-ai,0.06,0.4,0.145,,general;text
 OpenAI: GPT-5.3 Chat,openai/gpt-5.3-chat,openai,1.75,14.0,4.8125,,general;text
-LiquidAI: LFM2.5-1.2B-Instruct (free),liquid/lfm-2.5-1.2b-instruct:free,liquid,0.0,0.0,0.0,,general;text
-Google: Gemma 3 12B,google/gemma-3-12b-it,google,0.04,0.13,0.0625,,general;text
-AllenAI: Olmo 3.1 32B Instruct,allenai/olmo-3.1-32b-instruct,allenai,0.2,0.6,0.3,,general;text
 Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview),google/gemini-3.1-flash-image-preview,google,0.5,3.0,1.125,,image-gen;text
 Perplexity: Sonar Pro Search,perplexity/sonar-pro-search,perplexity,3.0,15.0,6.0,,general;text
 OpenAI: GPT-4o-mini Search Preview,openai/gpt-4o-mini-search-preview,openai,0.15,0.6,0.2625,,general;text
 Qwen: Qwen-Plus,qwen/qwen-plus,qwen,0.26,0.78,0.39,,general;text
-Microsoft: Phi 4,microsoft/phi-4,microsoft,0.065,0.14,0.0838,,general;text
-Inception: Mercury 2,inception/mercury-2,inception,0.25,0.75,0.375,,general;text
-OpenAI: GPT-5.2,openai/gpt-5.2,openai,1.75,14.0,4.8125,,general;text
-Meta: Llama 3.2 11B Vision Instruct,meta-llama/llama-3.2-11b-vision-instruct,meta-llama,0.245,0.245,0.245,,general;text
-OpenAI: GPT-5.2 Chat,openai/gpt-5.2-chat,openai,1.75,14.0,4.8125,,general;text
-ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,bytedance-seed,0.1,0.4,0.175,,general;text
+Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,anthropic,3.0,15.0,6.0,,coding;general;text
 StepFun: Step 3.5 Flash,stepfun/step-3.5-flash,stepfun,0.09,0.3,0.1425,,general;text
+Google: Gemini 3.1 Flash Lite Preview,google/gemini-3.1-flash-lite-preview,google,0.25,1.5,0.5625,,general;text
+OpenAI: GPT-5.2,openai/gpt-5.2,openai,1.75,14.0,4.8125,,general;text
+OpenAI: GPT-5.2 Chat,openai/gpt-5.2-chat,openai,1.75,14.0,4.8125,,general;text
+Meta: Llama 3.2 11B Vision Instruct,meta-llama/llama-3.2-11b-vision-instruct,meta-llama,0.345,0.345,0.345,,general;text
 Cohere: Command R7B (12-2024),cohere/command-r7b-12-2024,cohere,0.0375,0.15,0.0656,,general;text
 Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,qwen,0.14,1.0,0.355,,general;text
 Amazon: Nova Lite 1.0,amazon/nova-lite-v1,amazon,0.06,0.24,0.105,,general;text
 Magnum v4 72B,anthracite-org/magnum-v4-72b,anthracite-org,3.0,5.0,3.5,,general;text
-Qwen: Qwen2.5 7B Instruct,qwen/qwen-2.5-7b-instruct,qwen,0.04,0.1,0.055,,general;text
 Elephant,openrouter/elephant-alpha,openrouter,0.0,0.0,0.0,,general;text
-Anthropic: Claude Opus 4.5,anthropic/claude-opus-4.5,anthropic,5.0,25.0,10.0,,coding;general;text
 Anthropic: Claude Opus 4.6 (Fast),anthropic/claude-opus-4.6-fast,anthropic,30.0,150.0,60.0,,coding;general;text
 Mistral: Pixtral Large 2411,mistralai/pixtral-large-2411,mistralai,2.0,6.0,3.0,,general;text
-xAI: Grok 3 Beta,x-ai/grok-3-beta,x-ai,3.0,15.0,6.0,,general;text
 Qwen: Qwen3.5-122B-A10B,qwen/qwen3.5-122b-a10b,qwen,0.26,2.08,0.715,,general;text
-Qwen: Qwen3 235B A22B Instruct 2507,qwen/qwen3-235b-a22b-2507,qwen,0.071,0.1,0.0782,,general;text
-Perplexity: Sonar Deep Research,perplexity/sonar-deep-research,perplexity,2.0,8.0,3.5,,agent;general;reasoning;text
-NousResearch: Hermes 2 Pro - Llama-3 8B,nousresearch/hermes-2-pro-llama-3-8b,nousresearch,0.14,0.14,0.14,,general;text
+xAI: Grok 3 Beta,x-ai/grok-3-beta,x-ai,3.0,15.0,6.0,,general;text
+Anthropic: Claude Opus 4.5,anthropic/claude-opus-4.5,anthropic,5.0,25.0,10.0,,coding;general;text
 Anthropic: Claude Haiku 4.5,anthropic/claude-haiku-4.5,anthropic,1.0,5.0,2.0,,coding;general;text
-MiniMax: MiniMax M2.5,minimax/minimax-m2.5,minimax,0.15,1.15,0.4,,general;text
+Qwen: Qwen3 235B A22B Instruct 2507,qwen/qwen3-235b-a22b-2507,qwen,0.09,0.1,0.0925,,general;text
+NousResearch: Hermes 2 Pro - Llama-3 8B,nousresearch/hermes-2-pro-llama-3-8b,nousresearch,0.14,0.14,0.14,,general;text
+Meta: Llama 3.2 3B Instruct,meta-llama/llama-3.2-3b-instruct,meta-llama,0.0509,0.335,0.1219,,general;text
+Perplexity: Sonar Deep Research,perplexity/sonar-deep-research,perplexity,2.0,8.0,3.5,,agent;general;reasoning;text
+Google: Lyria 3 Pro Preview,google/lyria-3-pro-preview,google,0.0,0.0,0.0,,audio-gen;text
+Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,qwen,0.195,1.56,0.5363,,general;text
+OpenAI: GPT Audio Mini,openai/gpt-audio-mini,openai,0.6,2.4,1.05,,audio-gen;text
+DeepSeek: DeepSeek V3.1 Terminus,deepseek/deepseek-v3.1-terminus,deepseek,0.27,0.95,0.44,,general;text
 Switchpoint Router,switchpoint/router,switchpoint,0.85,3.4,1.4875,,general;text
 Arcee AI: Coder Large,arcee-ai/coder-large,arcee-ai,0.5,0.8,0.575,,coding;general;text
-AionLabs: Aion-1.0,aion-labs/aion-1.0,aion-labs,4.0,8.0,5.0,,general;text
-Google: Lyria 3 Pro Preview,google/lyria-3-pro-preview,google,0.0,0.0,0.0,,audio-gen;text
-Qwen: Qwen3 Max Thinking,qwen/qwen3-max-thinking,qwen,0.78,3.9,1.56,,agent;general;reasoning;text
-OpenAI: GPT Audio Mini,openai/gpt-audio-mini,openai,0.6,2.4,1.05,,audio-gen;text
 Body Builder (beta),openrouter/bodybuilder,openrouter,-1000000.0,-1000000.0,-1000000.0,,general;text
-AionLabs: Aion-RP 1.0 (8B),aion-labs/aion-rp-llama-3.1-8b,aion-labs,0.8,1.6,1.0,,general;text
+AionLabs: Aion-1.0,aion-labs/aion-1.0,aion-labs,4.0,8.0,5.0,,general;text
 Qwen: Qwen3.6 Plus,qwen/qwen3.6-plus,qwen,0.325,1.95,0.7313,,general;text
-Anthropic: Claude Opus 4.6,anthropic/claude-opus-4.6,anthropic,5.0,25.0,10.0,,coding;general;text
+AionLabs: Aion-RP 1.0 (8B),aion-labs/aion-rp-llama-3.1-8b,aion-labs,0.8,1.6,1.0,,general;text
 Arcee AI: Trinity Large Preview,arcee-ai/trinity-large-preview,arcee-ai,0.15,0.45,0.225,,general;text
-Qwen: Qwen Plus 0728,qwen/qwen-plus-2025-07-28,qwen,0.26,0.78,0.39,,general;text
-OpenAI: gpt-oss-120b (free),openai/gpt-oss-120b:free,openai,0.0,0.0,0.0,,general;text
 Mistral: Devstral Medium,mistralai/devstral-medium,mistralai,0.4,2.0,0.8,,coding;general;text
-NVIDIA: Nemotron 3 Super (free),nvidia/nemotron-3-super-120b-a12b:free,nvidia,0.0,0.0,0.0,,general;text
-Google: Gemma 3n 4B (free),google/gemma-3n-e4b-it:free,google,0.0,0.0,0.0,,general;text
 OpenAI: GPT-5.1-Codex-Max,openai/gpt-5.1-codex-max,openai,1.25,10.0,3.4375,,coding;general;text
-Mistral: Ministral 3 14B 2512,mistralai/ministral-14b-2512,mistralai,0.2,0.2,0.2,,general;text
-Mistral: Ministral 3 3B 2512,mistralai/ministral-3b-2512,mistralai,0.1,0.1,0.1,,general;text
 OpenAI: gpt-oss-20b (free),openai/gpt-oss-20b:free,openai,0.0,0.0,0.0,,general;text
-MiniMax: MiniMax-01,minimax/minimax-01,minimax,0.2,1.1,0.425,,general;text
+NVIDIA: Nemotron 3 Super (free),nvidia/nemotron-3-super-120b-a12b:free,nvidia,0.0,0.0,0.0,,general;text
+Amazon: Nova Pro 1.0,amazon/nova-pro-v1,amazon,0.8,3.2,1.4,,general;text
+Google: Gemma 3n 4B (free),google/gemma-3n-e4b-it:free,google,0.0,0.0,0.0,,general;text
+Mistral: Ministral 3 14B 2512,mistralai/ministral-14b-2512,mistralai,0.2,0.2,0.2,,general;text
+Qwen: Qwen3.5-Flash,qwen/qwen3.5-flash-02-23,qwen,0.065,0.26,0.1138,,general;text
+LiquidAI: LFM2-24B-A2B,liquid/lfm-2-24b-a2b,liquid,0.03,0.12,0.0525,,general;text
+AionLabs: Aion-2.0,aion-labs/aion-2.0,aion-labs,0.8,1.6,1.0,,general;text
+OpenAI: gpt-oss-120b (free),openai/gpt-oss-120b:free,openai,0.0,0.0,0.0,,general;text
+Qwen2.5 72B Instruct,qwen/qwen-2.5-72b-instruct,qwen,0.36,0.4,0.37,,general;text
 OpenAI: GPT-5.2 Pro,openai/gpt-5.2-pro,openai,21.0,168.0,57.75,,general;text
 Google: Gemini 3.1 Pro Preview Custom Tools,google/gemini-3.1-pro-preview-customtools,google,2.0,12.0,4.5,,agent;general;text
 Qwen: Qwen3.5 Plus 2026-02-15,qwen/qwen3.5-plus-02-15,qwen,0.26,1.56,0.585,,general;text
 ByteDance Seed: Seed 1.6 Flash,bytedance-seed/seed-1.6-flash,bytedance-seed,0.075,0.3,0.1312,,general;text
 OpenAI: o3 Deep Research,openai/o3-deep-research,openai,10.0,40.0,17.5,,agent;general;reasoning;text
-NVIDIA: Llama 3.3 Nemotron Super 49B V1.5,nvidia/llama-3.3-nemotron-super-49b-v1.5,nvidia,0.1,0.4,0.175,,general;text
 Google: Gemini 3.1 Pro Preview,google/gemini-3.1-pro-preview,google,2.0,12.0,4.5,,general;text
 OpenAI: GPT-5.1-Codex,openai/gpt-5.1-codex,openai,1.25,10.0,3.4375,,coding;general;text
+MiniMax: MiniMax-01,minimax/minimax-01,minimax,0.2,1.1,0.425,,general;text
 MiniMax: MiniMax M2.5 (free),minimax/minimax-m2.5:free,minimax,0.0,0.0,0.0,,general;text
 ByteDance Seed: Seed 1.6,bytedance-seed/seed-1.6,bytedance-seed,0.25,2.0,0.6875,,general;text
-Mistral: Ministral 3 8B 2512,mistralai/ministral-8b-2512,mistralai,0.15,0.15,0.15,,general;text
 Sao10K: Llama 3.3 Euryale 70B,sao10k/l3.3-euryale-70b,sao10k,0.65,0.75,0.675,,general;text
+Mistral: Ministral 3 8B 2512,mistralai/ministral-8b-2512,mistralai,0.15,0.15,0.15,,general;text
+Qwen2.5 Coder 32B Instruct,qwen/qwen-2.5-coder-32b-instruct,qwen,0.66,1.0,0.745,,coding;general;text
 Meta: Llama 3.1 70B Instruct,meta-llama/llama-3.1-70b-instruct,meta-llama,0.4,0.4,0.4,,general;text
-Mistral: Mistral Nemo,mistralai/mistral-nemo,mistralai,0.02,0.03,0.0225,,general;text
-Meta: Llama 3 70B Instruct,meta-llama/llama-3-70b-instruct,meta-llama,0.51,0.74,0.5675,,general;text
-Baidu: ERNIE 4.5 21B A3B,baidu/ernie-4.5-21b-a3b,baidu,0.07,0.28,0.1225,,general;text
 Z.ai: GLM 5,z-ai/glm-5,z-ai,0.6,1.92,0.93,,general;text
-MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,moonshotai,0.4,1.9,0.775,,general;text
+Baidu: ERNIE 4.5 21B A3B,baidu/ernie-4.5-21b-a3b,baidu,0.07,0.28,0.1225,,general;text
+Meta: Llama 3 70B Instruct,meta-llama/llama-3-70b-instruct,meta-llama,0.51,0.74,0.5675,,general;text
+MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,moonshotai,0.35,1.89,0.735,,general;text
 Mistral: Mistral Small Creative,mistralai/mistral-small-creative,mistralai,0.1,0.3,0.15,,general;text
-ByteDance: UI-TARS 7B ,bytedance/ui-tars-1.5-7b,bytedance,0.1,0.2,0.125,,general;text
-Qwen: Qwen3 Coder Next,qwen/qwen3-coder-next,qwen,0.11,0.8,0.2825,,coding;general;text
-Upstage: Solar Pro 3,upstage/solar-pro-3,upstage,0.15,0.6,0.2625,,general;text
-Free Models Router,openrouter/free,openrouter,0.0,0.0,0.0,,general;text
-AllenAI: Olmo 3 32B Think,allenai/olmo-3-32b-think,allenai,0.15,0.5,0.2375,,agent;general;reasoning;text
+Anthropic: Claude Opus 4.6,anthropic/claude-opus-4.6,anthropic,5.0,25.0,10.0,,coding;general;text
 Google: Gemini 2.5 Flash Lite,google/gemini-2.5-flash-lite,google,0.1,0.4,0.175,,general;text
 NVIDIA: Nemotron 3 Nano 30B A3B (free),nvidia/nemotron-3-nano-30b-a3b:free,nvidia,0.0,0.0,0.0,,general;text
-Deep Cogito: Cogito v2.1 671B,deepcogito/cogito-v2.1-671b,deepcogito,1.25,1.25,1.25,,general;text
-Relace: Relace Apply 3,relace/relace-apply-3,relace,0.85,1.25,0.95,,general;text
+ByteDance: UI-TARS 7B ,bytedance/ui-tars-1.5-7b,bytedance,0.1,0.2,0.125,,general;text
+Qwen: Qwen3 Max Thinking,qwen/qwen3-max-thinking,qwen,0.78,3.9,1.56,,agent;general;reasoning;text
+OpenAI: o3 Pro,openai/o3-pro,openai,20.0,80.0,35.0,,agent;general;reasoning;text
+Google: Gemini 2.5 Pro,google/gemini-2.5-pro,google,1.25,10.0,3.4375,,general;text
+Upstage: Solar Pro 3,upstage/solar-pro-3,upstage,0.15,0.6,0.2625,,general;text
 OpenAI: GPT-4o,openai/gpt-4o,openai,2.5,10.0,4.375,,general;text
-MiniMax: MiniMax M2-her,minimax/minimax-m2-her,minimax,0.3,1.2,0.525,,general;text
-Cohere: Command R (08-2024),cohere/command-r-08-2024,cohere,0.15,0.6,0.2625,,general;text
-Mistral: Mistral Large 3 2512,mistralai/mistral-large-2512,mistralai,0.5,1.5,0.75,,general;text
-Qwen: Qwen3 VL 30B A3B Thinking,qwen/qwen3-vl-30b-a3b-thinking,qwen,0.13,1.56,0.4875,,agent;general;reasoning;text
-DeepSeek: DeepSeek V3.2 Exp,deepseek/deepseek-v3.2-exp,deepseek,0.27,0.41,0.305,,general;text
-Mistral: Mistral Medium 3,mistralai/mistral-medium-3,mistralai,0.4,2.0,0.8,,general;text
 Arcee AI: Virtuoso Large,arcee-ai/virtuoso-large,arcee-ai,0.75,1.2,0.8625,,general;text
-Qwen: Qwen3 30B A3B,qwen/qwen3-30b-a3b,qwen,0.09,0.45,0.18,,general;text
+Cohere: Command R (08-2024),cohere/command-r-08-2024,cohere,0.15,0.6,0.2625,,general;text
 Google: Gemma 2 27B,google/gemma-2-27b-it,google,0.65,0.65,0.65,,general;text
+Qwen: Qwen3 30B A3B,qwen/qwen3-30b-a3b,qwen,0.12,0.5,0.215,,general;text
+MiniMax: MiniMax M2-her,minimax/minimax-m2-her,minimax,0.3,1.2,0.525,,general;text
+Anthropic: Claude 3.5 Haiku,anthropic/claude-3.5-haiku,anthropic,0.8,4.0,1.6,,coding;general;text
+Mistral: Mistral Medium 3,mistralai/mistral-medium-3,mistralai,0.4,2.0,0.8,,general;text
 OpenAI: GPT-5.2-Codex,openai/gpt-5.2-codex,openai,1.75,14.0,4.8125,,coding;general;text
+Mistral: Ministral 3 3B 2512,mistralai/ministral-3b-2512,mistralai,0.1,0.1,0.1,,general;text
 OpenAI: GPT-4o (2024-05-13),openai/gpt-4o-2024-05-13,openai,5.0,15.0,7.5,,general;text
-MiniMax: MiniMax M2.1,minimax/minimax-m2.1,minimax,0.29,0.95,0.455,,general;text
+OpenAI: GPT-4 Turbo Preview,openai/gpt-4-turbo-preview,openai,10.0,30.0,15.0,,general;text
 NVIDIA: Nemotron Nano 12B 2 VL,nvidia/nemotron-nano-12b-v2-vl,nvidia,0.2,0.6,0.3,,general;text
 OpenAI: o1-pro,openai/o1-pro,openai,150.0,600.0,262.5,,agent;general;reasoning;text
+Deep Cogito: Cogito v2.1 671B,deepcogito/cogito-v2.1-671b,deepcogito,1.25,1.25,1.25,,general;text
 Amazon: Nova Premier 1.0,amazon/nova-premier-v1,amazon,2.5,12.5,5.0,,general;text
-IBM: Granite 4.0 Micro,ibm-granite/granite-4.0-h-micro,ibm-granite,0.017,0.112,0.0408,,general;text
-OpenAI: GPT-4 Turbo Preview,openai/gpt-4-turbo-preview,openai,10.0,30.0,15.0,,general;text
-Mistral: Mistral Small 3.1 24B,mistralai/mistral-small-3.1-24b-instruct,mistralai,0.351,0.555,0.402,,general;text
-Qwen: Qwen2.5 VL 32B Instruct,qwen/qwen2.5-vl-32b-instruct,qwen,0.2,0.6,0.3,,general;text
-TheDrummer: Skyfall 36B V2,thedrummer/skyfall-36b-v2,thedrummer,0.55,0.8,0.6125,,general;text
 OpenAI: GPT-3.5 Turbo Instruct,openai/gpt-3.5-turbo-instruct,openai,1.5,2.0,1.625,,general;text
-Tencent: Hunyuan A13B Instruct,tencent/hunyuan-a13b-instruct,tencent,0.14,0.57,0.2475,,general;text
+MiniMax: MiniMax M2.1,minimax/minimax-m2.1,minimax,0.29,0.95,0.455,,general;text
+Qwen: Qwen2.5 VL 32B Instruct,qwen/qwen2.5-vl-32b-instruct,qwen,0.2,0.6,0.3,,general;text
 EssentialAI: Rnj 1 Instruct,essentialai/rnj-1-instruct,essentialai,0.15,0.15,0.15,,general;text
-WizardLM-2 8x22B,microsoft/wizardlm-2-8x22b,microsoft,0.62,0.62,0.62,,general;text
-DeepSeek: DeepSeek V3.2 Speciale,deepseek/deepseek-v3.2-speciale,deepseek,0.287,0.431,0.323,,general;text
-Mistral Large 2411,mistralai/mistral-large-2411,mistralai,2.0,6.0,3.0,,general;text
-Amazon: Nova 2 Lite,amazon/nova-2-lite-v1,amazon,0.3,2.5,0.85,,general;text
-TNG: DeepSeek R1T2 Chimera,tngtech/deepseek-r1t2-chimera,tngtech,0.3,1.1,0.5,,agent;general;reasoning;text
+Tencent: Hunyuan A13B Instruct,tencent/hunyuan-a13b-instruct,tencent,0.14,0.57,0.2475,,general;text
 Morph: Morph V3 Large,morph/morph-v3-large,morph,0.9,1.9,1.15,,general;text
+Mistral Large 2411,mistralai/mistral-large-2411,mistralai,2.0,6.0,3.0,,general;text
+DeepSeek: DeepSeek V3.2 Speciale,deepseek/deepseek-v3.2-speciale,deepseek,0.287,0.431,0.323,,general;text
 Anthropic: Claude 3.7 Sonnet,anthropic/claude-3.7-sonnet,anthropic,3.0,15.0,6.0,,coding;general;text
+TNG: DeepSeek R1T2 Chimera,tngtech/deepseek-r1t2-chimera,tngtech,0.3,1.1,0.5,,agent;general;reasoning;text
 xAI: Grok 4 Fast,x-ai/grok-4-fast,x-ai,0.2,0.5,0.275,,general;text
+WizardLM-2 8x22B,microsoft/wizardlm-2-8x22b,microsoft,0.62,0.62,0.62,,general;text
+Amazon: Nova 2 Lite,amazon/nova-2-lite-v1,amazon,0.3,2.5,0.85,,general;text
+IBM: Granite 4.0 Micro,ibm-granite/granite-4.0-h-micro,ibm-granite,0.017,0.112,0.0408,,general;text
+Qwen: Qwen3 VL 8B Instruct,qwen/qwen3-vl-8b-instruct,qwen,0.08,0.5,0.185,,general;text
+Mistral: Codestral 2508,mistralai/codestral-2508,mistralai,0.3,0.9,0.45,,coding;general;text
+Meta: Llama 3.3 70B Instruct (free),meta-llama/llama-3.3-70b-instruct:free,meta-llama,0.0,0.0,0.0,,general;text
+Baidu: ERNIE 4.5 21B A3B Thinking,baidu/ernie-4.5-21b-a3b-thinking,baidu,0.07,0.28,0.1225,,agent;general;reasoning;text
+OpenAI: GPT-5 Image Mini,openai/gpt-5-image-mini,openai,2.5,2.0,2.375,,image-gen;text
+Meta: Llama 3 8B Instruct,meta-llama/llama-3-8b-instruct,meta-llama,0.14,0.14,0.14,,general;text
+Sao10k: Llama 3 Euryale 70B v2.1,sao10k/l3-euryale-70b,sao10k,1.48,1.48,1.48,,general;text
 Qwen: Qwen3 VL 8B Thinking,qwen/qwen3-vl-8b-thinking,qwen,0.117,1.365,0.429,,agent;general;reasoning;text
 MythoMax 13B,gryphe/mythomax-l2-13b,gryphe,0.06,0.06,0.06,,general;text
-Mistral: Codestral 2508,mistralai/codestral-2508,mistralai,0.3,0.9,0.45,,coding;general;text
-Qwen: Qwen3 VL 8B Instruct,qwen/qwen3-vl-8b-instruct,qwen,0.08,0.5,0.185,,general;text
-Qwen: Qwen3 Max,qwen/qwen3-max,qwen,0.78,3.9,1.56,,general;text
-Baidu: ERNIE 4.5 21B A3B Thinking,baidu/ernie-4.5-21b-a3b-thinking,baidu,0.07,0.28,0.1225,,agent;general;reasoning;text
-Meta: Llama 3.3 70B Instruct (free),meta-llama/llama-3.3-70b-instruct:free,meta-llama,0.0,0.0,0.0,,general;text
 OpenAI: o4 Mini Deep Research,openai/o4-mini-deep-research,openai,2.0,8.0,3.5,,agent;general;reasoning;text
-Sao10k: Llama 3 Euryale 70B v2.1,sao10k/l3-euryale-70b,sao10k,1.48,1.48,1.48,,general;text
-Meta: Llama 3 8B Instruct,meta-llama/llama-3-8b-instruct,meta-llama,0.04,0.04,0.04,,general;text
+NVIDIA: Llama 3.3 Nemotron Super 49B V1.5,nvidia/llama-3.3-nemotron-super-49b-v1.5,nvidia,0.4,0.4,0.4,,general;text
+Anthropic: Claude Sonnet 4,anthropic/claude-sonnet-4,anthropic,3.0,15.0,6.0,,coding;general;text
+Qwen: Qwen3 VL 30B A3B Thinking,qwen/qwen3-vl-30b-a3b-thinking,qwen,0.13,1.56,0.4875,,agent;general;reasoning;text
+Qwen: Qwen3 VL 30B A3B Instruct,qwen/qwen3-vl-30b-a3b-instruct,qwen,0.13,0.52,0.2275,,general;text
 OpenAI: GPT-5 Pro,openai/gpt-5-pro,openai,15.0,120.0,41.25,,general;text
 Z.ai: GLM 4.6,z-ai/glm-4.6,z-ai,0.43,1.74,0.7575,,general;text
 xAI: Grok Code Fast 1,x-ai/grok-code-fast-1,x-ai,0.2,1.5,0.525,,coding;general;text
+Goliath 120B,alpindale/goliath-120b,alpindale,3.75,7.5,4.6875,,general;text
 Google: Gemini 2.5 Flash Lite Preview 09-2025,google/gemini-2.5-flash-lite-preview-09-2025,google,0.1,0.4,0.175,,general;text
-Anthropic: Claude Sonnet 4,anthropic/claude-sonnet-4,anthropic,3.0,15.0,6.0,,coding;general;text
+Mistral: Mistral Nemo,mistralai/mistral-nemo,mistralai,0.02,0.03,0.0225,,general;text
+Relace: Relace Apply 3,relace/relace-apply-3,relace,0.85,1.25,0.95,,general;text
 Qwen: Qwen3 VL 235B A22B Thinking,qwen/qwen3-vl-235b-a22b-thinking,qwen,0.26,2.6,0.845,,agent;general;reasoning;text
 Qwen: Qwen3 Coder Flash,qwen/qwen3-coder-flash,qwen,0.195,0.975,0.39,,coding;general;text
-Qwen: Qwen3 Next 80B A3B Instruct (free),qwen/qwen3-next-80b-a3b-instruct:free,qwen,0.0,0.0,0.0,,general;text
-Qwen: Qwen3 VL 30B A3B Instruct,qwen/qwen3-vl-30b-a3b-instruct,qwen,0.13,0.52,0.2275,,general;text
-Goliath 120B,alpindale/goliath-120b,alpindale,3.75,7.5,4.6875,,general;text
-MoonshotAI: Kimi K2 0905,moonshotai/kimi-k2-0905,moonshotai,0.6,2.5,1.075,,general;text
-Mistral: Mistral Medium 3.1,mistralai/mistral-medium-3.1,mistralai,0.4,2.0,0.8,,general;text
-Qwen: Qwen3 VL 235B A22B Instruct,qwen/qwen3-vl-235b-a22b-instruct,qwen,0.2,0.88,0.37,,general;text
-Qwen: Qwen3 30B A3B Thinking 2507,qwen/qwen3-30b-a3b-thinking-2507,qwen,0.08,0.4,0.16,,agent;general;reasoning;text
-DeepSeek: DeepSeek V3.1,deepseek/deepseek-chat-v3.1,deepseek,0.21,0.79,0.355,,general;text
-Baidu: ERNIE 4.5 VL 28B A3B,baidu/ernie-4.5-vl-28b-a3b,baidu,0.14,0.56,0.245,,general;text
 OpenAI: GPT-5 Codex,openai/gpt-5-codex,openai,1.25,10.0,3.4375,,coding;general;text
+Qwen: Qwen3 Max,qwen/qwen3-max,qwen,0.78,3.9,1.56,,general;text
 Inception: Mercury,inception/mercury,inception,0.25,0.75,0.375,,general
-Qwen: Qwen Plus 0728 (thinking),qwen/qwen-plus-2025-07-28:thinking,qwen,0.26,0.78,0.39,,general;text
-Z.ai: GLM 4.5V,z-ai/glm-4.5v,z-ai,0.6,1.8,0.9,,general;text
-NVIDIA: Nemotron Nano 9B V2 (free),nvidia/nemotron-nano-9b-v2:free,nvidia,0.0,0.0,0.0,,general;text
-DeepSeek: R1,deepseek/deepseek-r1,deepseek,0.7,2.5,1.15,,agent;general;reasoning;text
-Google: Gemma 3n 2B (free),google/gemma-3n-e2b-it:free,google,0.0,0.0,0.0,,general;text
-NVIDIA: Nemotron Nano 9B V2,nvidia/nemotron-nano-9b-v2,nvidia,0.04,0.16,0.07,,general;text
-Nous: Hermes 4 70B,nousresearch/hermes-4-70b,nousresearch,0.13,0.4,0.1975,,general;text
 Z.ai: GLM 4.5,z-ai/glm-4.5,z-ai,0.6,2.2,1.0,,general;text
+Qwen: Qwen3 Next 80B A3B Instruct (free),qwen/qwen3-next-80b-a3b-instruct:free,qwen,0.0,0.0,0.0,,general;text
+Google: Gemma 3n 2B (free),google/gemma-3n-e2b-it:free,google,0.0,0.0,0.0,,general;text
+Qwen: Qwen Plus 0728 (thinking),qwen/qwen-plus-2025-07-28:thinking,qwen,0.26,0.78,0.39,,general;text
 Z.ai: GLM 4.5 Air (free),z-ai/glm-4.5-air:free,z-ai,0.0,0.0,0.0,,general;text
+Qwen: Qwen Plus 0728,qwen/qwen-plus-2025-07-28,qwen,0.26,0.78,0.39,,general;text
+DeepSeek: R1,deepseek/deepseek-r1,deepseek,0.7,2.5,1.15,,agent;general;reasoning;text
 Tongyi DeepResearch 30B A3B,alibaba/tongyi-deepresearch-30b-a3b,alibaba,0.09,0.45,0.18,,general;text
+Qwen: Qwen3 VL 235B A22B Instruct,qwen/qwen3-vl-235b-a22b-instruct,qwen,0.2,0.88,0.37,,general;text
 Inception: Mercury Coder,inception/mercury-coder,inception,0.25,0.75,0.375,,coding;general
-Google: Gemini 2.5 Flash,google/gemini-2.5-flash,google,0.3,2.5,0.85,,general;text
-Meta: Llama 3.2 1B Instruct,meta-llama/llama-3.2-1b-instruct,meta-llama,0.027,0.201,0.0705,,general;text
-Nous: Hermes 4 405B,nousresearch/hermes-4-405b,nousresearch,1.0,3.0,1.5,,general;text
-OpenAI: GPT-5 Chat,openai/gpt-5-chat,openai,1.25,10.0,3.4375,,general;text
-Cohere: Command R+ (08-2024),cohere/command-r-plus-08-2024,cohere,2.5,10.0,4.375,,general;text
-Mistral: Mistral Small 3.2 24B,mistralai/mistral-small-3.2-24b-instruct,mistralai,0.075,0.2,0.1062,,general;text
-OpenAI: GPT-5 Mini,openai/gpt-5-mini,openai,0.25,2.0,0.6875,,general;text
-OpenAI: GPT-3.5 Turbo,openai/gpt-3.5-turbo,openai,0.5,1.5,0.75,,general;text
+NVIDIA: Nemotron Nano 9B V2 (free),nvidia/nemotron-nano-9b-v2:free,nvidia,0.0,0.0,0.0,,general;text
 Morph: Morph V3 Fast,morph/morph-v3-fast,morph,0.8,1.2,0.9,,general;text
+OpenAI: GPT-3.5 Turbo,openai/gpt-3.5-turbo,openai,0.5,1.5,0.75,,general;text
+Qwen: Qwen3 30B A3B Thinking 2507,qwen/qwen3-30b-a3b-thinking-2507,qwen,0.08,0.4,0.16,,agent;general;reasoning;text
+Mistral: Mistral Small 3.2 24B,mistralai/mistral-small-3.2-24b-instruct,mistralai,0.075,0.2,0.1062,,general;text
+Meta: Llama 3.2 1B Instruct,meta-llama/llama-3.2-1b-instruct,meta-llama,0.027,0.201,0.0705,,general;text
+MoonshotAI: Kimi K2 0905,moonshotai/kimi-k2-0905,moonshotai,0.6,2.5,1.075,,general;text
+Nous: Hermes 4 70B,nousresearch/hermes-4-70b,nousresearch,0.13,0.4,0.1975,,general;text
+Cohere: Command R+ (08-2024),cohere/command-r-plus-08-2024,cohere,2.5,10.0,4.375,,general;text
 AllenAI: Olmo 2 32B Instruct,allenai/olmo-2-0325-32b-instruct,allenai,0.05,0.2,0.0875,,general;text
+Nous: Hermes 4 405B,nousresearch/hermes-4-405b,nousresearch,1.0,3.0,1.5,,general;text
+Mistral: Mistral Medium 3.1,mistralai/mistral-medium-3.1,mistralai,0.4,2.0,0.8,,general;text
+NVIDIA: Nemotron Nano 9B V2,nvidia/nemotron-nano-9b-v2,nvidia,0.04,0.16,0.07,,general;text
+Baidu: ERNIE 4.5 VL 28B A3B,baidu/ernie-4.5-vl-28b-a3b,baidu,0.14,0.56,0.245,,general;text
+DeepSeek: DeepSeek V3.1,deepseek/deepseek-chat-v3.1,deepseek,0.21,0.79,0.355,,general;text
 Qwen: QwQ 32B,qwen/qwq-32b,qwen,0.15,0.58,0.2575,,agent;general;reasoning;text
 Anthropic: Claude Opus 4.1,anthropic/claude-opus-4.1,anthropic,15.0,75.0,30.0,,coding;general;text
-Qwen: Qwen3 30B A3B Instruct 2507,qwen/qwen3-30b-a3b-instruct-2507,qwen,0.0482,0.1931,0.0844,,general;text
-Qwen: Qwen3 235B A22B Thinking 2507,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.1,0.1,0.1,,agent;general;reasoning;text
-Google: Gemini 2.5 Pro Preview 05-06,google/gemini-2.5-pro-preview-05-06,google,1.25,10.0,3.4375,,general;text
 OpenAI: gpt-oss-120b,openai/gpt-oss-120b,openai,0.039,0.18,0.0743,,general;text
-OpenAI: GPT-5 Nano,openai/gpt-5-nano,openai,0.05,0.4,0.1375,,general;text
-OpenAI: gpt-oss-20b,openai/gpt-oss-20b,openai,0.029,0.14,0.0568,,general;text
-Google: Gemma 3 4B (free),google/gemma-3-4b-it:free,google,0.0,0.0,0.0,,general;text
 Nous: Hermes 3 405B Instruct (free),nousresearch/hermes-3-llama-3.1-405b:free,nousresearch,0.0,0.0,0.0,,general;text
-Qwen: Qwen3 Coder 480B A35B (free),qwen/qwen3-coder:free,qwen,0.0,0.0,0.0,,coding;general;text
-Qwen: Qwen3 Coder 480B A35B,qwen/qwen3-coder,qwen,0.22,1.8,0.615,,coding;general;text
-MiniMax: MiniMax M1,minimax/minimax-m1,minimax,0.4,2.2,0.85,,general;text
-Google: Gemma 3 4B,google/gemma-3-4b-it,google,0.04,0.08,0.05,,general;text
-OpenAI: GPT-4 (older v0314),openai/gpt-4-0314,openai,30.0,60.0,37.5,,general;text
+Google: Gemma 3 4B (free),google/gemma-3-4b-it:free,google,0.0,0.0,0.0,,general;text
+OpenAI: GPT-5 Chat,openai/gpt-5-chat,openai,1.25,10.0,3.4375,,general;text
+Qwen: Qwen3 30B A3B Instruct 2507,qwen/qwen3-30b-a3b-instruct-2507,qwen,0.0482,0.1931,0.0844,,general;text
 Sao10K: Llama 3 8B Lunaris,sao10k/l3-lunaris-8b,sao10k,0.04,0.05,0.0425,,general;text
-OpenAI: o3 Mini High,openai/o3-mini-high,openai,1.1,4.4,1.925,,agent;general;reasoning;text
-Anthropic: Claude Opus 4,anthropic/claude-opus-4,anthropic,15.0,75.0,30.0,,coding;general;text
-Arcee AI: Spotlight,arcee-ai/spotlight,arcee-ai,0.18,0.18,0.18,,general;text
+OpenAI: GPT-5 Mini,openai/gpt-5-mini,openai,0.25,2.0,0.6875,,general;text
+OpenAI: GPT-4 (older v0314),openai/gpt-4-0314,openai,30.0,60.0,37.5,,general;text
+Qwen: Qwen3 Coder 480B A35B (free),qwen/qwen3-coder:free,qwen,0.0,0.0,0.0,,coding;general;text
+OpenAI: gpt-oss-20b,openai/gpt-oss-20b,openai,0.029,0.14,0.0568,,general;text
 OpenAI: GPT-3.5 Turbo (older v0613),openai/gpt-3.5-turbo-0613,openai,1.0,2.0,1.25,,general;text
-Arcee AI: Maestro Reasoning,arcee-ai/maestro-reasoning,arcee-ai,0.9,3.3,1.5,,agent;general;reasoning;text
-OpenAI: GPT-4o Search Preview,openai/gpt-4o-search-preview,openai,2.5,10.0,4.375,,general;text
+Qwen: Qwen3 235B A22B Thinking 2507,qwen/qwen3-235b-a22b-thinking-2507,qwen,0.1,0.1,0.1,,agent;general;reasoning;text
+Qwen: Qwen3 Coder 480B A35B,qwen/qwen3-coder,qwen,0.22,1.8,0.615,,coding;general;text
+OpenAI: GPT-5 Nano,openai/gpt-5-nano,openai,0.05,0.4,0.1375,,general;text
+MiniMax: MiniMax M1,minimax/minimax-m1,minimax,0.4,2.2,0.85,,general;text
 Anthropic: Claude 3.7 Sonnet (thinking),anthropic/claude-3.7-sonnet:thinking,anthropic,3.0,15.0,6.0,,coding;general;text
-OpenAI: o3 Pro,openai/o3-pro,openai,20.0,80.0,35.0,,agent;general;reasoning;text
-Google: Gemini 2.5 Pro,google/gemini-2.5-pro,google,1.25,10.0,3.4375,,general;text
+Google: Gemini 2.5 Flash,google/gemini-2.5-flash,google,0.3,2.5,0.85,,general;text
 Qwen: Qwen VL Plus,qwen/qwen-vl-plus,qwen,0.1365,0.4095,0.2048,,general;text
 OpenAI: GPT-4.1 Nano,openai/gpt-4.1-nano,openai,0.1,0.4,0.175,,general;text
-Qwen: Qwen3 32B,qwen/qwen3-32b,qwen,0.08,0.28,0.13,,general;text
-OpenAI: o4 Mini,openai/o4-mini,openai,1.1,4.4,1.925,,agent;general;reasoning;text
-OpenAI: GPT-4.1 Mini,openai/gpt-4.1-mini,openai,0.4,1.6,0.7,,general;text
-Qwen: Qwen VL Max,qwen/qwen-vl-max,qwen,0.52,2.08,0.91,,general;text
-Mistral: Mistral Small 3,mistralai/mistral-small-24b-instruct-2501,mistralai,0.05,0.08,0.0575,,general;text
-Amazon: Nova Micro 1.0,amazon/nova-micro-v1,amazon,0.035,0.14,0.0613,,general;text
-Amazon: Nova Pro 1.0,amazon/nova-pro-v1,amazon,0.8,3.2,1.4,,general;text
+Anthropic: Claude Opus 4,anthropic/claude-opus-4,anthropic,15.0,75.0,30.0,,coding;general;text
 Qwen: Qwen-Turbo,qwen/qwen-turbo,qwen,0.0325,0.13,0.0569,,general;text
+OpenAI: o4 Mini,openai/o4-mini,openai,1.1,4.4,1.925,,agent;general;reasoning;text
+Google: Gemini 2.5 Pro Preview 05-06,google/gemini-2.5-pro-preview-05-06,google,1.25,10.0,3.4375,,general;text
+Qwen: Qwen VL Max,qwen/qwen-vl-max,qwen,0.52,2.08,0.91,,general;text
+Qwen: Qwen3 32B,qwen/qwen3-32b,qwen,0.08,0.28,0.13,,general;text
+Arcee AI: Maestro Reasoning,arcee-ai/maestro-reasoning,arcee-ai,0.9,3.3,1.5,,agent;general;reasoning;text
 DeepSeek: DeepSeek V3 0324,deepseek/deepseek-chat-v3-0324,deepseek,0.2,0.77,0.3425,,general;text
-OpenAI: o3 Mini,openai/o3-mini,openai,1.1,4.4,1.925,,agent;general;reasoning;text
-Inflection: Inflection 3 Productivity,inflection/inflection-3-productivity,inflection,2.5,10.0,4.375,,general;text
-OpenAI: GPT-4o (2024-11-20),openai/gpt-4o-2024-11-20,openai,2.5,10.0,4.375,,general;text
-TheDrummer: Rocinante 12B,thedrummer/rocinante-12b,thedrummer,0.17,0.43,0.235,,general;text
-AlfredPros: CodeLLaMa 7B Instruct Solidity,alfredpros/codellama-7b-instruct-solidity,alfredpros,0.8,1.2,0.9,,coding;general;text
-Qwen2.5 Coder 32B Instruct,qwen/qwen-2.5-coder-32b-instruct,qwen,0.66,1.0,0.745,,coding;general;text
-NVIDIA: Llama 3.1 Nemotron 70B Instruct,nvidia/llama-3.1-nemotron-70b-instruct,nvidia,1.2,1.2,1.2,,general;text
-TheDrummer: UnslopNemo 12B,thedrummer/unslopnemo-12b,thedrummer,0.4,0.4,0.4,,general;text
 Mancer: Weaver (alpha),mancer/weaver,mancer,0.75,1.0,0.8125,,general;text
-Anthropic: Claude 3.5 Haiku,anthropic/claude-3.5-haiku,anthropic,0.8,4.0,1.6,,coding;general;text
-Reka Flash 3,rekaai/reka-flash-3,rekaai,0.1,0.2,0.125,,general;text
+Arcee AI: Spotlight,arcee-ai/spotlight,arcee-ai,0.18,0.18,0.18,,general;text
+Mistral: Mistral Small 3,mistralai/mistral-small-24b-instruct-2501,mistralai,0.05,0.08,0.0575,,general;text
+OpenAI: o3 Mini,openai/o3-mini,openai,1.1,4.4,1.925,,agent;general;reasoning;text
+AlfredPros: CodeLLaMa 7B Instruct Solidity,alfredpros/codellama-7b-instruct-solidity,alfredpros,0.8,1.2,0.9,,coding;general;text
+Inflection: Inflection 3 Productivity,inflection/inflection-3-productivity,inflection,2.5,10.0,4.375,,general;text
+NVIDIA: Llama 3.1 Nemotron 70B Instruct,nvidia/llama-3.1-nemotron-70b-instruct,nvidia,1.2,1.2,1.2,,general;text
+TheDrummer: Rocinante 12B,thedrummer/rocinante-12b,thedrummer,0.17,0.43,0.235,,general;text
+Google: Gemma 3 4B,google/gemma-3-4b-it,google,0.05,0.1,0.0625,,general;text
 Perplexity: Sonar Pro,perplexity/sonar-pro,perplexity,3.0,15.0,6.0,,general;text
+OpenAI: GPT-4o Search Preview,openai/gpt-4o-search-preview,openai,2.5,10.0,4.375,,general;text
+OpenAI: GPT-4.1 Mini,openai/gpt-4.1-mini,openai,0.4,1.6,0.7,,general;text
+Reka Flash 3,rekaai/reka-flash-3,rekaai,0.1,0.2,0.125,,general;text
 Google: Gemma 3 27B,google/gemma-3-27b-it,google,0.08,0.16,0.1,,general;text
-Llama Guard 3 8B,meta-llama/llama-guard-3-8b,meta-llama,0.484,0.03,0.3705,,general;text
-Qwen: Qwen2.5 VL 72B Instruct,qwen/qwen2.5-vl-72b-instruct,qwen,0.25,0.75,0.375,,general;text
-DeepSeek: R1 Distill Llama 70B,deepseek/deepseek-r1-distill-llama-70b,deepseek,0.7,0.8,0.725,,agent;general;reasoning;text
 Nous: Hermes 3 405B Instruct,nousresearch/hermes-3-llama-3.1-405b,nousresearch,1.0,1.0,1.0,,general;text
-Perplexity: Sonar,perplexity/sonar,perplexity,1.0,1.0,1.0,,general;text
+TheDrummer: Skyfall 36B V2,thedrummer/skyfall-36b-v2,thedrummer,0.55,0.8,0.6125,,general;text
 OpenAI: GPT-4o-mini (2024-07-18),openai/gpt-4o-mini-2024-07-18,openai,0.15,0.6,0.2625,,general;text
+Perplexity: Sonar,perplexity/sonar,perplexity,1.0,1.0,1.0,,general;text
+Qwen: Qwen2.5 VL 72B Instruct,qwen/qwen2.5-vl-72b-instruct,qwen,0.8,1.0,0.85,,general;text
+OpenAI: o3 Mini High,openai/o3-mini-high,openai,1.1,4.4,1.925,,agent;general;reasoning;text
+Sao10K: Llama 3.1 Euryale 70B v2.2,sao10k/l3.1-euryale-70b,sao10k,0.85,0.85,0.85,,general;text
+Nous: Hermes 3 70B Instruct,nousresearch/hermes-3-llama-3.1-70b,nousresearch,0.7,0.7,0.7,,general;text
+DeepSeek: R1 Distill Llama 70B,deepseek/deepseek-r1-distill-llama-70b,deepseek,0.8,0.8,0.8,,agent;general;reasoning;text
+Microsoft: Phi 4,microsoft/phi-4,microsoft,0.065,0.14,0.0838,,general;text
+OpenAI: GPT-4o (extended),openai/gpt-4o:extended,openai,6.0,18.0,9.0,,general;text
 DeepSeek: DeepSeek V3,deepseek/deepseek-chat,deepseek,0.2002,0.8001,0.3502,,general;text
 Meta: Llama 3.3 70B Instruct,meta-llama/llama-3.3-70b-instruct,meta-llama,0.1,0.32,0.155,,general;text
-Sao10K: Llama 3.1 Euryale 70B v2.2,sao10k/l3.1-euryale-70b,sao10k,0.85,0.85,0.85,,general;text
-Nous: Hermes 3 70B Instruct,nousresearch/hermes-3-llama-3.1-70b,nousresearch,0.3,0.3,0.3,,general;text
 Inflection: Inflection 3 Pi,inflection/inflection-3-pi,inflection,2.5,10.0,4.375,,general;text
 Meta: Llama 3.2 3B Instruct (free),meta-llama/llama-3.2-3b-instruct:free,meta-llama,0.0,0.0,0.0,,general;text
-Meta: Llama 3.2 3B Instruct,meta-llama/llama-3.2-3b-instruct,meta-llama,0.0509,0.335,0.1219,,general;text
-Qwen2.5 72B Instruct,qwen/qwen-2.5-72b-instruct,qwen,0.36,0.4,0.37,,general;text
-OpenAI: GPT-4o (extended),openai/gpt-4o:extended,openai,6.0,18.0,9.0,,general;text
+OpenAI: GPT-4o-mini,openai/gpt-4o-mini,openai,0.15,0.6,0.2625,,general;text
