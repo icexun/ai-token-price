@@ -1,26 +1,99 @@
 {
-  "date": "2026-06-13",
-  "updated_at": "2026-06-13T03:43:39.513855Z",
-  "total_new_models": 21,
+  "date": "2026-06-20",
+  "updated_at": "2026-06-20T03:40:26.835433Z",
+  "total_new_models": 26,
   "models": [
     {
-      "model_name": "Anthropic: Claude Fable 5",
-      "model_id": "anthropic/claude-fable-5",
-      "vendor": "anthropic",
+      "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "model_id": "google/gemini-3.1-flash-image",
+      "vendor": "google",
       "price": {
-        "input": 10.0,
-        "output": 50.0,
-        "blended": 20.0
+        "input": 0.5,
+        "output": 3.0,
+        "blended": 1.125
       },
       "aa_quality_index": null,
-      "aa_intelligence_index": 64.9,
+      "aa_intelligence_index": null,
+      "categories": [
+        "image-gen",
+        "text"
+      ],
+      "context_length": 131072,
+      "published_at": "2026-06-18T03:41:05+00:00"
+    },
+    {
+      "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+      "model_id": "google/gemini-3-pro-image",
+      "vendor": "google",
+      "price": {
+        "input": 2.0,
+        "output": 12.0,
+        "blended": 4.5
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "image-gen",
+        "text"
+      ],
+      "context_length": 65536,
+      "published_at": "2026-06-18T03:40:54+00:00"
+    },
+    {
+      "model_name": "Cohere: North Mini Code (free)",
+      "model_id": "cohere/north-mini-code:free",
+      "vendor": "cohere",
+      "price": {
+        "input": 0.0,
+        "output": 0.0,
+        "blended": 0.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
       "categories": [
         "coding",
         "general",
         "text"
       ],
-      "context_length": 1000000,
-      "published_at": "2026-06-09T12:18:35+00:00"
+      "context_length": 256000,
+      "published_at": "2026-06-17T19:15:48+00:00"
+    },
+    {
+      "model_name": "Z.ai: GLM 5.2",
+      "model_id": "z-ai/glm-5.2",
+      "vendor": "z-ai",
+      "price": {
+        "input": 1.2,
+        "output": 4.1,
+        "blended": 1.925
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": 51.1,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 1048576,
+      "published_at": "2026-06-16T17:45:30+00:00"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2.7 Code",
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "vendor": "moonshotai",
+      "price": {
+        "input": 0.74,
+        "output": 3.5,
+        "blended": 1.43
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 262144,
+      "published_at": "2026-06-12T12:12:41+00:00"
     },
     {
       "model_name": "Anthropic: Claude Fable Latest",
@@ -41,6 +114,25 @@
       "published_at": "2026-06-09T18:32:24+00:00"
     },
     {
+      "model_name": "Anthropic: Claude Fable 5",
+      "model_id": "anthropic/claude-fable-5",
+      "vendor": "anthropic",
+      "price": {
+        "input": 10.0,
+        "output": 50.0,
+        "blended": 20.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": 59.9,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-06-09T12:18:35+00:00"
+    },
+    {
       "model_name": "Nex AGI: Nex-N2-Pro (free)",
       "model_id": "nex-agi/nex-n2-pro:free",
       "vendor": "nex-agi",
@@ -57,6 +149,24 @@
       ],
       "context_length": 262144,
       "published_at": "2026-06-08T16:45:40+00:00"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Ultra",
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "vendor": "nvidia",
+      "price": {
+        "input": 0.5,
+        "output": 2.2,
+        "blended": 0.925
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-06-04T05:33:28+00:00"
     },
     {
       "model_name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
@@ -95,24 +205,6 @@
       "published_at": "2026-06-04T05:33:28+00:00"
     },
     {
-      "model_name": "NVIDIA: Nemotron 3 Ultra",
-      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "vendor": "nvidia",
-      "price": {
-        "input": 0.5,
-        "output": 2.5,
-        "blended": 1.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-06-04T05:33:28+00:00"
-    },
-    {
       "model_name": "Qwen: Qwen3.7 Plus",
       "model_id": "qwen/qwen3.7-plus",
       "vendor": "qwen",
@@ -122,13 +214,31 @@
         "blended": 0.56
       },
       "aa_quality_index": null,
-      "aa_intelligence_index": 53.3,
+      "aa_intelligence_index": 39.0,
       "categories": [
         "general",
         "text"
       ],
       "context_length": 1000000,
       "published_at": "2026-06-03T13:03:03+00:00"
+    },
+    {
+      "model_name": "OpenRouter: Fusion",
+      "model_id": "openrouter/fusion",
+      "vendor": "openrouter",
+      "price": {
+        "input": -1000000.0,
+        "output": -1000000.0,
+        "blended": -1000000.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-06-13T17:27:27+00:00"
     },
     {
       "model_name": "MiniMax: MiniMax M3",
@@ -140,13 +250,32 @@
         "blended": 0.525
       },
       "aa_quality_index": null,
-      "aa_intelligence_index": 54.7,
+      "aa_intelligence_index": 44.4,
       "categories": [
         "general",
         "text"
       ],
       "context_length": 1048576,
       "published_at": "2026-05-31T16:36:14+00:00"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.8",
+      "model_id": "anthropic/claude-opus-4.8",
+      "vendor": "anthropic",
+      "price": {
+        "input": 5.0,
+        "output": 25.0,
+        "blended": 10.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": 55.7,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-05-27T18:04:51+00:00"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.8 (Fast)",
@@ -168,25 +297,6 @@
       "published_at": "2026-05-27T20:28:23+00:00"
     },
     {
-      "model_name": "Anthropic: Claude Opus 4.8",
-      "model_id": "anthropic/claude-opus-4.8",
-      "vendor": "anthropic",
-      "price": {
-        "input": 5.0,
-        "output": 25.0,
-        "blended": 10.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 61.4,
-      "categories": [
-        "coding",
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-05-27T18:04:51+00:00"
-    },
-    {
       "model_name": "StepFun: Step 3.7 Flash",
       "model_id": "stepfun/step-3.7-flash",
       "vendor": "stepfun",
@@ -196,7 +306,7 @@
         "blended": 0.4375
       },
       "aa_quality_index": null,
-      "aa_intelligence_index": 42.6,
+      "aa_intelligence_index": 29.7,
       "categories": [
         "general",
         "text"
@@ -214,7 +324,7 @@
         "blended": 1.875
       },
       "aa_quality_index": null,
-      "aa_intelligence_index": 56.6,
+      "aa_intelligence_index": 46.0,
       "categories": [
         "general",
         "text"
@@ -239,24 +349,6 @@
       ],
       "context_length": 256000,
       "published_at": "2026-05-20T17:28:43+00:00"
-    },
-    {
-      "model_name": "Google: Gemini 3.5 Flash",
-      "model_id": "google/gemini-3.5-flash",
-      "vendor": "google",
-      "price": {
-        "input": 1.5,
-        "output": 9.0,
-        "blended": 3.375
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 55.3,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-05-19T12:30:00+00:00"
     },
     {
       "model_name": "inclusionAI: Ring-2.6-1T (free)",
