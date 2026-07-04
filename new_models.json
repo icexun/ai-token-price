@@ -1,8 +1,81 @@
 {
-  "date": "2026-06-27",
-  "updated_at": "2026-06-27T03:28:00.446394Z",
+  "date": "2026-07-04",
+  "updated_at": "2026-07-04T02:54:19.066873Z",
   "total_new_models": 26,
   "models": [
+    {
+      "model_name": "Poolside: Laguna XS 2.1 (free)",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "vendor": "poolside",
+      "price": {
+        "input": 0.0,
+        "output": 0.0,
+        "blended": 0.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 262144,
+      "published_at": "2026-07-02T14:27:09+00:00"
+    },
+    {
+      "model_name": "Poolside: Laguna XS 2.1",
+      "model_id": "poolside/laguna-xs-2.1",
+      "vendor": "poolside",
+      "price": {
+        "input": 0.06,
+        "output": 0.12,
+        "blended": 0.075
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "general",
+        "text"
+      ],
+      "context_length": 262144,
+      "published_at": "2026-07-02T14:27:09+00:00"
+    },
+    {
+      "model_name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+      "model_id": "google/gemini-3.1-flash-lite-image",
+      "vendor": "google",
+      "price": {
+        "input": 0.25,
+        "output": 1.5,
+        "blended": 0.5625
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "image-gen",
+        "text"
+      ],
+      "context_length": 65536,
+      "published_at": "2026-06-30T16:33:45+00:00"
+    },
+    {
+      "model_name": "Anthropic: Claude Sonnet 5",
+      "model_id": "anthropic/claude-sonnet-5",
+      "vendor": "anthropic",
+      "price": {
+        "input": 2.0,
+        "output": 10.0,
+        "blended": 4.0
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": 53.4,
+      "categories": [
+        "coding",
+        "general",
+        "text"
+      ],
+      "context_length": 1000000,
+      "published_at": "2026-06-30T18:11:23+00:00"
+    },
     {
       "model_name": "Sakana: Fugu Ultra",
       "model_id": "sakana/fugu-ultra",
@@ -58,6 +131,24 @@
       "published_at": "2026-06-18T03:40:54+00:00"
     },
     {
+      "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "model_id": "google/gemini-3.1-flash-image",
+      "vendor": "google",
+      "price": {
+        "input": 0.5,
+        "output": 3.0,
+        "blended": 1.125
+      },
+      "aa_quality_index": null,
+      "aa_intelligence_index": null,
+      "categories": [
+        "image-gen",
+        "text"
+      ],
+      "context_length": 131072,
+      "published_at": "2026-06-18T03:41:05+00:00"
+    },
+    {
       "model_name": "Cohere: North Mini Code (free)",
       "model_id": "cohere/north-mini-code:free",
       "vendor": "cohere",
@@ -77,31 +168,13 @@
       "published_at": "2026-06-17T19:15:48+00:00"
     },
     {
-      "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
-      "model_id": "google/gemini-3.1-flash-image",
-      "vendor": "google",
-      "price": {
-        "input": 0.5,
-        "output": 3.0,
-        "blended": 1.125
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "image-gen",
-        "text"
-      ],
-      "context_length": 131072,
-      "published_at": "2026-06-18T03:41:05+00:00"
-    },
-    {
       "model_name": "Z.ai: GLM 5.2",
       "model_id": "z-ai/glm-5.2",
       "vendor": "z-ai",
       "price": {
-        "input": 0.95,
+        "input": 0.93,
         "output": 3.0,
-        "blended": 1.4625
+        "blended": 1.4475
       },
       "aa_quality_index": null,
       "aa_intelligence_index": 51.1,
@@ -275,80 +348,6 @@
       ],
       "context_length": 1000000,
       "published_at": "2026-06-13T17:27:27+00:00"
-    },
-    {
-      "model_name": "MiniMax: MiniMax M3",
-      "model_id": "minimax/minimax-m3",
-      "vendor": "minimax",
-      "price": {
-        "input": 0.3,
-        "output": 1.2,
-        "blended": 0.525
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 44.4,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 1048576,
-      "published_at": "2026-05-31T16:36:14+00:00"
-    },
-    {
-      "model_name": "StepFun: Step 3.7 Flash",
-      "model_id": "stepfun/step-3.7-flash",
-      "vendor": "stepfun",
-      "price": {
-        "input": 0.2,
-        "output": 1.15,
-        "blended": 0.4375
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 29.7,
-      "categories": [
-        "general",
-        "text"
-      ],
-      "context_length": 256000,
-      "published_at": "2026-05-28T16:17:49+00:00"
-    },
-    {
-      "model_name": "Anthropic: Claude Opus 4.8",
-      "model_id": "anthropic/claude-opus-4.8",
-      "vendor": "anthropic",
-      "price": {
-        "input": 5.0,
-        "output": 25.0,
-        "blended": 10.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": 55.7,
-      "categories": [
-        "coding",
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-05-27T18:04:51+00:00"
-    },
-    {
-      "model_name": "Anthropic: Claude Opus 4.8 (Fast)",
-      "model_id": "anthropic/claude-opus-4.8-fast",
-      "vendor": "anthropic",
-      "price": {
-        "input": 10.0,
-        "output": 50.0,
-        "blended": 20.0
-      },
-      "aa_quality_index": null,
-      "aa_intelligence_index": null,
-      "categories": [
-        "coding",
-        "general",
-        "text"
-      ],
-      "context_length": 1000000,
-      "published_at": "2026-05-27T20:28:23+00:00"
     },
     {
       "model_name": "inclusionAI: Ring-2.6-1T (free)",
