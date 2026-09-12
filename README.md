@@ -1,6 +1,6 @@
 # TokenDealHub Price Data
 
-Last updated: 2026-09-05
+Last updated: 2026-09-12
 
 This repository contains AI model price data tracked by [TokenDealHub](https://tokendealhub.com/).
 
@@ -9,25 +9,25 @@ This repository contains AI model price data tracked by [TokenDealHub](https://t
 | Rank | Model | Vendor | Input ($/1M) | Output ($/1M) | Blended ($/1M) |
 |------|-------|--------|--------------|---------------|----------------|
 | 1 | inclusionAI: Ring-2.6-1T (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 2 | Ox Alpha | stealth | $0.00 | $0.00 | $0.00 |
-| 3 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | $0.00 | $0.00 |
-| 4 | Nex AGI: Nex-N2-Pro (free) | nex-agi | $0.00 | $0.00 | $0.00 |
-| 5 | Ling-3.0-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 6 | Ling 3.0 Flash Fin (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 7 | inclusionAI: Ling 3.0 Tiny (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 8 | inclusionAI: Ling-2.6-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 9 | Tencent: Hy3 (free) | tencent | $0.00 | $0.00 | $0.00 |
-| 10 | Google: Gemma 3 27B (free) | google | $0.00 | $0.00 | $0.00 |
-| 11 | Tencent: Hy3 preview (free) | tencent | $0.00 | $0.00 | $0.00 |
-| 12 | inclusionAI: Ling-2.6-1T (free) | inclusionai | $0.00 | $0.00 | $0.00 |
-| 13 | Dots Studio: Dots3-Note Preview (free) | dots-studio | $0.00 | $0.00 | $0.00 |
-| 14 | DeepSeek: DeepSeek V4 Flash (free) | deepseek | $0.00 | $0.00 | $0.00 |
-| 15 | Free Models Router | openrouter | $0.00 | $0.00 | $0.00 |
-| 16 | Baidu: Qianfan-OCR-Fast (free) | baidu | $0.00 | $0.00 | $0.00 |
-| 17 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
-| 18 | Google: Lyria 3 Clip Preview | google | $0.00 | $0.00 | $0.00 |
-| 19 | LiquidAI: LFM2.5-2.6B (free) | liquid | $0.00 | $0.00 | $0.00 |
-| 20 | Poolside: Laguna XS.2 (free) | poolside | $0.00 | $0.00 | $0.00 |
+| 2 | Nex AGI: Nex-N2.5-Mini (free) | nex-agi | $0.00 | $0.00 | $0.00 |
+| 3 | inclusionAI: Ling 3.0 Flash VL (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 4 | Ox Alpha | stealth | $0.00 | $0.00 | $0.00 |
+| 5 | Nex AGI: Nex-N2.5-Pro (free) | nex-agi | $0.00 | $0.00 | $0.00 |
+| 6 | Baidu Qianfan: CoBuddy (free) | baidu | $0.00 | $0.00 | $0.00 |
+| 7 | Nex AGI: Nex-N2-Pro (free) | nex-agi | $0.00 | $0.00 | $0.00 |
+| 8 | Ling-3.0-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 9 | inclusionAI: Ling 3.0 Tiny (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 10 | inclusionAI: Ling 3.0 Flash Sante (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 11 | inclusionAI: Ling-2.6-flash (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 12 | Tencent: Hy3 (free) | tencent | $0.00 | $0.00 | $0.00 |
+| 13 | Google: Gemma 3 27B (free) | google | $0.00 | $0.00 | $0.00 |
+| 14 | Tencent: Hy3 preview (free) | tencent | $0.00 | $0.00 | $0.00 |
+| 15 | inclusionAI: Ling-2.6-1T (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 16 | inclusionAI: Ling 3.0 Flash Fin (free) | inclusionai | $0.00 | $0.00 | $0.00 |
+| 17 | DeepSeek: DeepSeek V4 Flash (free) | deepseek | $0.00 | $0.00 | $0.00 |
+| 18 | Free Models Router | openrouter | $0.00 | $0.00 | $0.00 |
+| 19 | Baidu: Qianfan-OCR-Fast (free) | baidu | $0.00 | $0.00 | $0.00 |
+| 20 | Owl Alpha | openrouter | $0.00 | $0.00 | $0.00 |
 
 ## Active Deals
 
@@ -134,21 +134,21 @@ Categories: 26 personal, 35 coding, 9 enterprise
 
 | Model | Vendor | Blended Price ($/1M) | AA Quality Index |
 |-------|--------|---------------------|------------------|
-| Ling 3.0 Flash Fin | inclusionai | $0.09 | N/A |
-| Meta: Muse Spark 1.3 | meta | $2.00 | N/A |
-| Google: Gemini 3.8 Flash (batch) | google | $0.75 | N/A |
-| Meta: Muse Spark 1.3 Contributor | meta | $0.12 | N/A |
-| Google: Gemini 3.8 Flash | google | $1.50 | 58.7 |
-| Z.ai: GLM Flash Latest | ~z-ai | $0.12 | N/A |
-| Inception: Mercury 2.5 Preview | inception | $0.07 | N/A |
-| Anthropic: Claude Fable 5.1 | anthropic | $20.00 | 65.7 |
-| Anthropic: Claude Fable 5.1 (batch) | anthropic | $10.00 | N/A |
-| IBM: Granite 4.2 8B | ibm-granite | $0.11 | N/A |
-| Z.ai: GLM 5.3 Flash (batch) | z-ai | $0.24 | N/A |
-| Meta: Muse Glimmer 30B (batch) | meta | $0.64 | N/A |
-| DeepSeek: DeepSeek V4 Pro 0813 (batch) | deepseek | $1.98 | N/A |
-| Qwen: Qwen3.8 2.4T A95B (batch) | qwen | $3.00 | N/A |
-| Tencent: Hy4 preview | tencent | $1.25 | N/A |
+| Sakana: Fugu Ultra v2 | sakana | $11.25 | N/A |
+| Sakana: Fugu Max | sakana | $3.00 | N/A |
+| inclusionAI: Ling 3.0 Flash VL (free) | inclusionai | $0.00 | N/A |
+| DeepSeek: DeepSeek V4.1 Flash | deepseek | $0.53 | 39.5 |
+| Inception: Mercury 2.5 | inception | $0.07 | N/A |
+| DeepSeek: DeepSeek V4 Flash Vision Exp (batch) | deepseek | $0.17 | N/A |
+| Nex AGI: Nex-N2.5-Mini (free) | nex-agi | $0.00 | N/A |
+| Nex AGI: Nex-N2.5-Pro (free) | nex-agi | $0.00 | N/A |
+| Z.ai: GLM 5.3 (batch) | z-ai | $1.07 | N/A |
+| OpenAI: GPT-6 Astra Pro (batch) | openai | $10.00 | N/A |
+| OpenAI: GPT-6 Astra (batch) | openai | $10.00 | N/A |
+| OpenAI: GPT-6 Astra Pro | openai | $20.00 | N/A |
+| OpenAI: GPT-6 Astra | openai | $20.00 | 52.8 |
+| Qwen: Qwen3.8 Max (0902) | qwen | $3.00 | N/A |
+| inclusionAI: Ling 3.0 Flash Sante (free) | inclusionai | $0.00 | N/A |
 
 ---
-Data generated by TokenDealHub on 2026-09-05
+Data generated by TokenDealHub on 2026-09-12
