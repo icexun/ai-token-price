@@ -1,0 +1,36 @@
+TokenDealHub LLM API Pricing Dataset
+Copyright (c) TokenDealHub (https://www.tokendealhub.com/)
+
+This dataset is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You are free to:
+  - Share: copy and redistribute the data in any medium or format
+  - Adapt: remix, transform, and build upon the data for any purpose,
+    including commercial use
+
+Under the following terms:
+  - Attribution: you must give appropriate credit to TokenDealHub, provide a
+    link to this repository (https://github.com/icexun/ai-token-price), and
+    indicate if changes were made. You must also state the snapshot date of
+    the data you used, because LLM prices change frequently.
+  - No additional restrictions: you may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+Suggested citation:
+  TokenDealHub LLM API Pricing Dataset, snapshot YYYY-MM-DD.
+  https://github.com/icexun/ai-token-price (CC BY 4.0)
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Provenance note:
+  Prices are aggregated from the OpenRouter model catalog and vendor public
+  pricing pages; quality indexes originate from Artificial Analysis. Those
+  upstream sources retain their own terms. This dataset is provided as-is,
+  without warranty; confirm final pricing and rate limits in the vendor
+  console before making purchasing decisions.
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
