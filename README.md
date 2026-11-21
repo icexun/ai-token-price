@@ -1,12 +1,12 @@
 # TokenDealHub LLM API Pricing Dataset
 
-> Machine-readable LLM API pricing snapshot · Last updated **2026-11-15** (UTC) · Free to cite under [CC BY 4.0](LICENSE).
+> Machine-readable LLM API pricing snapshot · Last updated **2026-11-21** (UTC) · Free to cite under [CC BY 4.0](LICENSE).
 
 Maintained by [TokenDealHub](https://www.tokendealhub.com/). Prices come from the OpenRouter model catalog cross-checked against vendor pricing pages; intelligence / coding / math indexes come from Artificial Analysis.
 
 ## At a glance
 
-- **714 models** across **86 vendors**; snapshot **2026-11-15** (UTC).
+- **728 models** across **87 vendors**; snapshot **2026-11-21** (UTC).
 - Paid input pricing ranges **$0.01–$150.00 per 1M tokens**, excluding free tiers, cache and batch discounts.
 - Lowest blended cost among paid models: **inclusionAI: Ling-2.6-flash** (inclusionai) at **$0.01/1M tokens** (3:1 input:output).
 - **80 free-tier ($0) models** are tracked separately. They usually carry rate, quota or data-usage limits and should not be treated as the cheapest production option.
@@ -14,7 +14,7 @@ Maintained by [TokenDealHub](https://www.tokendealhub.com/). Prices come from th
 ## How to cite this dataset
 
 ```
-TokenDealHub LLM API Pricing Dataset, snapshot 2026-11-15. https://github.com/icexun/ai-token-price (CC BY 4.0)
+TokenDealHub LLM API Pricing Dataset, snapshot 2026-11-21. https://github.com/icexun/ai-token-price (CC BY 4.0)
 ```
 
 Always state the snapshot date: LLM prices change frequently and free-tier availability is not guaranteed. The same data is available as human-readable pages at https://www.tokendealhub.com/zh/models.
@@ -48,19 +48,19 @@ Always state the snapshot date: LLM prices change frequently and free-tier avail
 | 5 | ScaleDown: Summarize | scaledown | $0.04 | $0.00 | $0.03 |
 | 6 | ScaleDown: Extract | scaledown | $0.04 | $0.00 | $0.03 |
 | 7 | inclusionAI: Ling 3.0 Flash | inclusionai | $0.02 | $0.06 | $0.03 |
-| 8 | IBM: Granite 4.0 Micro | ibm-granite | $0.02 | $0.11 | $0.04 |
-| 9 | Sao10K: Llama 3 8B Lunaris | sao10k | $0.04 | $0.05 | $0.04 |
-| 10 | Nex AGI: Nex-N2-Mini | nex-agi | $0.03 | $0.10 | $0.04 |
-| 11 | Nex AGI: Nex-N2.5-Mini | nex-agi | $0.03 | $0.10 | $0.04 |
-| 12 | OpenAI: gpt-oss-20b (batch) | openai | $0.02 | $0.11 | $0.05 |
-| 13 | Z.ai: GLM Flash Latest | ~z-ai | $0.04 | $0.08 | $0.05 |
-| 14 | Z.ai: GLM 5.3 Flash | z-ai | $0.04 | $0.08 | $0.05 |
-| 15 | LiquidAI: LFM2-24B-A2B | liquid | $0.03 | $0.12 | $0.05 |
-| 16 | Qwen: Qwen3.7 Flash | qwen | $0.03 | $0.13 | $0.06 |
-| 17 | OpenAI: gpt-oss-20b | openai | $0.03 | $0.13 | $0.06 |
-| 18 | OpenAI: gpt-oss-120b (batch) | openai | $0.03 | $0.14 | $0.06 |
-| 19 | Qwen: Qwen-Turbo | qwen | $0.03 | $0.13 | $0.06 |
-| 20 | Mistral: Mistral Small 3 | mistralai | $0.05 | $0.08 | $0.06 |
+| 8 | OpenAI: gpt-oss-20b | openai | $0.02 | $0.09 | $0.03 |
+| 9 | Z.ai: GLM 5.3 Flash (batch) | z-ai | $0.02 | $0.07 | $0.03 |
+| 10 | IBM: Granite 4.0 Micro | ibm-granite | $0.02 | $0.11 | $0.04 |
+| 11 | Sao10K: Llama 3 8B Lunaris | sao10k | $0.04 | $0.05 | $0.04 |
+| 12 | Nex AGI: Nex-N2-Mini | nex-agi | $0.03 | $0.10 | $0.04 |
+| 13 | Nex AGI: Nex-N2.5-Mini | nex-agi | $0.03 | $0.10 | $0.04 |
+| 14 | OpenAI: gpt-oss-20b (batch) | openai | $0.02 | $0.11 | $0.05 |
+| 15 | Z.ai: GLM Flash Latest | ~z-ai | $0.04 | $0.08 | $0.05 |
+| 16 | Z.ai: GLM 5.3 Flash | z-ai | $0.04 | $0.08 | $0.05 |
+| 17 | LiquidAI: LFM2-24B-A2B | liquid | $0.03 | $0.12 | $0.05 |
+| 18 | Qwen: Qwen3.7 Flash | qwen | $0.03 | $0.13 | $0.06 |
+| 19 | OpenAI: gpt-oss-120b (batch) | openai | $0.03 | $0.14 | $0.06 |
+| 20 | Qwen: Qwen-Turbo | qwen | $0.03 | $0.13 | $0.06 |
 
 ## Free-tier models (80)
 
@@ -171,21 +171,21 @@ Categories: 26 personal, 35 coding, 9 enterprise
 
 | Model | Vendor | Blended Price ($/1M) | AA Quality Index |
 |-------|--------|---------------------|------------------|
+| RadixArk: DaisyRose 27B | radixark | $0.58 | N/A |
+| Mistral: Pixtral Large 2502 | mistralai | $3.00 | N/A |
+| Google: Gemini 4 Neon | google | $6.00 | 61.4 |
+| Google: Gemini 4 Neon (batch) | google | $3.00 | N/A |
+| OpenAI: GPT-6.2 Sol Pro (batch) | openai | $2.00 | N/A |
+| OpenAI: GPT-6.2 Astra Pro (batch) | openai | $8.00 | N/A |
+| OpenAI: GPT-6.2 Astra Pro | openai | $16.00 | N/A |
+| OpenAI: GPT-6.2 Sol (batch) | openai | $2.00 | N/A |
+| OpenAI: GPT-6.2 Sol Pro | openai | $4.00 | N/A |
+| OpenAI: GPT-6.2 Sol | openai | $4.00 | 57.3 |
+| OpenAI: GPT-6.2 Astra (batch) | openai | $8.00 | N/A |
+| OpenAI: GPT-6.2 Astra | openai | $16.00 | 62.1 |
+| Tencent: Hy4 flash | tencent | $0.06 | N/A |
+| Qwen: Qwen4 Max | qwen | $2.14 | 42.9 |
 | inclusionAI: Ling 3.2 Flash (free) | inclusionai | $0.00 | N/A |
-| Particle AI: Particle-1 (free) | particle-ai | $0.00 | N/A |
-| Google: Gemini 4 Hydrogen | google | $3.00 | 53.9 |
-| Thinking Machines: Inkling 2 Small | thinkingmachines | $0.47 | 30.6 |
-| Google: Gemini 4 Hydrogen (batch) | google | $1.50 | N/A |
-| MoonshotAI: Kimi K3.1 Pro (batch) | moonshotai | $2.02 | N/A |
-| Google: Gemini 4 Carbon | google | $4.00 | 60.0 |
-| Google: Gemini 4 Carbon (batch) | google | $2.00 | N/A |
-| Motif Technologies: Motif 3 | motif-technologies | $0.53 | N/A |
-| Baidu: ERNIE-Light-DT-1.0 | baidu | $1.83 | N/A |
-| KT: Mi:dm K 3.0 Pro | kt | $0.35 | N/A |
-| Baidu: ERNIE-5.5-Flash-Preview (free) | baidu | $0.00 | N/A |
-| Nex AGI: Nex-N2.6 | nex-agi | $0.19 | N/A |
-| Thinking Machines: Inkling 2 Small (free) | thinkingmachines | $0.00 | N/A |
-| Meta: Muse Ember | meta | $0.20 | 36.0 |
 
 ---
-Data generated by TokenDealHub on 2026-11-15
+Data generated by TokenDealHub on 2026-11-21
